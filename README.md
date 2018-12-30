@@ -4,7 +4,9 @@
 * data 文件夹内存放所计算出的连续commit和连续release之间的余弦相似度以及编辑距离。
 * pic 文件夹内存放由data文件夹内存储的结果所画的图标
 * flask-sqlalchemy 和 responder是本次两个测试对象，他们的访问地址：
+
 flask-sqlalchemy https://github.com/mitsuhiko/flask-sqlalchemy.git
+
 responder https://github.com/kennethreitz/responder.git
 * build.py 用来读取python文件，然后返回每个文件对应的AST,入口函数为get_asts(file_list)
 * commits.txt 和 release_commits.txt 分别存储了所测试项目的所有commit和release版本号

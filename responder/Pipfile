@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+responder = {editable = true, path = "."}
+
+[dev-packages]
+pytest = "*"
+"flake8" = "*"
+black = "*"
+twine = "*"
+flask = "*"
+sphinx = "*"
+marshmallow = "*"
+pytest-cov = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true

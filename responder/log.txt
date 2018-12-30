@@ -1,0 +1,5196 @@
+commit 05b46cbe34d24a5c78ce00e24eca78678add3378
+Merge: c045586 bcb7e8f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Dec 29 07:05:41 2018 -0500
+
+    Merge pull request #269 from erm/lifespan-handler
+    
+    Return lifespan handler in dispatch method
+
+commit c045586997de70565cd0a67929f6bfb0ca5d642c
+Merge: 8f0707f d541aca
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Dec 29 07:05:26 2018 -0500
+
+    Merge pull request #267 from valtyr/graphql-context
+    
+    Add Request and Response to GraphQL context
+
+commit 8f0707f697c599d8a6e05eb84d70142e25a8feca
+Merge: 36929b2 cdd3885
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Dec 29 07:05:12 2018 -0500
+
+    Merge pull request #262 from carlodri/carlodri-patch-1
+    
+    include LICENSE il sdist
+
+commit 36929b265cf8a563f0b55fa776b361f8b822209e
+Merge: 734ba64 8dee28a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Dec 29 07:05:05 2018 -0500
+
+    Merge pull request #263 from tkamenoko/patch-3
+    
+    fix docstring of `API.url_for`
+
+commit 734ba6496592a66afe7536ffe1cb39e5e555b909
+Merge: 148e674 e2493b4
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Dec 29 07:04:53 2018 -0500
+
+    Merge pull request #264 from sangheestyle/master
+    
+    fix typo
+
+commit 148e6742df89df5de2f666469fcb80c313f37a1f
+Merge: 1a28d52 60b0c5f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Dec 29 07:04:45 2018 -0500
+
+    Merge pull request #268 from taoufik07/patch-18
+    
+    Websocket docs
+
+commit bcb7e8f4f330a4c195c78129ec9e9e191aa48a4f
+Author: Jordan <jordan@eremieff.com>
+Date:   Fri Dec 28 18:10:27 2018 +1100
+
+    Update lock file
+
+commit f67811209982bb932326fb459038d52d62cf1d61
+Author: Jordan <jordan@eremieff.com>
+Date:   Fri Dec 28 17:46:27 2018 +1100
+
+    Return lifespan handler in dispatch method
+
+commit 60b0c5f25605a1c9a528dd44135b3942de1c971b
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Tue Dec 25 01:32:38 2018 +0000
+
+    Update
+
+commit c8627939de729fec72ba988b58a85630514ffcdb
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Tue Dec 25 01:18:44 2018 +0000
+
+    Update
+
+commit 9144f0158aedf3ac825dcd6ae8a6087450a07b18
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Tue Dec 25 01:15:54 2018 +0000
+
+    Websocket docs
+
+commit d541aca80f821ce20cd79559111b14d1e1e74c83
+Author: Valtýr Örn Kjartansson <valtyr@gmail.com>
+Date:   Sun Dec 23 13:28:50 2018 +0000
+
+    Mention the GraphQL context object in docs
+
+commit c73b2b8d34da9356009285c78894eb53299178ab
+Author: Valtýr Örn Kjartansson <valtyr@gmail.com>
+Date:   Sun Dec 23 13:14:15 2018 +0000
+
+    Add request and response to GraphQL context
+    
+    This allows the GraphQL resolvers access to things like session, headers etc.
+    Also enables creation of powerful GraphQL middleware.
+
+commit e2493b489d9b6f4c6f50c4686ba922bae4be2f85
+Author: Kim, Sanghee <sanghee.kim@f-secure.com>
+Date:   Thu Dec 20 17:54:15 2018 +0200
+
+    fix typo
+
+commit 8dee28ac7c0f91e29d17633364466b24dadf0385
+Author: T.Kameyama <41364327+tkamenoko@users.noreply.github.com>
+Date:   Mon Dec 17 19:23:33 2018 +0900
+
+    fix docstring of `API.url_for`
+
+commit cdd3885a0c87da6a2aa1501bd21aa3bd1be7476a
+Author: Carlo <carlodri@users.noreply.github.com>
+Date:   Wed Dec 12 22:35:41 2018 +0100
+
+    include LICENSE il sdist
+
+commit 1a28d528d02e51b481cbe13ebdcf5c1b1942f60b
+Merge: 3ba12b8 983cbcc
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Dec 12 03:59:24 2018 -0500
+
+    Merge pull request #233 from taoufik07/websocket-x.x
+    
+    WebSocket returns
+
+commit 3ba12b8cee86101fb078de280012f7a39c819dc7
+Merge: 5a29ab6 f3f36e2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Dec 12 03:59:10 2018 -0500
+
+    Merge pull request #230 from tkamenoko/file-form
+    
+    formats: format_file returns filename, data, and content-type [Breaking]
+
+commit 5a29ab6917f654a21f5fe1ac924c46d424cac7f5
+Merge: 694144a 72c789f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Dec 12 03:58:53 2018 -0500
+
+    Merge pull request #257 from ibnesayeed/lifespan
+    
+    Import lifespan as a middleware as per the change in starlette package
+
+commit 694144a0c8a8b2936b61644782beb2bc4af2cf16
+Merge: 8bed8e8 ae06b3e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Dec 12 03:58:41 2018 -0500
+
+    Merge pull request #244 from barrust/route-isclass-fix
+    
+    fix for route.is_class_based
+
+commit 8bed8e8741b663a475e903d2b2ab17e444dd3df3
+Merge: a81a348 122023f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Dec 12 03:58:06 2018 -0500
+
+    Merge pull request #249 from abstiles/fix-broken-test-500
+    
+    Fix broken exception handling in test_500
+
+commit a81a348bcef5988379c20771a04c9ad452020d46
+Merge: fd9e8c5 5599ec2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Dec 12 03:57:55 2018 -0500
+
+    Merge pull request #245 from cdfuller/add-monospace-default
+    
+    Add monospace fallback for preformatted text in docs
+
+commit fd9e8c5cbce7aaa1c8bd8f54f772faeec164971e
+Merge: 8030b19 0cb087c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Dec 12 03:57:19 2018 -0500
+
+    Merge pull request #240 from barrust/persist-debug
+    
+    persist debug from API to run
+
+commit 8030b1919db8b651daad5faceb6f8e6a6f3e863f
+Merge: 4001a60 a553261
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Dec 12 03:56:52 2018 -0500
+
+    Merge pull request #253 from TomFaulkner/patch-1
+    
+    Grammatical fix
+
+commit 72c789fdd7abeb9c6ef00ad1ee80633e9b0e6e33
+Author: Sawood Alam <ibnesayeed@gmail.com>
+Date:   Fri Nov 30 12:30:28 2018 -0500
+
+    Update Pipfile.lock to reflect version changes
+
+commit 1113a9aa0d7eb292c27073e6f531a9d576750a60
+Author: Sawood Alam <ibnesayeed@gmail.com>
+Date:   Fri Nov 30 11:52:43 2018 -0500
+
+    Import lifespan as a middleware as per the change in starlette package
+
+commit a5532614a2d5daca515bf18ad5a02658622363a6
+Author: Tom Faulkner <tomfaulkner@gmail.com>
+Date:   Mon Nov 26 19:30:20 2018 -0600
+
+    Grammatical fix
+    
+    Grammar: `into to` to `into`
+
+commit 122023fb70ef9c21e63492d8a6ee975f5e8f8b92
+Author: Andrew Stiles <andrewbstiles@gmail.com>
+Date:   Wed Nov 21 13:05:51 2018 -0600
+
+    Restore the removal of ExceptionMiddleware
+    
+    Back out the changes made to API and fix the test with a non-raising
+    instance of TestClient.
+
+commit b8fa923ec97af985dfdb204032b30756c6aa77cb
+Author: Andrew Stiles <andrewbstiles@gmail.com>
+Date:   Wed Nov 21 11:30:31 2018 -0600
+
+    Fix broken exception handling in test_500
+
+commit ae06b3e01ab07025212d2376b78c7c27e32020dc
+Author: Tyler Barrus <barrust@gmail.com>
+Date:   Tue Nov 20 10:38:15 2018 -0500
+
+    default cont to False
+
+commit 5599ec2809f2f1142215349c732d1e1cdb5d0de2
+Author: Cody Fuller <git@codyfuller.com>
+Date:   Tue Nov 20 09:37:30 2018 -0600
+
+    Add monospace fallback for preformatted text
+
+commit e795cbddb6f268301fdd47d9977c42d9040450a2
+Author: Tyler Barrus <barrust@gmail.com>
+Date:   Tue Nov 20 10:26:29 2018 -0500
+
+    fix for route.is_class_based
+
+commit 0cb087c37b2d3178d543feb5ae8566d13df93475
+Author: Tyler Barrus <barrust@gmail.com>
+Date:   Mon Nov 19 23:37:04 2018 -0500
+
+    persist debug from API to run
+
+commit 983cbcc71166ffda1685b4d41b503cd1c6535683
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Sat Nov 17 21:31:41 2018 +0100
+
+    cleanup
+
+commit 6d154b0c788e8e4d448ff722419b97a290185b2c
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Sat Nov 17 20:49:26 2018 +0100
+
+    WIP websocket
+
+commit f3f36e28c4982516250e4b08c608bd9334f78061
+Author: Tessei Kameyama <kamenoko315@ruri.waseda.jp>
+Date:   Fri Nov 16 23:50:00 2018 +0900
+
+    [formats] format-files detects file or simple-data
+    
+    if `part` has `content-type`, `format_files` returns
+    `{"name" : filedata}` . `filedata` is `dict`, the keys are
+    `filename, content, content-type` .
+    
+    Otherwise, `format_files` just returns `{"name" : b"data"}` .
+
+commit fdf4797726de23e84d381ccae7f9aceaae17a69f
+Author: Tessei Kameyama <kamenoko315@ruri.waseda.jp>
+Date:   Fri Nov 16 22:13:05 2018 +0900
+
+    [test] update file-upload [wip]
+    
+    if form-data don't have content-type,
+    `req.media("files")` returns `{"name" : b"data"}` , else
+    `{"name" :
+    {"filename" : "foo.txt",
+    "content" : b"data",
+    "content-type" : "some/type"} }` .
+    
+    not implemented yet.
+
+commit 67d8a3be98c878f272302d91f0def639bd9c862d
+Author: Tessei Kameyama <kamenoko315@ruri.waseda.jp>
+Date:   Fri Nov 16 20:23:09 2018 +0900
+
+    [fix] typo
+
+commit 4001a60f6ca2eab15babbf8d34a7a0dc3b7a0401
+Merge: d94db41 69a300f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Nov 15 06:24:34 2018 -0500
+
+    Merge pull request #229 from tomchristie/run-in-threadpool
+    
+    Use Starlette's run_in_threadpool
+
+commit d94db412715db9fc6a838b10b9fcdc5e80b2cf8f
+Merge: 8abb78b a80db99
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Nov 15 06:25:42 2018 -0500
+
+    Merge branch 'master' of https://github.com/kennethreitz/responder
+
+commit 8abb78bb58e12a25fb2b1afc2c3ea62163f8499d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Nov 15 06:22:04 2018 -0500
+
+    fix for #215
+
+commit a80db99aa31c7586b9af42049c7a413a7decd1d4
+Merge: a622689 1b024b8
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Nov 15 05:49:07 2018 -0500
+
+    Merge pull request #228 from mmanhertz/patch-2
+    
+    Fix issue in OpenAPI Schema Support example
+
+commit 69a300f21ada5295845524b61d36327169a84ca4
+Author: Tom Christie <tom@tomchristie.com>
+Date:   Thu Nov 15 10:38:05 2018 +0000
+
+    Use Starlette's run_in_threadpool
+
+commit 1b024b80922c715f45840537c6a31781abfae287
+Author: Matthias Manhertz <mmanhertz@users.noreply.github.com>
+Date:   Thu Nov 15 11:19:11 2018 +0100
+
+    Fix issue in OpenAPI Schema Support example
+    
+    `PetSchema().dump()` returns a dict. Calling `.data` on it causes an AttributeError.
+
+commit a622689597ba87c2ef2878dd9ead6690f69cfbff
+Merge: 0845d92 9943e66
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Nov 14 06:18:13 2018 -0500
+
+    Merge pull request #225 from peerster/patch-1
+    
+    Update README
+
+commit 9943e66c4944404a7f8ae4e124ff235e49d19219
+Author: Pär <paer.berge@gmail.com>
+Date:   Wed Nov 14 11:10:29 2018 +0100
+
+    Updates all of the python-responder.org links
+
+commit 7233c0828154e79e7035baea3f6eb13b02a49bda
+Author: Pär <paer.berge@gmail.com>
+Date:   Wed Nov 14 11:07:18 2018 +0100
+
+    Update README
+    
+    Update link to python-responder.org to use https
+
+commit 0845d92fda2f48d743c5b3188e798f290b26c2b6
+Merge: aa4cd7a 1cc02e5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Nov 13 09:33:34 2018 -0500
+
+    Merge pull request #223 from jkermes/master
+    
+    Fix static response
+
+commit 1cc02e5a83e73b9fe87b151a91cac8eefdc63eba
+Author: Julien Kermes <julien.kermes@weather-measures.com>
+Date:   Tue Nov 13 15:18:30 2018 +0100
+
+    Fix static response
+
+commit aa4cd7a1443fb876ef62a7a434196cd22a528b7d
+Merge: a6bd179 b42ae0d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Nov 13 07:10:34 2018 -0500
+
+    Merge pull request #222 from MRSharff/debian-manifest-typofix
+    
+    Fixed a typo in setup.py: mainfest -> manifest
+
+commit b42ae0dfd78befc89d3c270435e92cf2a83cfcf5
+Author: Mathew Sharff <mrsharff@gmail.com>
+Date:   Mon Nov 12 21:33:12 2018 -0800
+
+    Fixed a typo in setup.py: mainfest -> manifest
+
+commit a6bd1797262f58b304720f4b3cee2092ae33c7e6
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Nov 11 16:58:07 2018 -0500
+
+    version bump
+
+commit aac7b5117b6cef85cc471f61036db79c82db73e9
+Merge: 078ac23 8e8e99e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Nov 10 17:48:29 2018 -0500
+
+    Merge pull request #218 from tomchristie/patch-1
+    
+    Bring testominials in line with README
+
+commit 8e8e99ed2ee8c4cb66a12baf6d4fea634ad34969
+Author: Tom Christie <tom@tomchristie.com>
+Date:   Fri Nov 9 18:25:53 2018 +0000
+
+    Bring testominials in line with README
+
+commit 078ac23b20762139991a2313adf9181425404133
+Merge: 8e61df6 cf7fb56
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Nov 7 17:25:14 2018 -0500
+
+    Merge pull request #213 from mmanhertz/fix-212
+    
+    fix for #212
+
+commit 8e61df6b6acd07ceca3793c6b2ecd5405fb06827
+Merge: 7a250aa da20d13
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Nov 7 17:25:02 2018 -0500
+
+    Merge pull request #207 from taoufik07/await_backgroundtask_raise
+    
+    Await for background task and raise
+
+commit cf7fb5665393470c9c6fde7ad32823e7bf87c25d
+Author: mmanhertz <matthias.manhertz@seerene.com>
+Date:   Wed Nov 7 17:05:18 2018 +0100
+
+    fix for #212
+
+commit da20d13c4902a9e5716e505399bf6a0d30b59da0
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Tue Nov 6 17:27:04 2018 +0100
+
+    Await for background task and raise
+
+commit 7a250aa8fc63389c66b84c73d0cf6085b3f5d42b
+Merge: af28ecb 39a0e52
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Nov 6 05:46:25 2018 -0500
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit af28ecb82d790819936a47f84fb78e630c3838c7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Nov 6 05:46:17 2018 -0500
+
+    fix for #200
+
+commit 39a0e52a2a668cd9ed59d5a4cc886b51e48aedf3
+Merge: c65e585 a4f5a11
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Nov 6 05:12:51 2018 -0500
+
+    Merge pull request #201 from mmanhertz/patch-1
+    
+    Fix OpenAPI version in examples
+
+commit a4f5a111c7e67c33589694a1eafa7885c2987f49
+Author: Matthias Manhertz <mmanhertz@users.noreply.github.com>
+Date:   Tue Nov 6 10:46:30 2018 +0100
+
+    Fix OpenAPI version in examples
+    
+    The example for "OpenAPI Schema Support" and "Interactive Documentation had `openapi="3.0"` which would cause the following error when swagger UI tried to render the schema:
+    ```
+    Unable to render this definition
+    The provided definition does not specify a valid version field.
+    
+    Please indicate a valid Swagger or OpenAPI version field. Supported version fields are swagger: "2.0" and those that match  openapi: 3.0.n (for example, openapi: 3.0.0).
+    ```
+
+commit c65e585493688454af062bc0884f44949799d91b
+Merge: c9e9456 45d6c13
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Nov 5 17:40:06 2018 -0500
+
+    Merge pull request #192 from vlcinsky/fix_doc_typo
+    
+    Fixed missing `.data` on Marshmallow dump
+
+commit c9e94561aa22334aaac3c0328b163e57a1ac3dcf
+Merge: 83ff361 1daa4c2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Nov 5 14:09:13 2018 -0500
+
+    Merge pull request #196 from xyb/patch-1
+    
+    fix Dockerfile
+
+commit 1daa4c202bbb8bccceca6ee50d02050d2f17c42c
+Author: Xie Yanbo <xieyanbo@gmail.com>
+Date:   Tue Nov 6 00:47:09 2018 +0800
+
+    fix Dockerfile
+
+commit 83ff361672980c5f9d9c36c3940ba156a76ae2b0
+Merge: 0c9bc5a 2c686f1
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Nov 5 09:01:15 2018 -0500
+
+    Merge pull request #195 from taoufik07/fix/routes_conflict
+    
+    Fix/routes conflict
+
+commit 2c686f107d7126b985a8f6e7d2242b668a773dd3
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Mon Nov 5 14:52:08 2018 +0100
+
+    Tests
+
+commit ac8ec3d5ef3140e291b0b5b3983c003d52869864
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Mon Nov 5 14:51:56 2018 +0100
+
+    cleanup
+
+commit 21e70ef9138af4e68c1991076add6563111152e8
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Mon Nov 5 14:48:34 2018 +0100
+
+    Fix tests
+
+commit c4f5b0e7c23128f8fc8735463f3cbcd0fa9b6f72
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Mon Nov 5 14:47:46 2018 +0100
+
+    Fix routes conflict
+
+commit 45d6c1389d155a4222ee127e59e0744741a1451b
+Author: Jan Vlcinsky <jan.vlcinsky@tamtamresearch.com>
+Date:   Sun Nov 4 22:06:54 2018 +0100
+
+    Fixed missing `.data` on Marshmallow dump
+
+commit 0c9bc5a3af31cba704c203c8649b9a0f5b9b2315
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Nov 4 07:22:03 2018 -0500
+
+    fix
+
+commit 5b67d5a04a4d95e02da36ab4749db433650bfe9d
+Merge: f3396a5 e9f4878
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Nov 4 07:20:41 2018 -0500
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit f3396a55733ddcb69ccfdcb9ba42e30fc19423f2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Nov 4 07:20:30 2018 -0500
+
+    fix for #188
+
+commit e9f48788a34292f7215c814a8f87682d99991921
+Merge: 8bcfb45 6993a1e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Nov 2 07:09:08 2018 -0400
+
+    Merge pull request #184 from rparrapy/change-route-cache
+    
+    Replace memoize decorator by functools.lru_cache
+
+commit 6993a1ea4640e89928414a4c59d5cec3d2a9e64a
+Author: Rodrigo Parra <rodpar07@gmail.com>
+Date:   Fri Nov 2 06:32:01 2018 -0300
+
+    Replace memoize decorator by functools.lru_cache
+
+commit 8bcfb4585b29e1cac088a98079e3a9f299884efd
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Nov 1 05:38:22 2018 -0400
+
+    cleanup testimonials
+
+commit db45251f7fb14093bfe1bf9498846ec0cab1e892
+Merge: 5582667 2c898aa
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 31 17:39:02 2018 -0400
+
+    Merge pull request #182 from rparrapy/patch-1
+    
+    Fix typo
+
+commit 5582667b4fa48fbfb33395390a67eb8c5236d8ef
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 31 17:37:13 2018 -0400
+
+    deployment
+
+commit 2c898aaf2373440c630b53f2c169068a25815270
+Author: Rodrigo Parra <rodpar07@gmail.com>
+Date:   Wed Oct 31 14:36:40 2018 -0300
+
+    Fix typo
+
+commit e0999ffcddc33ada78a3ea1645b94b0ddf0996cb
+Merge: 0381176 fbef577
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 31 06:10:49 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 03811768bbdada41ee16f79540cba435c7a62539
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 31 06:10:40 2018 -0400
+
+    depoloyment
+
+commit fbef577c9fa48d9c5e7c8cab5d74e310ad3065b8
+Merge: 354130c 9434510
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 30 21:56:18 2018 -0400
+
+    Merge pull request #179 from taoufik07/patch-16
+    
+    Typo :3
+
+commit 9434510ce9889aac53625b46659179767a75a00b
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Wed Oct 31 01:04:25 2018 +0100
+
+    Typo :3
+
+commit 354130c151eda51b5dcb2421d1e26509c35ea305
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 30 19:08:57 2018 -0400
+
+    .serve
+
+commit 3e3cba016a6a29a4fb4c09e41f2528830777ea0a
+Merge: 1d0294e f75e120
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 30 10:37:38 2018 -0400
+
+    Merge pull request #177 from tomchristie/patch-1
+    
+    Update api.py
+
+commit f75e120bef307e0242c9191f420898a5c5673a3f
+Author: Tom Christie <tom@tomchristie.com>
+Date:   Tue Oct 30 14:34:10 2018 +0000
+
+    Update api.py
+    
+    Refs https://github.com/kennethreitz/responder/issues/174
+    
+    You don't need both to use both DebugMiddleware and ExceptionMiddleware, just one or the other.
+    
+    Currently errors will cause a traceback 500 page, then re-raise, then attempt to generate another traceback 500 page, resulting in the behavior commented on in #174
+
+commit 1d0294e4309b87a82372d2bd8b684b76246e79bd
+Merge: f786dd8 cd9d09f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 30 05:01:25 2018 -0400
+
+    merge
+
+commit f786dd82544fc730c5031988d8bec41d831ec76a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 30 04:59:24 2018 -0400
+
+    apispec
+
+commit cd9d09fd53d19a5fcbe6e6f1662d2f9de6fa1083
+Merge: 7471bbc 43b04ec
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 29 19:04:32 2018 -0400
+
+    Merge pull request #175 from taoufik07/patch-15
+    
+    Set debug to False in tests
+
+commit 7471bbcd4e0d9e42e049538c522ef9b91c91bdb4
+Merge: 359d366 6a5d0b5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 29 19:04:19 2018 -0400
+
+    Merge pull request #173 from taoufik07/patch-14
+    
+    Trusted hosts docs
+
+commit 43b04eccbde447c5b665c84ba806e8028fd8941e
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Mon Oct 29 22:53:56 2018 +0100
+
+    Set debug to False in tests
+
+commit 6a5d0b5e9fbf33b2ada06484614ae7136929e848
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Mon Oct 29 21:56:54 2018 +0100
+
+    Trusted hosts docs
+
+commit 359d366de46cf137bba5b638203ecf62949311ab
+Merge: 08e0d87 556d9f3
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 29 16:33:35 2018 -0400
+
+    Merge pull request #172 from taoufik07/trustedhost_starlette
+    
+    starlette's TrustedhostMiddleware
+
+commit 556d9f3a7bf027c7e6962aaa87a76346bb50181e
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Mon Oct 29 21:08:38 2018 +0100
+
+    Update starlette
+
+commit 2cab2dcec0cd560dafae38005d32413d23690f91
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Mon Oct 29 20:54:38 2018 +0100
+
+    Tests
+
+commit 99d4e78dc98f64cb6437c9964d5e209a924a8f0b
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Mon Oct 29 20:48:51 2018 +0100
+
+    Use starlette TrustedHostMiddleware
+
+commit 9aa99869ae13021cff12d1a6e471b9ef81c866af
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 29 08:00:44 2018 -0400
+
+    next version
+
+commit 08e0d8734779cb0937295dedf84be49dedfee199
+Merge: 3f9e405 a29e403
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 29 07:57:19 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 3f9e4057d3e984b9ddcc5ed2b793275d230a4b27
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 29 07:54:59 2018 -0400
+
+    run sync tasks in threadpoolexecutor
+
+commit a29e40353c660760e369e98e255daa11bbfcd580
+Merge: 8db1a7b 778cb2d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 28 14:47:28 2018 -0400
+
+    Merge pull request #170 from taoufik07/trusted_hosts
+    
+    Trusted hosts support
+
+commit 778cb2dd0fc4a83e366871e4e602922ee472ca29
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Sun Oct 28 18:26:42 2018 +0000
+
+    Add Tests
+
+commit f7d5514b94872720a032024d5a0f7e89490e652b
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Sun Oct 28 18:12:21 2018 +0000
+
+    Fix test base_url
+
+commit 954637f7b3688ef8cbb4eb646bf6e43e70ceb11a
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Sun Oct 28 18:09:52 2018 +0000
+
+    Pass base_url to the TestClient
+
+commit 1ab46104c87050fb4e3f61c511c57341b578f818
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Sun Oct 28 14:51:24 2018 +0000
+
+    Allow all hosts by default
+
+commit 815776d4733731c095674831294b803616da306b
+Merge: 5f60e4f 8db1a7b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 28 05:25:56 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 8db1a7be9008ffcf7dd60c2c7a607c29279655c7
+Merge: 96971a3 cab7827
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 28 05:23:56 2018 -0400
+
+    Merge pull request #169 from taoufik07/patch-13
+    
+    typo
+
+commit 7b11fa24dd8f999b3113e93cd9698afcc63ade61
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Sun Oct 28 01:38:17 2018 +0100
+
+    Silence for now
+
+commit 1f0f2318d5418eb68313999ebce54c610b1ded3a
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Sun Oct 28 01:02:37 2018 +0100
+
+    cleanup
+
+commit 029b3e2a52d678e33a02af95d08583b5058cafb3
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Sun Oct 28 00:46:50 2018 +0100
+
+    Tests
+
+commit 4fff823def896c5ed8eaa2f13ed5ae6bcbcb00fe
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Sun Oct 28 00:46:39 2018 +0100
+
+    Trusted host
+
+commit cab78275f4b9db62067bca615819bbd7e37aed5e
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Sat Oct 27 22:25:11 2018 +0100
+
+    typo
+
+commit 5f60e4fedbbf722a23cd6bb1d1a14e87bc687aa9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 27 09:22:17 2018 -0400
+
+    before_request
+
+commit 96971a33a791d58a3b12f0b8389b0ece8ff33c73
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 27 09:20:18 2018 -0400
+
+    tour
+
+commit 9a7409f5216c083d7187da3640421437f0b069ba
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 27 09:18:07 2018 -0400
+
+    test for before_request
+
+commit 80aa7e305b7a8ee57852804b62223c296e876e1a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 27 09:15:52 2018 -0400
+
+    before_request=True
+
+commit 27d513cb01c3e0f5fe14076e6aef15b2ed5ed76d
+Merge: 9bf5cc8 7994b21
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 27 09:04:29 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 9bf5cc8c0337c8195c3c073858cbcbdbcca16997
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 27 09:04:19 2018 -0400
+
+    before_request, v1
+
+commit 7994b210cd0c3b2d0bc6327065e3305793b6d7bd
+Merge: 4d15dbc 46555bb
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 27 07:33:47 2018 -0400
+
+    Merge pull request #166 from repodevs/fix-deployment-example
+    
+    DOC: change dockerfile instruction `from` to use UPPERCASE
+
+commit 46555bbe3f322fe9171347206b54b6c4eb71585b
+Author: Edi Santoso <repopamor@gmail.com>
+Date:   Sat Oct 27 18:29:43 2018 +0700
+
+    DOC: change dockerfile instruction `from` to use UPPERCASE
+
+commit 4d15dbc4654038130f43bff48f51627dfd4b5df7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 27 07:10:05 2018 -0400
+
+    fix for sessions
+
+commit 855d3c4320a15a8c7ee6f0bb2e57b793ce1ccee7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 27 06:21:19 2018 -0400
+
+    cookies
+
+commit 4564862acc920ae5f9eb6f42a6c23cf368580239
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 27 06:11:47 2018 -0400
+
+    xfail
+
+commit 176dd7007319fee5cf8a5b8b770b178e6385c9ff
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 27 06:07:50 2018 -0400
+
+    fix 301 redirects
+
+commit a5e6f0c196ce379481e4c3a430cd15ae83b4c549
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 27 05:39:17 2018 -0400
+
+    version
+
+commit 083bb5a96cf057bce2e5a5c9f2aea8ddd1495453
+Merge: 0452228 0e8bb49
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 27 05:13:39 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 04522281be568894803eb551023098b5a020278e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 27 05:13:30 2018 -0400
+
+    don't do whitenoise index file
+
+commit 0e8bb49b59ca4108e6012d44ef2ece929a101cfd
+Merge: 49fb579 9abf6ee
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 27 04:51:34 2018 -0400
+
+    Merge pull request #164 from taoufik07/patch-12
+    
+    Fix typo
+
+commit 9abf6eea162d49c68c276f5b2df02c26b6d917bb
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Fri Oct 26 23:57:16 2018 +0100
+
+    typo
+
+commit 1d7a04ce7bff55b1ae8fa7b3a246e7a46bb59187
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Fri Oct 26 23:15:13 2018 +0100
+
+    Fix typo
+
+commit 49fb5792c3729f5af1032cb513016a236229c5c7
+Merge: 5eebba0 b869746
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 17:04:22 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 5eebba09c5a917db2a85d293ce1490b867c98d3c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 17:04:14 2018 -0400
+
+    test redirects
+
+commit b86974688e25b3c3b6a2a408dff7b6d74248bec2
+Merge: ed53a0b 74afe2e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 15:24:06 2018 -0400
+
+    Merge pull request #163 from Hwesta/patch-1
+    
+    Fix typo in tour.rst
+
+commit 74afe2ed13dd4c1b6781682b49fd0bcfd0665f89
+Author: Holly Becker <becker.holly@gmail.com>
+Date:   Fri Oct 26 12:19:33 2018 -0700
+
+    Fix typo in tour.rst
+
+commit ed53a0b624945a3aa8d1d22c86fef2a50554195c
+Merge: 23e15d6 fa621d0
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 14:17:31 2018 -0400
+
+    Merge pull request #161 from repodevs/fix-doc-quickstart
+    
+    DOC: Fix quickstart response headers
+
+commit 23e15d6459a170ec8b63df5f7652b1bf0ddefbfb
+Merge: 4902f13 71ea19d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 14:17:20 2018 -0400
+
+    Merge pull request #162 from sheb/patch-3
+    
+    fix CI build failing since secret key has changed
+
+commit 71ea19d1c1ef3edbafb6ee2a707fcf1e46f9d835
+Author: Sébastien Geffroy <sebastien.geffroy@gmail.com>
+Date:   Fri Oct 26 20:15:05 2018 +0200
+
+    fix CI build failing since secret key has changed
+
+commit fa621d076d27feb9e5d14fad10501ce8521e9ac8
+Author: Edi Santoso <repopamor@gmail.com>
+Date:   Sat Oct 27 00:53:11 2018 +0700
+
+    DOC: Fix quickstart response headers
+
+commit 4902f1328ae7c7e7d6df43fcf3e872932899352e
+Merge: 2ee8ff4 f46ac08
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 11:57:15 2018 -0400
+
+    Merge pull request #160 from frostming/graphql-doc
+    
+    Fix doc about graphql usage.
+
+commit 2ee8ff484dafff40c774fc046b31643779ad5760
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 11:09:24 2018 -0400
+
+    better
+
+commit c872fe3c78bbc4c7fef8773a8ca3d4a8b4e9e5a6
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 11:08:37 2018 -0400
+
+    image
+
+commit a08b275463daea38f60b89719f0e2ec8eefa266e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 10:51:48 2018 -0400
+
+    fix
+
+commit 9717208dd45ed8298720808e67e041b3655d0508
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 10:51:35 2018 -0400
+
+    v1.0.1
+
+commit c9a233f5e5142dc5fa8527c8fd526a96de55bc20
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 10:50:58 2018 -0400
+
+    api cleanup
+
+commit 7389350ff91c7894dc2f1736994a6bcf072a8a5e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 10:48:12 2018 -0400
+
+    fail
+
+commit f46ac08cffafbe9f643e88cd2906cb278bc5882b
+Author: Frost Ming <mianghong@gmail.com>
+Date:   Fri Oct 26 22:03:43 2018 +0800
+
+    Fix doc about graphql usage.
+
+commit 296d5e79743e7d5a2215f590630f942fd3268117
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 09:19:31 2018 -0400
+
+    pipfile.lock
+
+commit fe0bea686cfe54c14b5b829bbd8b3224f3f9d17a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 08:22:04 2018 -0400
+
+    simplify
+
+commit 838d172512f45edc68fbdb92628f508b8f70cb17
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 08:10:49 2018 -0400
+
+    v1.0.0
+
+commit 2c02c51c3723384419dd5c6affa4ecdaebcf7088
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 08:09:56 2018 -0400
+
+    fix docs
+
+commit 67a4cbca2c291f02aba0b0b10a928e778614deb1
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 08:07:24 2018 -0400
+
+    move graphql to extension
+
+commit a2f97e727f0370e2178e39fb135038d9ce02c171
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 07:39:02 2018 -0400
+
+    powered by starlette
+
+commit 462506113e5c7eee2535dec900207ecf6737e5a2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 07:36:41 2018 -0400
+
+    cleanup
+
+commit 5f2a72203ff6e07690dc8f31c2b1831501ec4e34
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 07:29:46 2018 -0400
+
+    cleanup things
+
+commit d6febe2d02e313a1848cc144938799e67e02efa4
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 07:01:28 2018 -0400
+
+    test for startup
+
+commit c2bd1e989a1698d4b57b1746669880b5c0f9a615
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 06:55:33 2018 -0400
+
+    add_event_handler update
+
+commit f886c2c050e7fd62468b538752928364a1964b80
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 06:54:15 2018 -0400
+
+    cleanup
+
+commit ae770e603ab73b7db397c8bfb2208dc2c3c29d9b
+Merge: 6b93125 7b79472
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 26 06:48:42 2018 -0400
+
+    Merge branch 'master' into master
+
+commit 7b79472d6516187e4db18f2fd710bfb911aad374
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 18:15:22 2018 -0400
+
+    v0.3.3
+
+commit 090a3a571bc30f7df2ae2ad3e5817981c813a28f
+Merge: f9d55fc 1e6c9d9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 18:12:36 2018 -0400
+
+    Merge pull request #156 from taoufik07/patch-11
+    
+    Fix link formatting
+
+commit f9d55fc425801b9a9bd75809f63bc9a98608cd43
+Merge: 00cfde1 4f57e8a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 18:12:24 2018 -0400
+
+    Merge pull request #157 from steinnes/re-raise-exception-after-response
+    
+    Improve exception handling
+
+commit 4f57e8a5d169d0d78f0c585bbeff10fe9765462d
+Author: Steinn Eldjárn Sigurðarson <steinnes@gmail.com>
+Date:   Thu Oct 25 22:04:00 2018 +0000
+
+    Improve exception handling
+    
+    Re-raise exceptions caught in _dispatch_request.  Added starlette
+    ExceptionMiddleware to be able to test this gracefully.
+
+commit 1e6c9d935a7cfbaf8220d41ab7d9bb120e3f7c22
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Thu Oct 25 22:45:29 2018 +0100
+
+    Fix link formatting
+
+commit 00cfde169b24d5c58e8ee65bcaabf1870e02493b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 17:41:58 2018 -0400
+
+    remove future ideas
+
+commit 02733ac718f691a7e739fa90452a59dbb26a4f35
+Merge: b9ad78e 55b55e6
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 17:36:40 2018 -0400
+
+    Merge pull request #155 from taoufik07/features/CORS
+    
+    Custom CORS params and docs
+
+commit 55b55e62da2ef26d548f546419234bf250a5736f
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Thu Oct 25 20:58:01 2018 +0100
+
+    Improvements
+
+commit 5fccedd4c4703c293c1b528411d9e0188c86ccac
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Thu Oct 25 20:55:14 2018 +0100
+
+    Improvement
+
+commit b9ad78ec7968ea66d3a041ec63df56dd1bb3e9b5
+Merge: 45e4d80 f954eb7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 15:44:07 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 64ac6bcd1f538f5c79a1f0fac6291b89230db569
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Thu Oct 25 20:44:04 2018 +0100
+
+    Add CORS docs
+
+commit 45e4d80c4d183f928e3b5cbaeff37dce1e1ae28e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 15:44:01 2018 -0400
+
+    --pre
+
+commit a5b1652d1566ae8fa962828244a360e701c4f762
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Thu Oct 25 20:43:50 2018 +0100
+
+    Custom CORS params via cors_params
+
+commit f954eb7d8887a0e1de8a5b68c048bfd19f65b87f
+Merge: 1618203 5321681
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 15:30:19 2018 -0400
+
+    Merge pull request #154 from taoufik07/features/CORS
+    
+    CORS
+
+commit 53216813e5f9845bcf4315d92d8767588da9ee21
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Thu Oct 25 20:12:21 2018 +0100
+
+    Add CORSMiddleware
+
+commit 1618203930081e0a6879d5a9d3a7650465b82fd1
+Merge: d332895 237a2ed
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 13:40:58 2018 -0400
+
+    Merge pull request #153 from metakermit/address_doc
+    
+    document how to customise the address
+
+commit 237a2ed42694e28208317daa7a62a70edb181519
+Author: Dražen Lučanin <kermit666@gmail.com>
+Date:   Thu Oct 25 16:43:19 2018 +0200
+
+    document how to customise the address
+
+commit d33289503a5f2c3436f65f584143ab6b91ef9de3
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 08:24:45 2018 -0400
+
+    remove is_routed
+
+commit f5ff4c9725fa936e47da5990aa9fa31dc781be59
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 08:23:22 2018 -0400
+
+    clean up
+
+commit 62f932dcfcd6cf336a58ddc26541c11a5e706a3e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 08:22:14 2018 -0400
+
+    default secret key
+
+commit b66112d0ca4adecf6a60c61d783818ca4fbabe0d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 08:20:06 2018 -0400
+
+    improvements
+
+commit b98354e63a17bcc7d60ae44d5fe4a63a72eba4fc
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 07:31:34 2018 -0400
+
+    simplify readme
+
+commit 94b3625718cb6cba525b53c6640d0942140bb4cd
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 07:29:05 2018 -0400
+
+    ideas
+
+commit f7ee720281dd27ec71a57f39d4ff848f6d1f3381
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 07:26:05 2018 -0400
+
+    subtle improvements
+
+commit 4ab523bf017c1c9e105c85165e49a6ff268d9981
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 07:25:35 2018 -0400
+
+    fix static
+
+commit 2d4f1bfd0219b1f52d4140839d370983b65a0956
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 07:10:51 2018 -0400
+
+    test static
+
+commit 38426c91432fbd7454a3df6271880acd3bb19d88
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 07:10:42 2018 -0400
+
+    for tests
+
+commit bdf151e0a7fe5b1015f6287d2ee1ef1a2fde6844
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 07:08:45 2018 -0400
+
+    test responder docs
+
+commit 9768b7888d8cd9c4a443e8b7d1e0d27dd13c05bb
+Merge: 740a485 38e7c39
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 06:59:05 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 740a48566f37e2a60b867993a880bc1731ffb26c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 06:58:57 2018 -0400
+
+    important stuff
+
+commit 475cd1a106fe1c743e513567144469707377a1de
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 06:47:58 2018 -0400
+
+    removed
+
+commit 38e7c39d69c6773cdb61015ac711c230ab135d35
+Merge: a1a3e04 774db6b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 25 06:38:45 2018 -0400
+
+    Merge pull request #151 from tkamenoko/patch-2
+    
+    fix: license mismatch in setup.py
+
+commit 774db6beada3a11fc3d27be4aa19e102c0da6a11
+Author: T.Kameyama <41364327+tkamenoko@users.noreply.github.com>
+Date:   Thu Oct 25 18:52:00 2018 +0900
+
+    fix: license mismatch in setup.py
+
+commit a1a3e0412a08fce8a41dbf047782a62de2474ecf
+Merge: 53be4d8 0b39c89
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 19:09:59 2018 -0400
+
+    Merge pull request #148 from taoufik07/patch-10
+    
+    Quick fix
+
+commit 0b39c89e60dd6f7276d28b003d1806605a1e8fa6
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Wed Oct 24 19:17:53 2018 +0100
+
+    Quick fix
+
+commit 53be4d8954ab3350ac5c672d480b3109feda4af3
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 10:32:28 2018 -0400
+
+    index.rst
+
+commit 03812cc7eb469529b83e2bee1ab6dbebdbdacebf
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 08:34:46 2018 -0400
+
+    v0.3.1
+
+commit aa12b2429364c909a1ef1aeaa1b5032e3fcae6c9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 08:34:06 2018 -0400
+
+    whitenoise
+
+commit daf43009ba33211ce5cb1af257b869834017d6d2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 08:21:08 2018 -0400
+
+    changelog
+
+commit 955d777ca5327e11f03ff2c9eb2abaa510e259e8
+Merge: cc9472a 686ff72
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 08:19:00 2018 -0400
+
+    Merge pull request #146 from JayjeetAtGithub/master
+    
+    Improve readability
+
+commit cc9472aa2fa4e84b1476e74dddd877437c920544
+Merge: e527f3c 878db85
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 08:18:38 2018 -0400
+
+    Merge pull request #147 from taoufik07/fix/default_endpoint_and_route_found
+    
+    Do not return default endpoint if the route is found
+
+commit e527f3cb1f1f26c4cbecea66955a184d38c231dc
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 08:19:28 2018 -0400
+
+    interactive documentation
+
+commit 3a375a89753569ec3d5e4a27eba7ef90126225f9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 08:17:26 2018 -0400
+
+    documentation
+
+commit 26984965925bcc7d57767206566f6c1aa19eb9ee
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 08:16:55 2018 -0400
+
+    documentation endpoint
+
+commit 0155d854e3e311a3d3b80511b55802ce1dd61217
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 08:16:22 2018 -0400
+
+    v0.3.0
+
+commit c74cc8586ff377b43f7cddbb98fd058bfb0debdf
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 08:15:21 2018 -0400
+
+    improve imports
+
+commit 8eb89da9a06c80dd843758db5ffd7477aedafb76
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 08:14:24 2018 -0400
+
+    improve imports
+
+commit dee6ee3ceff539b308d57df85402ba4cee5b1944
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 08:13:15 2018 -0400
+
+    whitenoise, apistar
+
+commit beab89df09e4e553e4d6bfea12fe09bce4f3e6c7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 08:12:45 2018 -0400
+
+    apistar
+
+commit 5164d4ec3237d7024d74b35fc73593aad2eb2e77
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 08:12:39 2018 -0400
+
+    apistar
+
+commit 878db851af9f599e6889b1cd63f4679628411745
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Wed Oct 24 12:47:47 2018 +0100
+
+    Return default endpoint if the route is not found
+
+commit 686ff72ae055d8322c31e5e892aefcdc76f00797
+Author: Jayjeet Chakraborty <jc.github@rediffmail.com>
+Date:   Wed Oct 24 16:37:02 2018 +0530
+
+    Improve readability
+
+commit 2710d7098f901ee495b2530844b913cc18c8e35b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 07:02:44 2018 -0400
+
+    v0.2.3
+
+commit 7f41ff4035f441d7eaf86d58582bda756136541b
+Merge: d09a51f ed8d510
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 06:59:51 2018 -0400
+
+    Merge pull request #138 from taoufik07/fix/cbv
+    
+    Fix CBV
+
+commit ed8d51014c7772cc67f2ff291c820e7150dab43a
+Merge: 77b2e9b d09a51f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 06:57:28 2018 -0400
+
+    Merge branch 'master' into fix/cbv
+
+commit d09a51f47dfafeab8db7dc94c8af42938feaed00
+Merge: 59bae90 2983045
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 06:56:53 2018 -0400
+
+    Merge pull request #140 from taoufik07/patch-9
+    
+    Typo
+
+commit 59bae904540863da1668d83e3b28d2a25c9be45d
+Merge: 13ee0ca fe41d4c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 06:56:42 2018 -0400
+
+    Merge pull request #142 from taoufik07/fix/static_response
+    
+    Fix static response
+
+commit 13ee0ca94e338fb36a8496475d0b7c18cd97b0e4
+Merge: 5abc095 a8c3f8f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 06:56:24 2018 -0400
+
+    Merge pull request #136 from taoufik07/fix/Route.is_function
+    
+    Fix Route.is_function
+
+commit 5abc095050bddb6918b21f0ea37c3c3e49943234
+Merge: 7eb68c8 e508280
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 06:56:02 2018 -0400
+
+    Merge pull request #139 from JayjeetAtGithub/master
+    
+    Fix Typo in api.py
+
+commit 7eb68c8388e3a6703249e9efd2071abd950e5467
+Merge: fb63602 f69b644
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 24 06:55:50 2018 -0400
+
+    Merge pull request #143 from frostming/patch-1
+    
+    Typo in tour.rst
+
+commit f69b644a77670f53eec9f51828baefe6b03bba21
+Author: Frost Ming <mianghong@gmail.com>
+Date:   Wed Oct 24 12:28:11 2018 +0800
+
+    Typo in tour.rst
+
+commit 6b93125ff2021c6e75d895f2f96193f38881036c
+Author: Peder Bergebakken Sundt <pbsds@hotmail.com>
+Date:   Wed Oct 24 06:26:58 2018 +0200
+
+    Add support for "tick" in api.on_event
+
+commit 43faef4569c7e71acb90daad3e3263bdb8470e98
+Author: Peder Bergebakken Sundt <pbsds@hotmail.com>
+Date:   Wed Oct 24 06:25:44 2018 +0200
+
+    Add api.on_event decorator supporting startup and cleanup
+
+commit fe41d4c863888877904ba43ac5722efac8d3de52
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Wed Oct 24 01:17:02 2018 +0100
+
+    Fix static response
+
+commit 29830455edac41e2cdd192f31d9b2e65c89a3323
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Wed Oct 24 00:11:27 2018 +0100
+
+    Typo
+
+commit e50828093d9436d882554ac770e1dfa2b891c448
+Author: Jayjeet Chakraborty <jc.github@rediffmail.com>
+Date:   Wed Oct 24 02:56:43 2018 +0530
+
+    Clean print statement
+
+commit 880d29c5a937620207f4ded0ec75a5e2f18560ec
+Author: Jayjeet Chakraborty <jc.github@rediffmail.com>
+Date:   Wed Oct 24 02:46:33 2018 +0530
+
+    Fix Typo in api.py
+
+commit 77b2e9ba7ace1a2a7b561afe4b375daf02400a85
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Tue Oct 23 21:20:09 2018 +0100
+
+    tests
+
+commit 586fad76460ebbce20320dbb1a0d7ae0259bc826
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Tue Oct 23 21:19:57 2018 +0100
+
+    Fix CBV
+
+commit fb636028fbfba25ad243c6d86a46c5259ecf6c4c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 14:58:02 2018 -0400
+
+    improvements
+
+commit a8c3f8fc46f8d83fc0318b3e963d8f02388d5d37
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Tue Oct 23 19:52:30 2018 +0100
+
+    Fix Route.is_function
+
+commit 72f4227c5a2f09725d339e99d40d73006382edc0
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 08:46:20 2018 -0400
+
+    remove redundancy in tour
+
+commit 8ccace8ef9b48da7882233f5d7383ede2ca7f8f6
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 08:36:20 2018 -0400
+
+    testing
+
+commit 6d40c6dfe5502e651634537de88feb355aa7ad66
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 08:34:32 2018 -0400
+
+    assert
+
+commit 0b5562cdec714655274ecbbb70b1b41554044362
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 08:33:51 2018 -0400
+
+    fix
+
+commit eeff0816f3c15609cc460ea8edb54f2f426cbc23
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 08:29:02 2018 -0400
+
+    doc updates
+
+commit f1f16dea3fca085eb8291add576b8f471baa9e09
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 08:14:00 2018 -0400
+
+    best practices for secret key
+
+commit bfc6ef20495d6908c91089f82c6cc6a5fb8e004a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 08:12:40 2018 -0400
+
+    test client docs
+
+commit 5212de79d3ccd16ec98d38a388af1d2c0351e338
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 08:05:07 2018 -0400
+
+    v0.2.2
+
+commit b61c02e5df2c1d12488aadded0b5c6ac42d30ccd
+Merge: f982954 3067080
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 08:02:59 2018 -0400
+
+    Merge pull request #132 from vuonghv/show-exception-background-task
+    
+    Show traceback info when background tasks raise exceptions
+
+commit f982954e8f0bb4b9b6d9fca38874cfe55e1ae253
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 08:03:28 2018 -0400
+
+    versions
+
+commit 3ba20e69bafec7c0253ff0696392190a6b5e58da
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 08:02:30 2018 -0400
+
+    requests session
+
+commit aea01fd893423939c4d12c873ae77116a60fe30b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 08:00:56 2018 -0400
+
+    Revert "idk what's happening"
+    
+    This reverts commit e34cb539d25a0a747f3764e90e2cedbe08b41708.
+
+commit 950be14ecaeb46f66154bf8f10fd67b2bb832db7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 08:00:30 2018 -0400
+
+    Revert "Merge branch 'master' of github.com:kennethreitz/responder"
+    
+    This reverts commit 446deffc17c9aaa845bbe0daa9b516376e9d4ea9, reversing
+    changes made to e0863115ee9770b0e810682ef58810247d43a958.
+
+commit 446deffc17c9aaa845bbe0daa9b516376e9d4ea9
+Merge: e086311 886cc0f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 07:59:07 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit e0863115ee9770b0e810682ef58810247d43a958
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 07:59:00 2018 -0400
+
+    use api.requests
+
+commit e34cb539d25a0a747f3764e90e2cedbe08b41708
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 07:58:48 2018 -0400
+
+    idk what's happening
+
+commit d8ade8638a106932e084215908df25592d025e32
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 07:57:23 2018 -0400
+
+    merge
+
+commit 3067080474af9256a2bbb1db0649dbfb9b9fb914
+Author: Vuong Hoang <vuonghv.cs@gmail.com>
+Date:   Tue Oct 23 18:23:22 2018 +0700
+
+    Show traceback when background tasks raise exceptions
+
+commit 886cc0f21406f61f5c3257042fc1cfec6d3fe3e5
+Merge: a1564ca 071d34b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 23 07:01:40 2018 -0400
+
+    Merge pull request #131 from daikeren/master
+    
+    Fix Route.is_function
+
+commit 071d34b0161c92df499ecfc891884a5fe1eee6d3
+Author: Andy Dai <daikeren@gmail.com>
+Date:   Tue Oct 23 17:07:42 2018 +0800
+
+    Fix Route.is_function
+
+commit a1564ca003c1720182609ab3e3540d6ed6493f83
+Merge: 3f0ecea 60f0e76
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 22 17:25:15 2018 -0400
+
+    Merge pull request #123 from taoufik07/patch-7
+    
+    Quick fix
+
+commit 60f0e765c2e3d960bdb8b3b441e030c4bf1d4d9d
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Mon Oct 22 22:14:18 2018 +0100
+
+    Quick fix
+
+commit 3f0ecea4bfd6529e99fa0552990797ecbf1cb0ee
+Merge: 2c9e657 371a83f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 22 17:06:00 2018 -0400
+
+    Merge pull request #120 from Pentusha/master
+    
+    Depend on marshmallow>=3.0.0b7
+
+commit 2c9e6572c58a6e9916385675683d26b864b88104
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 22 17:05:50 2018 -0400
+
+    Update tour.rst
+
+commit 371a83f20fc438dc5ece21739f0875e86a2e8170
+Author: Ivan Larin <ivan.larin@sola.foundation>
+Date:   Mon Oct 22 19:46:55 2018 +0300
+
+    Depend on marshmallow>=3.0.0b7 kennethreitz/responder#119
+
+commit b8cff1655a6d65584e40783866b7e3336e1b6696
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 22 10:18:37 2018 -0400
+
+    websockets
+
+commit 232856ca3a8bdf0980f22971d6bd2ec07b270e6b
+Merge: 3f168ac ed79e45
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 22 10:07:38 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 3f168ac6fdc94dbc3a1718db94a31e09020d472a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 22 10:06:55 2018 -0400
+
+    slots
+
+commit c59cb1d0d350c60c979ea60eed4dd5f61e22811a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 22 10:06:03 2018 -0400
+
+    websocket
+
+commit ec13df75d01c95cfd0a4e021750dc39538af6b4f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 22 10:05:20 2018 -0400
+
+    kinda test websocket support
+
+commit 6fc02964bae0c62286ca225834138bc54416e13c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 22 09:59:38 2018 -0400
+
+    cleanup
+
+commit ed79e456800e33d647d2751ba8fbe98d18708861
+Merge: 30ee672 b09d6a9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 22 09:30:14 2018 -0400
+
+    Merge pull request #116 from tkamenoko/patch-1
+    
+    doc: fix Class-based views
+
+commit 1be983bf895aa1eeafb71ced86e01e2b079494be
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 22 09:28:14 2018 -0400
+
+    cleanup
+
+commit b09d6a9d043e88afd050d1d87a6fd4b9939df6fc
+Author: T.Kameyama <41364327+tkamenoko@users.noreply.github.com>
+Date:   Mon Oct 22 14:37:55 2018 +0900
+
+    doc: fix Class-based views
+    
+    In Class-based views, each method needs `self` as 1st argument.
+
+commit db143d845ddd47149698d2fac95445b46168d6df
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Sun Oct 21 18:17:56 2018 +0100
+
+    cleanup
+
+commit 2e23501f9d122951328a4abccc8baadf696fd699
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Sun Oct 21 18:15:13 2018 +0100
+
+    Fix check_existing
+
+commit bd6addcd3ab0580ded0f03ac0b11e9c4358cb21a
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Sun Oct 21 18:00:25 2018 +0100
+
+    Add websocket support
+
+commit 631e1fb6041d733add186e4144cb55c604ff72f0
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Sun Oct 21 17:36:21 2018 +0100
+
+    Add WebSocket
+
+commit 30ee6726a8719b1a189a7894351ba07b8ea5be7d
+Merge: 1c397db 449379a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 21 06:25:56 2018 -0400
+
+    Merge pull request #113 from metakermit/extend-static-docs
+    
+    Extend static=True docs
+
+commit 1c397db9d812017726f550a8ac677460c97dea59
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 21 06:23:02 2018 -0400
+
+    cleanup
+
+commit cc23ca80f4127cd3ab54733a9e66e75298cd3fc2
+Merge: 4df60b5 b3208b1
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 21 06:20:16 2018 -0400
+
+    Merge pull request #112 from Nitish18/feat/server_debug_mode
+    
+    feat: added debug mode for uvicorn server
+
+commit 449379a0ed71378f1670ade5586670230b6ffc8d
+Author: Dražen Lučanin <kermit666@gmail.com>
+Date:   Sun Oct 21 11:58:54 2018 +0200
+
+    extend static=True docs
+
+commit b3208b1c5bb9b75dca0ab4219bae8421db1b01cf
+Author: Nitish Chauhan <nitish.nc18@gmail.com>
+Date:   Sun Oct 21 15:20:08 2018 +0530
+
+    feat: added debug mode for uvicorn server
+
+commit 4df60b55a6b3586a5c298436160a01a6e6ea9ac2
+Merge: a2eaa5c 379553a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 13:54:58 2018 -0700
+
+    Merge pull request #110 from sheb/patch-2
+    
+    fix an AttributeError when route does not exist
+
+commit 379553a1a538f69a3eedb2c4d048216160586923
+Author: Sébastien Geffroy <sebastien.geffroy@gmail.com>
+Date:   Sat Oct 20 21:55:43 2018 +0200
+
+    fix an AttributeError when route does not exist
+
+commit a2eaa5c7b5b80d475503d0e7dd2300b13bf2bb1f
+Merge: 175c46e 567b157
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 14:46:21 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 175c46e68c6520d9947d11fb5e347487fa6dcdb6
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 14:46:10 2018 -0400
+
+    __version__
+
+commit a58cc11079f5d5126a565ec805d8e6a977c1e190
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 14:45:52 2018 -0400
+
+    500 support
+
+commit 218a375c27cca2fc20a668d0351636724213b494
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 14:45:33 2018 -0400
+
+    test 500s
+
+commit 567b1577c6904f4f69aaf6090d8f7f8c90fe0a49
+Merge: 3c3687d 0c342c8
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 11:21:11 2018 -0700
+
+    Merge pull request #108 from shyamjos/patch-1
+    
+    Fixed minor spelling mistakes in changelog
+
+commit 3c3687d11fa444ec200c5a5cffa29f21b86d51df
+Merge: b61feaf 19dfac8
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 11:21:00 2018 -0700
+
+    Merge pull request #109 from taoufik07/patch-6
+    
+    clean up
+
+commit 19dfac8340b3296430416cc5f21ec559abaa0109
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Sat Oct 20 18:37:04 2018 +0100
+
+    clean up
+
+commit b61feafe5ac6b2cb8bed2bdd138fa47672ba2cbe
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 13:36:06 2018 -0400
+
+    500 on errrors
+
+commit 0c342c8b3e5a9d6f276d3a4229086bf61bf21d9d
+Author: Shyam Jos <shyamjosepp@gmail.com>
+Date:   Sat Oct 20 23:01:57 2018 +0530
+
+    Corrected Spelling
+    
+    Corrected Spelling
+
+commit dbcba8fad7ac98b9a99cefb9ca51482024ea0353
+Author: Shyam Jos <shyamjosepp@gmail.com>
+Date:   Sat Oct 20 22:24:44 2018 +0530
+
+    Fixed minor spelling mistakes in changelog
+    
+    Fixed minor spelling mistakes in changelog
+
+commit b8053e20f241614b0398c78c38cf2bab0f63df4f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 12:10:59 2018 -0400
+
+    fix
+
+commit 1896901aa88c3e5386ec9741538dddc7fc767930
+Merge: 383c913 57b144c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 12:10:19 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 383c9132ed34a8d8c6350ccf14311098b802df0a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 12:10:09 2018 -0400
+
+    improvement
+
+commit 57b144c3e7c44de51168eb3899b94d7f5b90c64b
+Merge: eed5365 5d43c04
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 07:08:51 2018 -0700
+
+    Merge pull request #107 from taoufik07/patch-5
+    
+    Refactor Route._weight and f-strings everywhere
+
+commit eed5365fe075b1dfe45180a48623602df34c557b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 09:56:35 2018 -0400
+
+    file upload support
+
+commit f5905568c4e586054f9a8edd243d73bae778f9a2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 09:54:53 2018 -0400
+
+    files support
+
+commit 096099470e500702d3e08e72c258f9e2b333d1d1
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 08:50:36 2018 -0400
+
+    yay tests pass
+
+commit e7ed7aca3cafd886afca47905bcd2cc262a7977a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 08:23:10 2018 -0400
+
+    tests still pass
+
+commit 6725b275b895efaddfc8fc79be29cc353dd21b60
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 07:59:39 2018 -0400
+
+    cleanup
+
+commit 3447a7ef41b1ac7cfad928f5719295ab00f016c5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 07:59:12 2018 -0400
+
+    v0.1.5
+
+commit 99f35fbea4ca5d3ad6a65ed995ea3301514e10eb
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 07:57:27 2018 -0400
+
+    use querydict for form parsing
+
+commit 5c9a3912a95fa6dfdd4bb5b0af6a062bcb40663c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 20 07:38:53 2018 -0400
+
+    cached _content
+
+commit 5d43c0418c5994c6d5125b23e7bc7ad87f89da79
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Fri Oct 19 23:13:21 2018 +0100
+
+    f-string
+
+commit 87c0076e124774906df4d16bfc5dd0059502e685
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Fri Oct 19 23:10:39 2018 +0100
+
+    use f-string
+    
+    Every time I scroll through the README, it hurts me
+
+commit 95252ac6971a93921d85e253afa241d1f9568b4f
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Fri Oct 19 23:06:55 2018 +0100
+
+    Refactor
+
+commit 5bb9f96701e655abeb803217cf248c3e03e72e54
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 19 05:11:07 2018 -0700
+
+    cleanup
+
+commit 750e9dfaa7da21b6442bb178094d66b6d3943519
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 19 04:54:49 2018 -0700
+
+    cleanup
+
+commit f34f3c16616066e89a34f2774e77fe3b13a11bdd
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 19 04:17:06 2018 -0700
+
+    v0.1.4
+
+commit d4f83c978c16e87f867912d44f70f5cccbd8d60a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 19 04:16:19 2018 -0700
+
+    improvements
+
+commit 212f280c19e1627e1a386eda6af2bd393d865995
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 19 03:10:39 2018 -0700
+
+    models
+
+commit f3e24506363c2bc0e477abeac5ff85ce0be231e6
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 19 03:09:53 2018 -0700
+
+    models
+
+commit d6d496018d40924cab1048d03820e6774ed68a63
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 19 03:08:15 2018 -0700
+
+    fix
+
+commit 78be7fc77291128f2dd313867b21d7e3f5263bdc
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 19 03:00:41 2018 -0700
+
+    api
+
+commit 6ebadd84690a8e384b5aa468807e486c6558c68c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 19 02:19:38 2018 -0700
+
+    new files
+
+commit 557750c8d4cea155fd6eb1f34308f1ce58bba4de
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 17:02:10 2018 -0700
+
+    customizable cookie
+
+commit e85ef27e6cad2cc4b6ff852b0043769478bf6187
+Merge: 4ca961a 1c4e96b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 16:46:31 2018 -0700
+
+    Merge pull request #98 from pbsds/master
+    
+    Store Jinja enviroment in between template render calls
+
+commit 4ca961a1b46b22f15c6e19ad6926acd11784e9a5
+Merge: fdd3d4d 6a9110e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 16:42:17 2018 -0700
+
+    Merge pull request #104 from metakermit/cli-build
+    
+    CLI build command
+
+commit 6a9110e9c116df5ee5c5cc76f5d23d409b5c8168
+Merge: 51ffce0 fdd3d4d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 16:40:20 2018 -0700
+
+    Merge branch 'master' into cli-build
+
+commit 51ffce09ae3a887ccfa04bc0dad89a7974c4c44c
+Author: Dražen Lučanin <kermit666@gmail.com>
+Date:   Thu Oct 18 23:38:16 2018 +0200
+
+    fix cli setup
+
+commit 1c4e96b36511ac85af46b80cfd7a5e9aec236c43
+Author: Peder Bergebakken Sundt <pbsds@hotmail.com>
+Date:   Thu Oct 18 20:33:09 2018 +0200
+
+    Add api.jinja_values_base:dict
+    
+    This allows the user to add functions and values for use in all
+    templates, without needing to pass them on each render call.
+    
+    As a side effect: The reference to `api` is still passed into the template view,
+    but this now yield to the values passed into api.template(), like one
+    would normally expect.
+
+commit 0db70e8edd3cf195f30e7c522f745b0cdc277564
+Author: Peder Bergebakken Sundt <pbsds@hotmail.com>
+Date:   Thu Oct 18 20:28:00 2018 +0200
+
+    Store jinja enviroment in between the template render calls
+    
+    This allows the user to modify the jinja
+    enviroment, adding custom filters and such
+
+commit e46b3a5e19b53491a9bf59dccff55ec7babb89f3
+Author: Peder Bergebakken Sundt <pbsds@hotmail.com>
+Date:   Thu Oct 18 20:10:52 2018 +0200
+
+    Rename s to s_ in api.template_string()
+    
+    Issue described in #76 applied here as well, however less propable.
+    Same fix as in a8fc78fcda
+
+commit fdd3d4d85ae7d6659b4d26fb03391c397b1b1a80
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 10:25:19 2018 -0700
+
+    sessions
+
+commit 37c9cba42ee79db5a32d85eeac35c79bc69a9ffb
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 10:20:06 2018 -0700
+
+    version
+
+commit c1544f66bb627057c3cd7a1c50a0c1cd76916249
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 10:14:20 2018 -0700
+
+    tour
+
+commit d37f41f6a51f8cc00cd7dbb978ed16cec7c9bd67
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 10:08:57 2018 -0700
+
+    docstrings
+
+commit b245dd2d51cc3e55196f86ce45b735de1395a546
+Merge: a1fcf11 8f876da
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 10:05:16 2018 -0700
+
+    Merge pull request #96 from kennethreitz/sessions
+    
+    sessions
+
+commit a1fcf1139924ff34477b0f2628f2076b29b9c7a9
+Merge: 3b7e7c7 23b8e5a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 10:04:41 2018 -0700
+
+    Merge pull request #95 from taoufik07/patch-4
+    
+    Use HTTPSRedirectMiddleware
+
+commit 8f876da2455fc08e96630f43d71a0f4a86d40f73
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 10:03:56 2018 -0700
+
+    sessions
+
+commit 23b8e5a2b3851fe0fd74d07e689f00152c114a0e
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Thu Oct 18 18:01:41 2018 +0100
+
+    Use HTTPSRedirectMiddleware
+
+commit 3b7e7c7192d974368d2adcd4853f4a12007a9802
+Merge: 2ec6aaf b7ecf6e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 07:49:34 2018 -0700
+
+    Merge pull request #94 from mathiasose/graphql-variables-and-operation-name
+    
+    Find GraphQL variables, operation name from JSON
+
+commit b7ecf6e2e0f975a4e1533bef932e8cd6129c7f7f
+Author: Mathias Ose <github@ose.email>
+Date:   Thu Oct 18 16:09:49 2018 +0200
+
+    Find GraphQL variables, operation name from JSON
+    
+    Make `_resolve_graphql_query` return *three* things from the JSON query: query (as before), variables and operation names. These values are all passed on to `schema.execute`.
+    
+    TODO:
+    - Get variables and operation names from other requests types than JSON.
+    - Write tests.
+    - _Possibly_ refactor `_resolve_graphql_query` to return something a bit more structured than a 3-tuple.
+
+commit 2ec6aaff03f911d75dc2ca79f0dda3b8b3e59848
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 06:42:26 2018 -0700
+
+    docstrings
+
+commit 19f8553f2dc031a4ac930509274fad96154f2126
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 04:31:38 2018 -0700
+
+    fix
+
+commit 05a64ff095da97116ddac4b758db613e20a51bed
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 04:31:22 2018 -0700
+
+    cookies
+
+commit a8fc78fcdac90e79e572ce9f3c91e2617e54ee9a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 04:26:25 2018 -0700
+
+    fixes #76
+
+commit e0e8b40fa2ddbc7735de448becd3184e27b30f52
+Merge: fffd6b7 00165cd
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 04:23:16 2018 -0700
+
+    Merge pull request #91 from kennethreitz/cookies
+    
+    Cookies
+
+commit 00165cd6ca52cc6fdf388a6566e275006504c726
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 04:16:44 2018 -0700
+
+    tests for cookies
+
+commit cd799ddfcdccf1d3f5ab6c2e2d6acfde9d8b023d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 04:07:13 2018 -0700
+
+    cookies
+
+commit fffd6b7c86a56d1b2a9066a7b2b86bdb2c6c9174
+Merge: 439b008 3be88c8
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 02:51:55 2018 -0700
+
+    Merge pull request #83 from kennethreitz/bnm_tests
+    
+    added more tests to routes, and changed some bits in routes regarding regex
+
+commit 439b008a341eb8609ddb64bd3b74d44f4cc13ee7
+Merge: f38e538 c38198c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 02:51:42 2018 -0700
+
+    Merge pull request #85 from condemil/patch-1
+    
+    Add .python-version to .gitignore
+
+commit f38e5388925ba857023cf86e8ca388696de976f7
+Merge: d97fdfd 6aa87a0
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 18 02:50:57 2018 -0700
+
+    Merge pull request #89 from pyasi/tests_for_status_codes
+    
+    Add basic tests for the status codes file
+
+commit 6aa87a073f9917c3f5b50fffade9770f02722698
+Author: Peter Yasi <pyasi8192@gmail.com>
+Date:   Wed Oct 17 21:25:28 2018 -0400
+
+    Add basic tests for the status codes file
+
+commit c38198ccba08e7e46eb810923c0c29ddfc9f2931
+Author: Dmitry <condemil@users.noreply.github.com>
+Date:   Wed Oct 17 22:58:16 2018 +0200
+
+    Add .python-version to .gitignore
+    
+    .python-version allows to specify separate pyenv virtual environment
+
+commit 3be88c8cbfc3f10f6359f43957e64a01ce21bbd3
+Author: Luna <luna@bnmetrics.com>
+Date:   Wed Oct 17 21:17:14 2018 +0100
+
+    removed redundant import in routes.py
+
+commit 558ced1afb2d61510212d98c93956094830d1f14
+Author: Luna <luna@bnmetrics.com>
+Date:   Wed Oct 17 21:07:39 2018 +0100
+
+    recommented pytest.ini addopts
+
+commit 0149e6935deea6145fdf9167f9de8325a8a80589
+Author: Luna <luna@bnmetrics.com>
+Date:   Wed Oct 17 21:05:38 2018 +0100
+
+    added more tests to routes, and changed some bits in routes regarding regex
+
+commit d97fdfd7c40d2bca494e059ca4291836ff13f395
+Merge: 8b85d8c fbac81c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 12:03:15 2018 -0700
+
+    Merge pull request #75 from tomchristie/asgi-middleware
+    
+    Support ASGI middleware
+
+commit 8b85d8c6fbd6c612333644a8f6ce76d626bf5c37
+Merge: 6737794 20f72b3
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 12:02:23 2018 -0700
+
+    Merge pull request #80 from taoufik07/fix-CBV-missing-prams
+    
+    Fix CBV missing params
+
+commit 673779490c4cb510d44d631edaa100c4cd1bbced
+Merge: 5ffa182 48154e7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 12:01:43 2018 -0700
+
+    Merge pull request #82 from squiddy/patch-1
+    
+    Fix docker image typo in deployment documentation
+
+commit 48154e7e2d5e3c8243abd12c729c3e532098880f
+Author: Reiner Gerecke <me@reinergerecke.de>
+Date:   Wed Oct 17 19:59:40 2018 +0200
+
+    Fix docker image typo in deployment documentation
+
+commit 20f72b3f632078b7f713514acd431c0ccbe2389c
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Wed Oct 17 18:43:24 2018 +0100
+
+    Add tests
+
+commit e82c958af259cb5898266f951c3084ba60cb0f97
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Wed Oct 17 18:20:44 2018 +0100
+
+    Add missing params to on_method
+
+commit 60c311ab9f942f497bd5d00aa85c2f1c4af1a278
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Wed Oct 17 18:20:16 2018 +0100
+
+    Add missing params to on_request
+
+commit fbac81c245fcfdd4bf84735c5df46488ebc25553
+Author: Tom Christie <tom@tomchristie.com>
+Date:   Wed Oct 17 15:13:09 2018 +0100
+
+    Drop commented out gzip code
+
+commit 9ca67d9228671cfba112c5db1291083241a7ed9d
+Author: Tom Christie <tom@tomchristie.com>
+Date:   Wed Oct 17 15:11:16 2018 +0100
+
+    Support ASGI middleware
+
+commit 5ffa18221f8cec3c2b1caff1639d36c3ec932342
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 06:20:06 2018 -0700
+
+    an
+
+commit aceb1f0f61039ffd14ed0e2c7fc31a4f1bd093c0
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 06:17:21 2018 -0700
+
+    Must be awaited.
+
+commit cee5ca8873147610e99bd446e5427094598602b6
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 06:01:41 2018 -0700
+
+    v0.1.1
+
+commit d961d4ab43af7572b5b5f2673aadb2821798104f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 06:01:27 2018 -0700
+
+    default routes
+
+commit 5205150a89d0e6b69baa69b3e0573dc9dd304eef
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 05:53:23 2018 -0700
+
+    default route
+
+commit 48e58cde5da4f12f4a0ca4efb55674e248162437
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 05:19:22 2018 -0700
+
+    docker
+
+commit 033e91f8df2e0e370ac1631ffa0509d83e92ec92
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 05:15:25 2018 -0700
+
+    name
+
+commit aab3705897846d850115871e843ce0cfa2c12338
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 05:14:19 2018 -0700
+
+    myapi
+
+commit d02efa81f2b29fc95224ea4efaba6e354485e00e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 05:12:11 2018 -0700
+
+    deployment
+
+commit 95a8240da7f0619c3c1bf5d2376403de0a60cdb5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 04:58:11 2018 -0700
+
+    single-page webapps
+
+commit dd0ddab6102dba09e48576477c3940f3f41075dc
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 04:52:02 2018 -0700
+
+    single page
+
+commit d23ac10f90aada1ba3b1763cab36f5c51170c03d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 04:49:00 2018 -0700
+
+    version
+
+commit ec18290b8a0d33be5593fb84f4d5e22212332e49
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 04:48:38 2018 -0700
+
+    changelog
+
+commit 2c4cd39dc9d9eb44afd3ed23a75003fc3c8ec3b3
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 04:48:33 2018 -0700
+
+    static application support
+
+commit 830bad0b85ed05404cc37e89bc29e9c519e81fd8
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 04:47:39 2018 -0700
+
+    docs for #53
+
+commit f14ef6fa1537c35d66bf664b878cae62eab556b9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 04:45:12 2018 -0700
+
+    #53
+
+commit 7400b1c83dea424f7eb3ca9f89615c696f962049
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 04:38:51 2018 -0700
+
+    static support #53
+
+commit e7caf39fbad53c5e21f8a233a43cb4b84654dc2c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 04:25:09 2018 -0700
+
+    static_route
+
+commit 09fd0fb0ca9af0e014528a0a80aae896c80911fb
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 04:19:38 2018 -0700
+
+    version
+
+commit 72adb13c0f656e1b3a2c8e0255c4ab9d5464632a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 04:16:22 2018 -0700
+
+    version
+
+commit ea0e382f8233ffd4fcc991da3bba4a0fcb7dfd3b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 04:15:36 2018 -0700
+
+    test for #71
+
+commit e70cba51432e85ea49139acaa7019d5ca1ad4001
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 04:12:13 2018 -0700
+
+    Fix for #71
+
+commit 8aec244c31c27264f0baf1ed87e847253c13bc06
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 04:12:03 2018 -0700
+
+    openapi
+
+commit 60e163164f2ccc34596e081d567b2b88c7a22d88
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 03:58:23 2018 -0700
+
+    v0.0.8
+
+commit 86b9b5f3fa5c1177f9d540afe9835f2e3e0cacf1
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 03:57:39 2018 -0700
+
+    graphiql
+
+commit 401a20876788ec30ce3d6cd665f4be04108aeb7c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 03:27:26 2018 -0700
+
+    changelog
+
+commit a1bfbda05bcf0d5921a802cb50d41da0ffc3eb5a
+Merge: f309ad7 7d1f991
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 03:15:49 2018 -0700
+
+    Merge branch 'master' into cli
+
+commit 7d1f991ce4c77ebe2fc9e4d4f90e7470de8fe0b4
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 02:52:22 2018 -0700
+
+    changelog
+
+commit 1b10378f585f51188a07d2d5902e3caddee9c918
+Merge: 2bbb379 85f9c33
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 02:33:49 2018 -0700
+
+    merge
+
+commit 2bbb3799945b814d33bab095294bc987b27c1ef0
+Merge: a835f11 e5cef0d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 05:27:59 2018 -0400
+
+    Merge pull request #70 from rpost/patch-1
+    
+    Fix typo
+
+commit a835f119e16fec2999c77ef573b8217b16c05ee6
+Merge: 91d8bac 148a430
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 05:27:47 2018 -0400
+
+    Merge pull request #67 from goodbadwolf/patch-1
+    
+    Fix typo in quickstart example
+
+commit 91d8bac68042efbcd905ddc724a1c56655410f7f
+Merge: 3db10a4 f765767
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 05:27:32 2018 -0400
+
+    Merge pull request #65 from taoufik07/routes_matching
+    
+    Routes matching for humans
+
+commit 3db10a4ce8c818db8a116f37a4efb6dd8a554eee
+Merge: 5906406 c55c905
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 05:26:19 2018 -0400
+
+    Merge pull request #63 from pesap/fix-typo
+    
+    Fix typo in docs
+
+commit 590640645b8ac6311db8045776c3a18125f6f5cd
+Merge: 7f02bfd 4db2289
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 05:26:03 2018 -0400
+
+    Merge pull request #62 from ybv/master
+    
+    Add status code test for class based view
+
+commit 7f02bfdf0c04a9dd5bccd744ccddc52e87d5599a
+Merge: 2d93554 93172ea
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 17 05:25:49 2018 -0400
+
+    Merge pull request #61 from ewjoachim/patch-1
+    
+    Fix typo
+
+commit e5cef0d9c0c783790cd5ce061a1858f7227b7cb7
+Author: Radek Postołowicz <postolowicz@gmail.com>
+Date:   Wed Oct 17 10:08:59 2018 +0200
+
+    Fix typo
+
+commit 85f9c33b2b74d1188c828a69bdd944d00d394411
+Author: ArtemGordinsky <artem@gordinskiy.com>
+Date:   Wed Oct 17 08:00:03 2018 +0200
+
+    Integrate GraphiQL
+
+commit 148a430da45aab30d9dae87fd0154a80fbe7c863
+Author: Manish P Mathai <manishpmathai@gmail.com>
+Date:   Tue Oct 16 22:36:54 2018 -0700
+
+    Fix typo in quickstart example
+
+commit f7657679acd7bd512707a6ac8f8e52e12d403b17
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Wed Oct 17 05:07:29 2018 +0100
+
+    A verbose name
+
+commit f0479019c34e80caf5344566b0df7f5cee61691a
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Wed Oct 17 04:38:08 2018 +0100
+
+    Order the routes based on the weight
+
+commit a9a4ceaa78c8af9213e485bf0c228da35c555511
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Wed Oct 17 04:37:31 2018 +0100
+
+    Add weight to Route
+
+commit c55c9056215a6ed1ace3745cd6714cc8ce9a06a5
+Author: pesap <pesapsanchez@gmail.com>
+Date:   Tue Oct 16 17:23:47 2018 -0700
+
+    Fix typo
+
+commit 4db2289b7e319d2b34ecee4d4eb7b858c2235cf5
+Author: ybv <ybv@batcave.local>
+Date:   Tue Oct 16 22:39:09 2018 +0530
+
+    Add status code rest for class based view
+
+commit 93172ea1d0307fd4c574beffb0aa56831fde5509
+Author: Joachim Jablon <ewjoachim@gmail.com>
+Date:   Tue Oct 16 14:41:30 2018 +0200
+
+    Fix typo
+
+commit 2d935542e166fe174474c036a42f0bc43d0766bb
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 16 05:24:20 2018 -0700
+
+    v0.0.7, immutable response object
+
+commit f309ad7746c4be7999db776a002b6548de3eeb31
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 16 05:14:48 2018 -0700
+
+    cli
+
+commit a7ec1364f48ec064cff4ed67801ca7274ba6476a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 16 04:42:44 2018 -0700
+
+    features
+
+commit eb71ced09244fa1647713288e666d7ada72ac141
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 16 04:42:25 2018 -0700
+
+    graphql
+
+commit 712ad0a73b7b5dda4d128754a00e0b7f450482d5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 16 04:35:30 2018 -0700
+
+    mount a wsgi app
+
+commit 48c0b137d5eee4a236420c8d2d0373886cef0ec1
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 16 04:30:03 2018 -0700
+
+    version
+
+commit dfccfcc3e53940ce81952be90e27b8c9848fe5ce
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 16 04:29:44 2018 -0700
+
+    wsgi apps
+
+commit 6abe667efb59e58b68442fb3fae4e104aee495ef
+Merge: c247221 ac3c1e1
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 16 04:27:50 2018 -0700
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit c2472215ab8ff5e1fb84fb1c047fd8547147ab33
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 16 04:27:40 2018 -0700
+
+    features
+
+commit ac3c1e149c54650884a8e53894fe98afebe39c77
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 16 04:22:29 2018 -0700
+
+    Update README.md
+
+commit cdf989427abe7e39d2fef71bbe8000300bc4af96
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 16 04:20:29 2018 -0700
+
+    mount flaks apps
+
+commit ebf129edd33ebe992deb748fdcea5200e2afac26
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 16 03:59:43 2018 -0700
+
+    /cc @tomchristie
+
+commit 08c30f4baf11ce0dad3a4968e586f2e321ccf8dc
+Merge: cf6bdc2 3991c82
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 16 06:14:25 2018 -0400
+
+    Merge pull request #55 from sloria/upgrade-apispec
+    
+    Depend on apispec>=1.0.0b1
+
+commit cf6bdc20ef123f8e6ecfe2cce044b3e1146a922a
+Merge: 9b63525 3ece644
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 16 06:14:15 2018 -0400
+
+    Merge pull request #57 from frostming/fix-docstring
+    
+    Remove wsgi mentions in docstring
+
+commit 3ece644af89b2eb698cd8826476448cde6bc1db6
+Author: frostming <frostming@tencent.com>
+Date:   Tue Oct 16 12:50:45 2018 +0800
+
+    Remove wsgi mentions in docstring
+
+commit 3991c82c91b3b923ccdc75801cf52f6cf87bbf8f
+Author: Steven Loria <sloria1@gmail.com>
+Date:   Mon Oct 15 19:45:06 2018 -0400
+
+    Depend on apispec>=1.0.0b1
+    
+    The current code depends on the `apispec.yaml_utils`
+    module, which only exists in apispec 1.0.0b.
+    
+    Close #52
+
+commit 9b635253f095f52e0cec2c99a41feddb34076f7d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 12:29:50 2018 -0400
+
+    Update index.rst
+
+commit b62f41336ef0b7c56fadd3f5d96cad6c7a257999
+Merge: d18fa8e f7b777c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 12:28:28 2018 -0400
+
+    Merge pull request #54 from tomchristie/testimonial
+    
+    Testimonial
+
+commit f7b777c79e15a890174fc04db8e621c6241b47bf
+Author: Tom Christie <tom@tomchristie.com>
+Date:   Mon Oct 15 16:47:12 2018 +0100
+
+    Testimonial
+
+commit d18fa8e42a683a7cc124e5146f35273e8ae5ec52
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 08:56:32 2018 -0400
+
+    v0.0.6
+
+commit 525c62ad26ee7257621a40b77dc7df5208252884
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 08:56:02 2018 -0400
+
+    content-type
+
+commit 4000a6a48c0e80b45a70d542e32816a80a113125
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 08:45:22 2018 -0400
+
+    fix
+
+commit 5b173ed4c4d882d85c3f0b761bd83c50da8788f6
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 08:44:45 2018 -0400
+
+    tour
+
+commit f56ad735656cf493d04a6a9a241c82f18584034e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 08:42:57 2018 -0400
+
+    tour
+
+commit 003991c8c6c2e63b9affe16f9be5267b890af136
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 08:41:39 2018 -0400
+
+    fix
+
+commit e2a32afb80778202249fa718fc98018518cdc814
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 08:28:10 2018 -0400
+
+    next version
+
+commit f305a69bb30be8688ffbaa98c0d51116de72fbd1
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 08:26:13 2018 -0400
+
+    tour
+
+commit 84e8babd9e80fb80c48f9f98dfaa4f06ff789da9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 08:23:38 2018 -0400
+
+    cleanups
+
+commit aeb46d9b54f4ef48bdd2cd1d2255bbd6dea9aaff
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 08:21:40 2018 -0400
+
+    open_api spec
+
+commit fafe0bd8e41f8568463ec43f94111bd6c0a52091
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 07:19:01 2018 -0400
+
+    changelog
+
+commit 9a2ab459572932a4635de2e93696236e7c303068
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 07:18:19 2018 -0400
+
+    safe dump
+
+commit 66978a8cdc04fd9705bc8a7433524260e32d971e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 07:14:14 2018 -0400
+
+    test yaml and form too
+
+commit 163601270012ea1af1fceb3e96f16dfb6e8f0f77
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 07:11:57 2018 -0400
+
+    json uploads
+
+commit 09206ae1e4a3f8990fbdb5dfcdb4654009b61863
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 07:05:59 2018 -0400
+
+    .pre
+
+commit 9188475746160f08def9a9e31715e46e247e8e44
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 07:04:30 2018 -0400
+
+    remove contributors file
+
+commit 34d158a6321b623801fe5933bbc3ef0e039f3f4d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 07:02:53 2018 -0400
+
+    cleanup homepage
+
+commit c06e6aa5ca02f2f58c9e9235e9d147cec99f0fb9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 07:01:49 2018 -0400
+
+    changelog
+
+commit f4f670f0484d4e70af7b2e160bd77fddd4e1c98d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 06:56:27 2018 -0400
+
+    fix pipfile and pipfile.lock
+
+commit 778d742b6eb5a3806fd38aadf470941dd75cc4b4
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 06:55:31 2018 -0400
+
+    new lockfile
+
+commit c8392b65b662b54390bc870d0dfe41683b7c32f2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 06:53:41 2018 -0400
+
+    remove cli, next version
+
+commit c0ace9c2e5aba875254e1a9d4fc6746488d5282f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 06:52:10 2018 -0400
+
+    fix all the format things
+
+commit dfcab7dcbf28769432565a3ca28d4b3324b43314
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 15 06:41:47 2018 -0400
+
+    fix #47
+
+commit eb0870deb1a6d25aae833b82e5c871f9ab04cc55
+Merge: 5b7ef34 6ec728e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 20:40:45 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 5b7ef345234bbfbb55ea72522c6b0b9ef7f55960
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 20:40:31 2018 -0400
+
+    fix #45
+
+commit 6ec728e466af0e176fe39f5d70dd8104121a99c7
+Merge: f12a562 daa4b63
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 17:22:15 2018 -0400
+
+    Merge pull request #43 from sheb/fix-typo-route
+    
+    fix typo in doc string
+
+commit f12a562a083f881a90d4fbe8896252e43b8ba293
+Merge: 9b72c90 17c4c95
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 17:21:55 2018 -0400
+
+    Merge pull request #44 from kennethreitz/bnm_tests
+    
+    added tests for models.QueryDict
+
+commit 17c4c95593fb5bfce980637d349463937ec6fe42
+Author: Luna <luna@bnmetrics.com>
+Date:   Sun Oct 14 18:20:50 2018 +0100
+
+    added tests for models.QueryDict
+
+commit 9b72c909448f180118f63b3429ecd15dc2b90243
+Merge: ec34da6 931a7a1
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 11:57:22 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit ec34da60a124eb107b1d433d6070283bf947f48b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 11:57:15 2018 -0400
+
+    more tests
+
+commit daa4b6368aa92009cd704a738f68c7532e379a00
+Author: Sébastien Geffroy <sebastien.geffroy@gmail.com>
+Date:   Sun Oct 14 17:51:21 2018 +0200
+
+    fix typo in doc string
+
+commit 931a7a1a6cd1f7e0e7f825099129520b23f4e7d7
+Merge: 69d5790 29e514f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 11:47:25 2018 -0400
+
+    Merge pull request #39 from rcatajar/patch-1
+    
+    Fix typo in quickstart documentation
+
+commit 69d5790078b21c41a70822c35a213b3d7220d143
+Merge: 7571c18 ff7ce9b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 11:46:08 2018 -0400
+
+    Merge pull request #42 from kennethreitz/bnm_tests
+    
+    Cleaned up redundant test function
+
+commit 7571c18a552744015274e9b633cab5acbdaf577a
+Merge: 387b2f1 b362aa6
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 11:45:04 2018 -0400
+
+    Merge pull request #40 from tselepakis/fix-memoize
+    
+    (fix) memoization functionality
+
+commit ff7ce9bdd0209598e7f7720baacec4da3fc9696e
+Author: Luna <luna@bnmetrics.com>
+Date:   Sun Oct 14 16:43:16 2018 +0100
+
+    linter error
+
+commit e5fc801899f497e20d982c004a8d6600e2ff0b28
+Author: Luna <luna@bnmetrics.com>
+Date:   Sun Oct 14 16:40:57 2018 +0100
+
+    added boilerplate cli
+
+commit b362aa6813df25be3b1323612dc96b579a1b4cd4
+Author: Konstantinos Tselepakis <ktselepakis@gmail.com>
+Date:   Sun Oct 14 17:45:36 2018 +0300
+
+    (fix) memoization functionality
+    
+    * Keep an object level cache
+    * Use func name as part of the dictionary key
+
+commit 652b961ac8323d228aca1fc8ced6dc63e676b62f
+Merge: 652713a 387b2f1
+Author: Luna <luna@bnmetrics.com>
+Date:   Sun Oct 14 15:41:16 2018 +0100
+
+    fixed conflict
+
+commit 652713aec40924311623a5e2a0a6feeda93316c9
+Author: Luna <luna@bnmetrics.com>
+Date:   Sun Oct 14 15:40:29 2018 +0100
+
+    clean up
+
+commit 387b2f166bf174aa225661389c2b29448c7df8e4
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 09:11:47 2018 -0400
+
+    cleanup
+
+commit 164b4a056a599faf722b8aeb0364a7dd9079cb50
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 09:10:39 2018 -0400
+
+    no memoize routes
+
+commit 29e514fea629fc9bdced31b8f84be6b6890508f4
+Author: Romain Catajar <rcatajar@users.noreply.github.com>
+Date:   Sun Oct 14 15:10:29 2018 +0200
+
+    Fix typo in quickstart documentation
+
+commit 310fff78c65b9f7c1e2190c829ca95362f66b6ce
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 08:55:01 2018 -0400
+
+    no benchmarks
+
+commit f2efdc007c8010e0394ba91c224a98bb27744191
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 08:54:37 2018 -0400
+
+    no benchmarks
+
+commit b3be767923e2a5a719ef0183771648576fe0c864
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 08:46:33 2018 -0400
+
+    upgrades
+
+commit e86f2f3873038c2cba307340a042047cd158de6b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 08:17:17 2018 -0400
+
+    media()
+
+commit 13d84f73d4b27e4b7d132e4858e48162abffd7b6
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:59:18 2018 -0400
+
+    fix template rendering
+
+commit e31342d3ba4f5b0996fb712113dc4abeea5457bd
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:53:47 2018 -0400
+
+    fix
+
+commit daf0538bf37b75ef02a6e5ecb4039c851597ed62
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:52:52 2018 -0400
+
+    fix
+
+commit 451ce8b0c71a93f08e9ff46edd8403f1b268eaae
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:48:22 2018 -0400
+
+    fix
+
+commit b8cce14705403d989b9fca2ff1d39fc01ddd2322
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:48:07 2018 -0400
+
+    fix
+
+commit bf1c9c650e4e8b23bc75b3342a37d762dbd85c89
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:47:45 2018 -0400
+
+    fix
+
+commit 8f6387536cdae50bd6f10afdf1e4d81b1364cea8
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:46:15 2018 -0400
+
+    fix
+
+commit 56535ece1163babf55d89d9be64f9b5c6d25bbfe
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:44:13 2018 -0400
+
+    fix
+
+commit f1767719cbe87315af40a3d3e216ce4c5d12a039
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:43:43 2018 -0400
+
+    paragraphs
+
+commit c925b06114899f5ae872fd900069678c8525fe59
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:43:01 2018 -0400
+
+    margin-top
+
+commit 402426884dfa9d88bbec87fba60e90529c6c8d84
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:40:22 2018 -0400
+
+    try this
+
+commit df6c8a5a75a56279f8ac175662b9320fa3c9ef13
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:39:51 2018 -0400
+
+    quotes
+
+commit 99f5ae712510c8a2009e818e9a96fc6826e89e94
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:39:20 2018 -0400
+
+    another fix
+
+commit d50a1b7d07cfbcb089f5c437da62db0d6ae159b8
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:38:30 2018 -0400
+
+    fix
+
+commit fab3bb76f7bee98b74348dfd373fc5702565ec5a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:38:19 2018 -0400
+
+    let's see if this works
+
+commit 5025c66bb29b7649c895b60a4db970f7d81c02ad
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:37:22 2018 -0400
+
+    less testimonial
+
+commit 800c153e9654d0cd2ab48968c1469e616cf27ed8
+Merge: 6e6bac4 71bbda0
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:29:07 2018 -0400
+
+    Merge pull request #38 from kennethreitz/bnm_tests
+    
+    Tests clean up
+
+commit 71bbda0fb74726c432f84b0291d611847801c9db
+Author: Luna <luna@bnmetrics.com>
+Date:   Sun Oct 14 12:25:15 2018 +0100
+
+    clean up
+
+commit 6e6bac429a7a531b067383d0c58b1a6c51d82812
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:24:48 2018 -0400
+
+    order
+
+commit 1ce091a4d967839c18415597239a4b2e19bc077d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:24:14 2018 -0400
+
+    feature tour
+
+commit a8f889be745c31e7c01d3c867317fedeedb98240
+Author: Luna <luna@bnmetrics.com>
+Date:   Sun Oct 14 12:23:33 2018 +0100
+
+    restructured tests
+
+commit 5f33c6bfee3c59a5448e85c75c95dad7b7f42718
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:23:10 2018 -0400
+
+    rendering a template
+
+commit 6a290c49d8b9278ad7db51f36a40e760360adfe1
+Merge: cf1adbd b304d5d
+Author: Luna <luna@bnmetrics.com>
+Date:   Sun Oct 14 12:21:23 2018 +0100
+
+    Merge remote-tracking branch 'origin' into bnm_tests
+
+commit b304d5d78440b4954ef154efe2cfe382e8ffe18c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:12:45 2018 -0400
+
+    real fix
+
+commit cfe83b97d9ec6ae8f8a3c3a214ca72a16576d321
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:12:27 2018 -0400
+
+    fix
+
+commit 2fec2bf56041340bfad4f138c17147e356602f17
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:11:14 2018 -0400
+
+    response headers
+
+commit 73dc1a7839acf18f34fa9ef4a9baedbf89060977
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:02:22 2018 -0400
+
+    !
+
+commit 66fe9518314ea98fc1ee2e9cdcdb73310992c2d2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 07:01:13 2018 -0400
+
+    python
+
+commit 7991bcbf1aada4131d06c85a1c8317c3ec88cf74
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:59:26 2018 -0400
+
+    note
+
+commit de9516563a7af79ca4c20091b02bdca9d076f82c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:58:56 2018 -0400
+
+    await
+
+commit 27fefb821cad8ff35cfa8c9da5c177d551c21c65
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:58:14 2018 -0400
+
+    quickstart
+
+commit c195894db9c57fce31072e871ba71c3412b3a072
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:57:39 2018 -0400
+
+    yaml
+
+commit 6777b4d3706fac625b33bea07172055aa6514be7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:55:54 2018 -0400
+
+    data
+
+commit 09269c22a2819aaf66bd680833564efad4ce1df9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:46:21 2018 -0400
+
+    fix
+
+commit 2e24a2f0790a369d4ae0b374b2dddb53de4730ca
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:45:23 2018 -0400
+
+    cleanup
+
+commit 5d9932dd616f4f9ec7b1928a9edc859456f770ed
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:44:18 2018 -0400
+
+    more quickstart
+
+commit 062064213a565b1cd0ca0bc228614ef560c2f4bd
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:34:04 2018 -0400
+
+    improvements to docs
+
+commit a2ae3ffb2b443d6d7fecaf8d92340413dd48b817
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:27:13 2018 -0400
+
+    comments
+
+commit 6cb4a0a3eb94771104cf6f6bed78be0ca830d24c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:26:20 2018 -0400
+
+    fix for encodings
+
+commit f17c49091f42565ee4739cbffb81737cc5165672
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:23:23 2018 -0400
+
+    cleanup
+
+commit c16afc07df154ebca9722ca5d3c0621994e0c43b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:23:09 2018 -0400
+
+    raises
+
+commit 1616a96b2c4fa9963d5ebe7f2b4ec68bfc736d55
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:21:59 2018 -0400
+
+    fix
+
+commit 261601230af3a9abc7a1219760e56ead75adc0d5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:21:41 2018 -0400
+
+    better tests
+
+commit 453a38df5470ec2cb79a1c67a519019a2179e9d4
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:08:50 2018 -0400
+
+    docstrings
+
+commit 5b004a849f033300d7caf1c6018f33aab399ded9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:05:41 2018 -0400
+
+    really fix encodings
+
+commit 29d811d3fdde15551592d18fcf6fa074888867d2
+Merge: 36c5739 a138eea
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:04:44 2018 -0400
+
+    conflict
+
+commit 36c57393180a03e19ca65424cf6d1bcb808b904e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 06:03:57 2018 -0400
+
+    fix encoding
+
+commit b3f9c67d343be586dcdb8d233a79ce85fd7f8836
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 05:47:04 2018 -0400
+
+    cli
+
+commit bc8eb802f7519a90878f51743cbee4f7b1c771e0
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 05:46:36 2018 -0400
+
+    remove heroku example
+
+commit a138eead743f8f149504be6938ddc517cbd43ea5
+Merge: 205a33a a700a0e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Oct 14 05:00:13 2018 -0400
+
+    Merge pull request #35 from frostming/fix-req-content
+    
+    Fix request.content
+
+commit a700a0e1b1180f32614397996bd699bed1da7ad0
+Author: Frost Ming <mianghong@gmail.com>
+Date:   Sun Oct 14 10:31:03 2018 +0800
+
+    Fix request.content
+
+commit 205a33a241257f974f179e5492895b9552381fd1
+Merge: c88fd94 d4cb7a7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 22:08:10 2018 -0400
+
+    Merge pull request #29 from ArtemGordinsky/ignore_missing_accept_header
+    
+    Don't break when "Accept" header is missing
+
+commit c88fd94c8bfaf8e0c611e1b3813027324f37c9a5
+Merge: a2b4e2e 4a8f1e9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 22:07:40 2018 -0400
+
+    Merge pull request #33 from javad94/master
+    
+    fixed typos
+
+commit a2b4e2e87c9fffe773a02906ad5237ccb8da8de7
+Merge: 1c3ea53 d680c7e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 22:07:20 2018 -0400
+
+    Merge pull request #30 from gdamjan/master
+    
+    fix docstring to remove mention of Waitress
+
+commit 4a8f1e95ba574b174c8e9593295b925feb720c47
+Author: Javad <javad94@users.noreply.github.com>
+Date:   Sun Oct 14 01:18:14 2018 +0330
+
+    fixed typos
+
+commit 3a847d921efcceaaf213c2b31a7a20061ba97c84
+Author: Javad <javad94@users.noreply.github.com>
+Date:   Sun Oct 14 01:15:11 2018 +0330
+
+    fixed typo
+
+commit 806fdb9541b631d70639dd8797c7e3ffb7ebf369
+Author: Javad <javad94@users.noreply.github.com>
+Date:   Sun Oct 14 01:05:29 2018 +0330
+
+    fixed typos
+
+commit cf1adbdb015b14f07a6af4499aef38e060c0243d
+Merge: 349d08e 1c3ea53
+Author: Luna <luna@bnmetrics.com>
+Date:   Sat Oct 13 21:57:29 2018 +0100
+
+    Merge branch 'master' into bnm_tests
+
+commit 349d08e7995b86c1a1d96b8fc2086665f4930b99
+Author: Luna <luna@bnmetrics.com>
+Date:   Sat Oct 13 21:56:52 2018 +0100
+
+    added conftest
+
+commit d680c7ed837799c5c225d15b932a8a6f2a468eee
+Author: Damjan Georgievski <gdamjan@gmail.com>
+Date:   Sat Oct 13 19:45:31 2018 +0200
+
+    fix docstring to remove mention of Waitress
+
+commit d4cb7a711b0aeb9fa4ca11c3143425b1c41d6130
+Author: Artem Gordinsky <artemjo@gmail.com>
+Date:   Sat Oct 13 17:30:52 2018 +0200
+
+    Don't break when "Accept" header is missing
+
+commit bb6e19e7cda9008935d0e2be866623f7a8de8f86
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 09:54:53 2018 -0400
+
+    requirements.txt
+
+commit 1c3ea53e63ede6bd31d76493577250a6105814c4
+Merge: 88e1702 65b60e5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 09:50:19 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 88e17029c5f45aec7a5beb283c0005738523ad6c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 09:50:13 2018 -0400
+
+    fixes
+
+commit 588e91b19f1f05b595a8546ff43edd080765ff06
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 09:46:34 2018 -0400
+
+    fix
+
+commit 8cc2e7b6f153ca3967356dd178194ec175ebdccf
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 09:46:29 2018 -0400
+
+    fix
+
+commit 222353b5326802a2aabb771b245dbc4727a1daf5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 09:46:14 2018 -0400
+
+    version
+
+commit b88b266fd5ec6c2dc6d7ca643342857295afb58c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 09:40:33 2018 -0400
+
+    profile
+
+commit 60e6fb99af15a43370849499361453e848dc097e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 09:27:11 2018 -0400
+
+    fix
+
+commit 65b60e57b20032635669be43dc0f11ba12f0e2dd
+Merge: 60e6fb9 5896411
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 09:26:40 2018 -0400
+
+    Merge pull request #27 from kennethreitz/pytest
+    
+    added addopts in pytest
+
+commit 16a8402bf48a36b20d06f0e8660efd036d078aa9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 09:23:05 2018 -0400
+
+    api.static_url
+
+commit 58964111369953ed6c84acd39fbc1deae637a1b9
+Author: Luna <luna@bnmetrics.com>
+Date:   Sat Oct 13 14:14:59 2018 +0100
+
+    added addopts in pytest
+
+commit 0bb74a78851d2473760399be121cc859bfd47af9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 09:13:33 2018 -0400
+
+    pytest.ini
+
+commit 86dfb9231f2eed5615094d059dcbc53a38bf6ef3
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 09:10:51 2018 -0400
+
+    oops
+
+commit 7198ce3eb08d2a1cca5597580eb4c5741b9d3035
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 09:09:08 2018 -0400
+
+    fomatting
+
+commit 08fecf1eb2c49188606a302e7644da0af11b2d8e
+Merge: d907914 3eda26c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 09:08:16 2018 -0400
+
+    Merge branch 'bnm_tests'
+
+commit 3eda26ca94752422bd047d1a0d8531ffdd8c2420
+Merge: 3325cff d907914
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 09:07:44 2018 -0400
+
+    Merge branch 'master' into bnm_tests
+
+commit d907914c7c8723a7c71de6ffcad439361438be18
+Merge: 266ab48 a5c953f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 09:02:54 2018 -0400
+
+    Merge pull request #25 from 0xflotus/patch-1
+    
+    fixed Characteristics
+
+commit 266ab48fed016d43c60406bac419d848793274a9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 09:03:20 2018 -0400
+
+    better tests
+
+commit 3325cffa91b27c366445147571607d0d8edea079
+Author: Luna <luna@bnmetrics.com>
+Date:   Sat Oct 13 14:02:17 2018 +0100
+
+    added entry to  gitignore
+
+commit 43469ac62a5299e0708b69a34443261e7e66d483
+Merge: 627c46e 205eb34
+Author: Luna <luna@bnmetrics.com>
+Date:   Sat Oct 13 14:00:59 2018 +0100
+
+    Merge branch 'master' of https://github.com/kennethreitz/responder into bnm_tests
+
+commit a5c953fdb6150fb1cebb474e04fe34dc18b46962
+Author: 0xflotus <26602940+0xflotus@users.noreply.github.com>
+Date:   Sat Oct 13 15:00:38 2018 +0200
+
+    fixed Characteristics
+
+commit 627c46e45887516112739b3bca37c1f73d4d9b29
+Author: Luna <luna@bnmetrics.com>
+Date:   Sat Oct 13 13:59:46 2018 +0100
+
+    added test cases for routes.py
+
+commit 205eb34adc874c3e476680f862a4ab8c846606fe
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 08:51:01 2018 -0400
+
+    cleanup
+
+commit 125e14d3771be636c9eec1c1c2c6cb16861bbc53
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 08:50:23 2018 -0400
+
+    responder
+
+commit a51c8a700bdd9c11712d73522edcf5264f92d8d9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 08:49:15 2018 -0400
+
+    fix
+
+commit 94e0400ea14b85f8ec6b66fee7dba2e4cd881eb2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 08:42:20 2018 -0400
+
+    v0.0.2
+
+commit 47c5b84093859a1403dcad29e21f76bb89f4eca3
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 08:41:28 2018 -0400
+
+    form parsing working
+
+commit 8b1fbfd16dc0f5927a17a3e8a79c60080b054d6d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 08:24:08 2018 -0400
+
+    better
+
+commit cceb6988999f5e3ef594bd14c125e75e99c80554
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 08:23:28 2018 -0400
+
+    installing
+
+commit 01741df10d802d65ea9aaadc87c03c3c0a5665e8
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 08:20:38 2018 -0400
+
+    the cake is a lie
+
+commit f91ebf8baab0b4cde20152dfbf9bea83d33b277f
+Merge: 4dde076 3491001
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 08:19:21 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 4dde0760307b6e6d4d93c86c862b77fa0251a3df
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 08:19:12 2018 -0400
+
+    move installation up
+
+commit 3491001b7f84100d1db86bfd0dfc4f720caba9dc
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 08:15:00 2018 -0400
+
+    Update README.md
+
+commit 2acec6864968cddad6ebf4f067dcb05dd516d8a3
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 08:13:32 2018 -0400
+
+    __slots__
+
+commit 51dab27374db51da8c7e270c8b7d9bb824687a90
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 08:08:00 2018 -0400
+
+    index.rst
+
+commit 145f5041bfe823163818a0b8c9016a36d85e0c13
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 08:02:17 2018 -0400
+
+    options
+
+commit 6034505380ab8e655d936a2ec78f286a14e05217
+Merge: 8533d74 49ffe9b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 08:01:18 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 8533d749068685c010c251723961086e987c6f0e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 08:01:10 2018 -0400
+
+    5042
+
+commit b2ae57b9825b820411f68bca7792599c32dbf57a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:59:16 2018 -0400
+
+    port
+
+commit 49ffe9bec99e698084182bb6bd1cb3ffa9309000
+Merge: fe5d926 06e0697
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:57:16 2018 -0400
+
+    Merge pull request #20 from aitoehigie/master
+    
+    Fleshed out the benchmarks section of the README.md file
+
+commit fe5d92674e2d46fba4f8bcec999425fc5f89a26c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:53:13 2018 -0400
+
+    google analytics
+
+commit 197d28f5c783d77ca72cb70e9e8cf8705179ecfc
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:50:29 2018 -0400
+
+    index
+
+commit cd48bb0789af99943744ede4bf32db68aaa90b0b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:50:09 2018 -0400
+
+    update readme
+
+commit 90fc411e9a912e9f43e5f9e97a60fbca3c5a7c50
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:46:36 2018 -0400
+
+    :
+
+commit c22b6a84aa9e00b60860eddcfdbc51bf010cd97a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:45:42 2018 -0400
+
+    an
+
+commit 9b65642f057951cbd91197c5850ed4b79e00a0e5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:43:57 2018 -0400
+
+    async
+
+commit 83547dce9cda4b2df09a721a7f147ac453a2684d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:43:09 2018 -0400
+
+    continuation?
+
+commit efeecceb5478632d97348c10749b6b0e99574b4f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:41:35 2018 -0400
+
+    fix?
+
+commit ba9b5a40d2d147e998f4c43f569986670740332f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:37:16 2018 -0400
+
+    simplify
+
+commit 47b5bda27773b758e2b7f887f1c336655acbae01
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:36:43 2018 -0400
+
+    fix
+
+commit a343b6b1b6c40722fed62edf3908290391ebbedb
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:36:30 2018 -0400
+
+    fix
+
+commit 0fe48d3003c0e9881f49871d0bb44bba0de26686
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:33:19 2018 -0400
+
+    index
+
+commit 23e3760b080ee6a1aa03aca28312f353d8496c50
+Merge: 3d31905 ad7ce9f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:31:50 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 3d31905562c5019995876e18b1f7a3b3377da6c1
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:31:45 2018 -0400
+
+    improve formats for json
+
+commit 9638c5266b942f0777936646c8452c72521f59c0
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:30:56 2018 -0400
+
+    index.rst
+
+commit ad7ce9f55a83f5dd6604d912edf23e7c2e387189
+Merge: b0baf3b 218dcf2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:26:55 2018 -0400
+
+    Merge pull request #23 from aaqaishtyaq/docs-badge
+    
+    add documentation badge in Readme
+
+commit b0baf3b85a2ac5a1726b3fae61ee0a20296d792b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:26:18 2018 -0400
+
+    readme
+
+commit d4d3687882001cec5f1ef319c30309b9839d3720
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:24:19 2018 -0400
+
+    readme
+
+commit faf55ca1911b697c8e15a62f88b28eacaae5c814
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:21:52 2018 -0400
+
+    readme
+
+commit d5096a23fb64c763d67c64a1b01b349eaeb5188e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:06:55 2018 -0400
+
+    async def
+
+commit ed5841d2019f7b021e86d26fc62fcdc5e0a6f9a4
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:06:14 2018 -0400
+
+    test async function
+
+commit bbfc095a00b666eac88b63bcd0ce6a341ac6b625
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:00:53 2018 -0400
+
+    gitignore
+
+commit 0fcb68a13d213f95f676b0ab156ed1d688a60908
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 07:00:42 2018 -0400
+
+    bunk
+
+commit f97744c098391762bdf69c31b1269acb75e4b0ea
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 06:59:23 2018 -0400
+
+    async defenitions work
+
+commit d1cfa8d27aa74f3e2b58db6db392c358fbd2c494
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Oct 13 05:55:46 2018 -0400
+
+    safe_load
+
+commit 218dcf25c1fa27c2df088e553826b88d11f68fff
+Author: Aaqa Ishtyaq <aaqaishtyaq@gmail.com>
+Date:   Sat Oct 13 12:31:18 2018 +0530
+
+    add documentation badge in Readme
+
+commit 06e06973a4b6c2eaaa8ffd7542850b4d4d5e05a3
+Author: aitoehigie <aitoehigie@gmail.com>
+Date:   Sat Oct 13 03:24:57 2018 +0100
+
+    format the readme file
+
+commit 6f73cfc5f2cb90315da21f92caa0f1bbd0218cf2
+Author: aitoehigie <aitoehigie@gmail.com>
+Date:   Sat Oct 13 03:23:47 2018 +0100
+
+    format the readme file
+
+commit 6db5bbeaee59569156d10f418cec2e513e1cda76
+Author: aitoehigie <aitoehigie@gmail.com>
+Date:   Sat Oct 13 03:22:55 2018 +0100
+
+    format the readme file
+
+commit 6ef5077164e616cea6e9f7103d1bbcfdd10a9e8e
+Author: aitoehigie <aitoehigie@gmail.com>
+Date:   Sat Oct 13 03:21:53 2018 +0100
+
+    format the readme file
+
+commit 45e1ed7022b50b49be07a988200f9a5341b32e45
+Author: aitoehigie <aitoehigie@gmail.com>
+Date:   Sat Oct 13 03:20:36 2018 +0100
+
+    format the readme file
+
+commit c14b4535a6031fe7987399e27ff17a09ed06848c
+Author: aitoehigie <aitoehigie@gmail.com>
+Date:   Sat Oct 13 03:19:21 2018 +0100
+
+    format the readme file
+
+commit 411631d2f80575bb77ba68af5f002d5f5474a9d8
+Author: aitoehigie <aitoehigie@gmail.com>
+Date:   Sat Oct 13 03:17:42 2018 +0100
+
+    format the readme file
+
+commit f4c3690bd8198a262f5e698e86dd93191099a1b2
+Author: aitoehigie <aitoehigie@gmail.com>
+Date:   Sat Oct 13 03:15:49 2018 +0100
+
+    format the readme file
+
+commit 56fdea6b5d46f342d2b4018604c4a0fd8944ceec
+Author: aitoehigie <aitoehigie@gmail.com>
+Date:   Sat Oct 13 03:05:12 2018 +0100
+
+    update the benchmarks section
+
+commit 8a5c053d391dae7b5f481bb44c1302fb6f39d39d
+Author: aitoehigie <aitoehigie@gmail.com>
+Date:   Sat Oct 13 02:34:58 2018 +0100
+
+    Add a concise benchmarks section to the README.md file
+
+commit 42870cfa230396a3a5d9fc1048ecbe6e8c3eef9c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 16:56:21 2018 -0400
+
+    memoize template rendering
+
+commit 6cf256cc052cf7aec58615b497263de05f27b316
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 16:48:41 2018 -0400
+
+    memoize routes
+
+commit 9fec915f628c3a4e3b41a8eb5570a013a273bd8c
+Merge: f1d5ab7 cd62972
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 16:42:21 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit f1d5ab73cd1873bcf10fdd59f23d8a09dd95f67b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 16:42:13 2018 -0400
+
+    readme
+
+commit cd62972945973ea4b401e34a705f587a5754322b
+Merge: 998d091 4291d42
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 15:26:05 2018 -0400
+
+    Merge pull request #14 from taoufik07/feature/query_dict
+    
+    Add a QueryDict to manage query params
+
+commit 998d09170c249620c5513166dcd9c3c82d3d47f8
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 14:36:03 2018 -0400
+
+    Update README.md
+
+commit 4ba57181ecb690782954c40bce8236e57104d85d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 14:31:27 2018 -0400
+
+    Update README.md
+
+commit 8b9d8bdc629593a1a47367eb7ac2d65f3dda8f67
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 14:30:44 2018 -0400
+
+    Update README.md
+
+commit 4291d42dc05c4aff61af9c21860f2034d9d9069e
+Merge: 6160dfb 79fcc1c
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Fri Oct 12 18:55:17 2018 +0100
+
+    Merge branch 'master' into feature/query_dict
+
+commit 79fcc1ce4087faa1d486ca69dff96635f7fd27bf
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 13:28:07 2018 -0400
+
+    uvloop
+
+commit bfc6778dca1e1d4e15698d6f5ae120e613f2cab3
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 13:27:02 2018 -0400
+
+    readme
+
+commit 701e57c264600c42754b0ccb1f5dca1480fbab0f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 13:25:38 2018 -0400
+
+    fix all the things
+
+commit 163d025c0d500139b3ffebfa9dd10c8cb9b3139c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 13:15:53 2018 -0400
+
+    fix tests
+
+commit d9befc6d8c9d7549b298b213ea0db9c304b5e39e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 13:13:13 2018 -0400
+
+    test
+
+commit 9e50a4c2418743ea217eb8f4bc22821e2add83d0
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 12:28:14 2018 -0400
+
+    background
+
+commit 9b0cae37947a186a09bebc008de429d390b91725
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 12:26:04 2018 -0400
+
+    background
+
+commit 6160dfb2f70beb0b10ea1478ac6657ea914e8ebc
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Fri Oct 12 17:01:23 2018 +0100
+
+    Add a simple test
+
+commit cd013cdb063358ac78c99e066111847a490634db
+Author: taoufik07 <abacidtaoufik@gmail.com>
+Date:   Fri Oct 12 17:01:06 2018 +0100
+
+    Add QueryDict
+
+commit 26cc7c90e931405ccff55c0d76de368beda2c4a5
+Merge: f28ac3c 0fa0df1
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 10:29:13 2018 -0400
+
+    Merge branch 'asgi' of https://github.com/tomchristie/responder into asgi
+
+commit f28ac3cf223eb98ce460e9d2d178fa7bfc4d691e
+Merge: 58fec4b aba1284
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 10:27:37 2018 -0400
+
+    Merge pull request #12 from taoufik07/patch-1
+    
+    Typo : nicities -> niceties
+
+commit 58fec4b0822fe7ff6b08694787dae77352d59799
+Merge: 75879a4 b91805a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 10:27:26 2018 -0400
+
+    Merge pull request #13 from taoufik07/patch-2
+    
+    Fix resolve_hello indentation
+
+commit b91805a5df0f6918d5840947a595e99058ed864f
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Fri Oct 12 15:27:04 2018 +0100
+
+    Fix graphql test
+
+commit 0fa0df1bdfcb541d9edf66cf563bec0c715c0b14
+Author: Tom Christie <tom@tomchristie.com>
+Date:   Fri Oct 12 15:18:08 2018 +0100
+
+    Add Pipfile
+
+commit 3f7cacee3e3cc2c6d887ee0e679a71932a195d0f
+Author: Tom Christie <tom@tomchristie.com>
+Date:   Fri Oct 12 15:12:44 2018 +0100
+
+    Updated Pipfile.lock with latest pipenv
+
+commit 72637fd65099271914336424d24f18f955131169
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Fri Oct 12 15:12:17 2018 +0100
+
+    FIx resolve_hello indentation and use f-string
+
+commit aba1284f8e1f0ce055f7779b29ebf54b3db10981
+Author: Taoufik <abacidtaoufik@gmail.com>
+Date:   Fri Oct 12 15:03:49 2018 +0100
+
+    Typo : nicities -> niceties
+
+commit 179e1dc9e574e168285a48793eae86a9006d26c1
+Author: Tom Christie <tom@tomchristie.com>
+Date:   Fri Oct 12 15:02:08 2018 +0100
+
+    Update Pipfile.lock
+
+commit 75879a494e7a1093a12beb3f66af802a2e0733dc
+Merge: 73b1ea4 25e9888
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 09:54:46 2018 -0400
+
+    Merge pull request #7 from CianciuStyles/fix-familar-typo
+    
+    Change "familar" into "familiar"
+
+commit 73b1ea471339d18738776b852ee384d0d34376c2
+Merge: 55dc991 da5e288
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 09:54:30 2018 -0400
+
+    Merge pull request #10 from OdinTech3/patch-1
+    
+    Fixed a mispelt word
+
+commit 55dc991c13f24e384054b899abb45f7f30c00e0c
+Merge: baad7cd dcdaf6a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 09:54:20 2018 -0400
+
+    Merge pull request #11 from MichaelPereira/patch-1
+    
+    Small typo : cooke -> cookie
+
+commit c30316588a0d529020addab0d1da8237463fdde8
+Author: Tom Christie <tom@tomchristie.com>
+Date:   Fri Oct 12 14:53:55 2018 +0100
+
+    Form parsing requires Starlette 102
+
+commit db5d6e748150bfe29f4fe9161ab11b12bb9d5c26
+Author: Tom Christie <tom@tomchristie.com>
+Date:   Fri Oct 12 14:47:20 2018 +0100
+
+    Lowercase method for on_{method}
+
+commit f8d52f58d4c6af08e4422573d4a63c4c4559e8c8
+Author: Tom Christie <tom@tomchristie.com>
+Date:   Fri Oct 12 14:36:44 2018 +0100
+
+    Drop form parsing support until Starlette PR #102 is in
+
+commit 227ee499e4b60b3fa54dbb2072f7dd39d5c088f1
+Author: Tom Christie <tom@tomchristie.com>
+Date:   Fri Oct 12 14:35:31 2018 +0100
+
+    request.params for API compatability with existing codebase/tests
+
+commit dcdaf6a674a7f25617a76798b68e2fc1d9827432
+Author: Michael Pereira <pereira.m@gmail.com>
+Date:   Fri Oct 12 09:32:38 2018 -0400
+
+    Small typo : cooke -> cookie
+
+commit d524ba3a37c5f1653e029c35e3d99bec09648614
+Merge: 41776cf baad7cd
+Author: Tom Christie <tom@tomchristie.com>
+Date:   Fri Oct 12 14:28:33 2018 +0100
+
+    Merge remote-tracking branch 'upstream/master' into asgi
+
+commit da5e288476d393dc08be4d647e98651578634d2e
+Author: Nick Spirit <nickspirit3+github@gmail.com>
+Date:   Fri Oct 12 09:27:52 2018 -0400
+
+    Fixed a mispelt word
+
+commit baad7cd60dadb84fa95cb65b6e914cc11ac7d95c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 09:15:03 2018 -0400
+
+    fix rst
+
+commit e9d6fc33fdde6bb4b30f1555f5ead4d3f869802c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 09:13:53 2018 -0400
+
+    rst
+
+commit c2fa0899e9f58d7e76a810193092b0e9029efbe8
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 09:12:34 2018 -0400
+
+    responder
+
+commit 2dc09ec1f2a6892f12a2a19badc290493a43c5b1
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 09:09:42 2018 -0400
+
+    build status
+
+commit fba640976f4c5f43c8dbc0f8d322b7059e7d83cf
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 09:04:33 2018 -0400
+
+    gzip
+
+commit 8e7df61a73ec31cfc66acedb1583063b94a2f04b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 09:00:52 2018 -0400
+
+    fixes
+
+commit 41776cf2df60deb529695e9f02fc754700d32a36
+Author: Tom Christie <tom@tomchristie.com>
+Date:   Fri Oct 12 13:57:22 2018 +0100
+
+    Initial pass at ASGI support
+
+commit 23983f0b750f67cef81af6a978c27e22d88e6bcf
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 08:55:27 2018 -0400
+
+    hacktoberfest
+
+commit 84b457ede515b5944ec1d766d1f79b81288e671b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 08:31:46 2018 -0400
+
+    fix
+
+commit a906e0bf0c9bd01693a26d0733776af24cf367b6
+Merge: 3db1aad 9c909e7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 08:26:28 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 3db1aad96ab768125b6f05268b2f6f5523b24b62
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 08:26:20 2018 -0400
+
+    hacks
+
+commit 9c909e7a2c452cc54953641699f2b4fbdc29bac9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 08:19:38 2018 -0400
+
+    Update README.md
+
+commit ad2ef7cb33acf733eba123412a08a1556b67e27f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 08:17:56 2018 -0400
+
+    readme improvements
+
+commit c851510ca9de5fe96fb5eb849e04a39945235a4e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 08:13:35 2018 -0400
+
+    fix travis
+
+commit 71a21c2059c318daa66f88cb0b5307f93814c119
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 08:12:54 2018 -0400
+
+    license
+
+commit d90537eb8dcbfcf31d4e131e0ae0d784a1f9ec89
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 08:12:02 2018 -0400
+
+    README
+
+commit 8266a15df5c4d803e49ce3e103e193a6e819a613
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 08:08:05 2018 -0400
+
+    travis
+
+commit 9fce286f9221f0c9ac4df5968a0448e1f8a7408f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 08:06:32 2018 -0400
+
+    working again
+
+commit fc244922ccb3cb274c1f7a3f442b8245b6d8ae08
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 08:03:36 2018 -0400
+
+    endpoint
+
+commit fce87fe20c0927bedc66121a7f846c007646557b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 08:03:15 2018 -0400
+
+    better docs
+
+commit d42035824833b9be02ab3a80da61bf30e04dac5f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 08:01:23 2018 -0400
+
+    fix
+
+commit be829ff0aeee36d9b52e50f945ba44d7beec8ddf
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 07:59:31 2018 -0400
+
+    requirements
+
+commit 0c9e224d45169cba2d1a911bc181b72375db3075
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 07:58:14 2018 -0400
+
+    fix
+
+commit 58158c4d2bbaa64fea0167a8bc41f40b6be8766d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 07:47:41 2018 -0400
+
+    3.6
+
+commit b1e4222c938bb0c5afd18c826bb4f8f997a4cb67
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 07:46:12 2018 -0400
+
+    requirements for builds
+
+commit 70e5a016a6b7b4d1e11ac4501afacfd3175597f7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 07:41:56 2018 -0400
+
+    v0.0.1
+
+commit 6d7e7809a47e577ee7f80fae053b8592cefc0a04
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 07:39:30 2018 -0400
+
+    models
+
+commit 4afc1ced93b0e96dbf50f56b1a0542f7538588bd
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 07:37:52 2018 -0400
+
+    python 3.7
+
+commit 3c1807f04fdc7676fc70a71597d1c551ec4d2ad7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 07:35:36 2018 -0400
+
+    docstrings
+
+commit 6e9adac871903497bc03e010e9abf1afd64550ef
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 07:19:29 2018 -0400
+
+    changes on the horizon
+
+commit 2c3a3b2e17babb033fe3c5a4711a9edf32bf7c4d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 07:02:35 2018 -0400
+
+    docstrings
+
+commit c070cc3f1adbd0dc67874187281ff9f48fd8f7da
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:58:00 2018 -0400
+
+    web service
+
+commit d47caebc972a350877273d1c7bf298ad4ff3759d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:56:43 2018 -0400
+
+    space for methods
+
+commit 224c2bbb2ba079a041022a638305c7b6860cd5cb
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:55:35 2018 -0400
+
+    yellow
+
+commit 48f1a0545e38dac7fce8348e3907894322fdbe32
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:53:38 2018 -0400
+
+    frontend
+
+commit ac5146dbcea57b7dcafbe2257b774b4b9ed6aab2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:52:27 2018 -0400
+
+    fixes
+
+commit 4fa82f4d7a068649aa2db8ca1f3f408ca3dfeb71
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:51:43 2018 -0400
+
+    index
+
+commit 4bdd3f913805c62ec347da871daabdd8de240e08
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:50:41 2018 -0400
+
+    lightgrey
+
+commit 86bffbf62d29a0dc522801a10b7918f3560aef21
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:49:53 2018 -0400
+
+    italics
+
+commit f7b0fb3f664e5aea3f64443ebe7eb093ebd41c24
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:47:50 2018 -0400
+
+    grey
+
+commit 971be488d51008a5ec88a6dea63653d9ca62c2f3
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:47:16 2018 -0400
+
+    hacks
+
+commit f415e9814c27853d62d822feb0fd8c26fa84dbca
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:44:47 2018 -0400
+
+    important
+
+commit 01575a0b8db9f75545b267f7e60d4369138f0964
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:43:31 2018 -0400
+
+    more colors
+
+commit a77492dae10eb42c203dde3124c47fa8381a22cc
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:42:39 2018 -0400
+
+    changes
+
+commit 080d6d30da8cad2f7f5357ac9c34d32a9e32c037
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:41:53 2018 -0400
+
+    color
+
+commit ec9b20f87c506b3139c9f84165f2a94dd5758afa
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:39:48 2018 -0400
+
+    class in yellow
+
+commit 7aa405c87d6efdfee85ce4f178f5a72a9f264b01
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:38:52 2018 -0400
+
+    lightgrey
+
+commit af6257d36457e8b314ec0f1fabcac407f1f6a88c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:37:06 2018 -0400
+
+    cleanup
+
+commit f930cbb2c9696d5b4a49a9955a172dba8287fd60
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:35:52 2018 -0400
+
+    grey
+
+commit 6a5a22f035e41c15ad679972e7af976e5656adb0
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:34:10 2018 -0400
+
+    hacks
+
+commit 53f87e5deff82bd4eb00ac8c33214178fd899203
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:33:28 2018 -0400
+
+    hacks
+
+commit a00687cc0ff5bcc008f6c9653f3e22f581b2b3b2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:32:49 2018 -0400
+
+    hacks
+
+commit d1d66c0e78d50f9901fea73118dc189f8b5ee161
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:31:53 2018 -0400
+
+    hacks
+
+commit ee51f508099ee1c3be1603d28a9bfff23bf61528
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:30:32 2018 -0400
+
+    fixes
+
+commit b067da2a1c5c858075f2b6aa76a021ecc1d51a98
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:27:43 2018 -0400
+
+    hacks
+
+commit 3db2c00cd88fe619061ca6d6c0a9934ad65b5928
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:25:24 2018 -0400
+
+    read the docs
+
+commit 2f52ccbe4e82d689632b3b9bc7c7cd43d00c44b6
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 06:22:33 2018 -0400
+
+    responder
+
+commit 25e98884383dbd071a43b9fc2613b3c7285fc0d2
+Author: Stefano Cianciulli <stefano.cianciulli@gmail.com>
+Date:   Fri Oct 12 11:00:59 2018 +0100
+
+    Change "familar" into "familiar"
+
+commit fabe7b9427db376e5c929b5a8e5fad6e2833e8a0
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 05:32:22 2018 -0400
+
+    css
+
+commit 9e464c394dfd8c5160ec6320abc5cfc2a4517a80
+Merge: dcaf9b6 ecf0b2e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 05:25:08 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit dcaf9b61d4b170e87e2dced16fb482c5c5ac287c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 05:24:44 2018 -0400
+
+    cleanup
+
+commit ecf0b2e57b5a5011cf4f3d5378a96221bba77344
+Merge: 8bf795c df32660
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Oct 12 05:22:20 2018 -0400
+
+    Merge pull request #6 from 0x49D1/master
+    
+    Update README.md
+
+commit df32660754757d9a7d849279ea6993d39ee75846
+Author: Dmitry Pursanov <dpursanov@live.com>
+Date:   Fri Oct 12 12:48:27 2018 +0400
+
+    Update README.md
+    
+    Just a several small spelling fixes
+
+commit 8bf795c8e40a6d2694ebbb206a1f8c3b20163281
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 22:45:10 2018 -0400
+
+    typo
+
+commit 0fc765a1fdfafda890ca615bddf785ed2c98bd09
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 22:22:41 2018 -0400
+
+    .css
+
+commit 6e7d97e5c0acc909ac899f5e5ef4625a4b94ae64
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 22:20:54 2018 -0400
+
+    hacks
+
+commit a33ac8ed5f1a76cf2b7ed7f56e177035748fedf8
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 22:15:08 2018 -0400
+
+    fonts
+
+commit 7ca264fabd96799984b93b8160ed276298af9bfb
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 22:11:36 2018 -0400
+
+    hr
+
+commit e75f195f7c5ea7e356a6889589195cbfa419b31f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 22:10:06 2018 -0400
+
+    hacks
+
+commit d3efa8b80da3ec1352c71b7958932e633a1e72b5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 22:08:56 2018 -0400
+
+    font haqcks
+
+commit 82b78b6022d14245be1d9e7c5692fb6e30ec0437
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 22:00:12 2018 -0400
+
+    fonts
+
+commit d8d1787e6fedc5cb27c67955814f8d72839a7f39
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 21:08:42 2018 -0400
+
+    not all the time
+
+commit d40cad2064cf3d953b78bb2ed40ace63f88d5130
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 20:58:41 2018 -0400
+
+    fix
+
+commit cf323db503081dfd9087e0d9c1c3a49e058738fa
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 19:51:17 2018 -0400
+
+    i got it dude
+
+commit 39d9b05455a904493e44a3aca11761899b4c72e3
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 19:43:50 2018 -0400
+
+    cleaned up format
+
+commit 475c7a95716b87f4f0254d0ba7ac8b332302f719
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 19:40:21 2018 -0400
+
+    new media api
+
+commit 7c4b6cf4f7547794b20c3f22be4cf5b862e62624
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 19:22:54 2018 -0400
+
+    media
+
+commit 697807c2d770b261b9cda87516a58c23efacfa86
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 19:11:54 2018 -0400
+
+    more tests
+
+commit 85d900727b4fdf4fa1d100d0c780928386f2ac9d
+Merge: fc0d811 513867d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 18:54:07 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit fc0d811740015af54d7d7eef329a082df72babe5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 18:53:51 2018 -0400
+
+    fixes
+
+commit 513867d242b68c160244e17f5d5b801fe37fc1e8
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 18:22:39 2018 -0400
+
+    Update README.md
+
+commit 07ba75d9d52be916a11a2325c27c96278c37a795
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 16:44:56 2018 -0400
+
+    changes
+
+commit 6fa5f9af0ceca03f853f66ed85280553ea38b14f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 16:41:46 2018 -0400
+
+    typography
+
+commit 3c796b95fd90f2b2a90e5fb34170f2a39712f061
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 15:26:34 2018 -0400
+
+    models
+
+commit 6de212d4bc53680ff826ce6913626742db1a3f2f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 14:08:47 2018 -0400
+
+    fix sidebars
+
+commit bb539c4d288847281b31b119be9c938e814cd13d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 14:06:44 2018 -0400
+
+    fix
+
+commit f5d491667e33d43b17d29efad690f6c797207a05
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 14:06:21 2018 -0400
+
+    index
+
+commit 042d9ebc6c2254117adba89f52b731f47ea90953
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 14:05:46 2018 -0400
+
+    tagline
+
+commit ac69ccae5e28dfa62d9055c26efec9eced15840b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 14:04:28 2018 -0400
+
+    index
+
+commit 940ab9d762079241b0ac2c65efb781863cef7c80
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 13:57:55 2018 -0400
+
+    better
+
+commit 00bfdf0e3ebeb376edc68014acac05d730e7a5cd
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 13:23:17 2018 -0400
+
+    less is more
+
+commit f3bc57a56600dec3fe966c50525073753c8dab6e
+Merge: 50c9bc6 ba384bb
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 13:21:51 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 50c9bc60f952bbe1ff97486b5a4e2fe3e8254b09
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 13:21:42 2018 -0400
+
+    fixes
+
+commit ba384bb12a4294b7382c4bf375450ecb0eacb349
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 13:18:58 2018 -0400
+
+    Update README.md
+
+commit fe9184048c06c6dbabc319f66aa9cbc50ff0a06a
+Merge: 90083f9 eee17ca
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 13:18:48 2018 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/responder
+
+commit 90083f945e952d2b07239919b94859bf0ded872a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 13:18:40 2018 -0400
+
+    cleanup
+
+commit eee17ca20b32a4b9957b65f2afac454e5f10fdda
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 13:14:28 2018 -0400
+
+    Update README.md
+
+commit b2d47abacd7d6c2dcf21ea7bcab8ac8684d80dd1
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 13:13:56 2018 -0400
+
+    Update README.md
+
+commit 548fb229af9851faf3f16c211f1dad38b5c7a64c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 13:13:22 2018 -0400
+
+    Update README.md
+
+commit c00b259c43984e4d3a0714639595105f72209565
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 13:11:50 2018 -0400
+
+    Update README.md
+
+commit 2dbd6ac451c38ac47002a9b8431cff0ec10b7645
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 13:11:34 2018 -0400
+
+    small
+
+commit aab82baad04c97fe4f034b2e3952ec03be91e685
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 13:11:20 2018 -0400
+
+    Update README.md
+
+commit ea2c5c3025a861a7c061fcb60891848d0083abf7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 12:59:27 2018 -0400
+
+    docs
+
+commit b391b5622f3b6ab6c309bf35ca2a4c30c56c068a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 12:59:20 2018 -0400
+
+    basics
+
+commit ea3cb8aa7b539cf1e0c23ccc78fa0c2a9697b597
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 12:51:58 2018 -0400
+
+    artboards
+
+commit 6e125f5f47170a3f446f0861e5a0ad3bea1dfc7b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 12:48:59 2018 -0400
+
+    logos
+
+commit 554500a31458a081c5ae10dfb17c05d03526a94b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 12:26:57 2018 -0400
+
+    assets
+
+commit f1c9de7ace5d4c98eb0ffed0c51ef5538bb24f3b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 12:24:01 2018 -0400
+
+    readme
+
+commit 3bcfe89f2a8eb164cd9587243fac8632891a66bd
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 12:22:33 2018 -0400
+
+    updates to redirects
+
+commit 151c7bd342b82c93ad64c50b3cc5dcde35288e77
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 12:14:20 2018 -0400
+
+    fix
+
+commit b8d569129e62b7bd9db450a83d79e40b60a403b8
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 12:13:53 2018 -0400
+
+    more complex example
+
+commit b421e2e925600018d4f3f2716b8171296f902426
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 12:09:12 2018 -0400
+
+    cleanup
+
+commit 79b09a5ae571c7668c8095617692ac81e888bf87
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 12:07:35 2018 -0400
+
+    oh yeah
+
+commit b0d3c2de0989881be921dda4ad10100d4ea166e1
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:58:11 2018 -0400
+
+    readme
+
+commit 3201a46003c94b571c1d3b700279e7644e9e2f55
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:56:00 2018 -0400
+
+    switch order
+
+commit 538c72f5bd98b694d5bf2bee3abb7cd12f74778d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:55:12 2018 -0400
+
+    dict
+
+commit 6efe28bd543ab153554ad3383e43eed8f0740b29
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:54:02 2018 -0400
+
+    fix
+
+commit 7eaa95b7ee6556908ab27b56387b0dc19b65de52
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:52:32 2018 -0400
+
+    cleanup
+
+commit d2f8b41e2546db4c1868ee0a89438e2cfd70f7ab
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:51:29 2018 -0400
+
+    fix
+
+commit 034aa19564c8ea99338eeb5864061105e7b83461
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:50:47 2018 -0400
+
+    contributors
+
+commit bd049d6263fad36e79a987df413afcd34246b2a3
+Merge: ffb7468 5d636ee
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:48:07 2018 -0400
+
+    Merge pull request #2 from serhii73/patch-1
+    
+    Update test_responder.py
+
+commit ffb7468b44ca85302218d1e94bf1c232483fdda5
+Merge: 6dfbde2 c6c0197
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:47:53 2018 -0400
+
+    Merge pull request #3 from nicoddemus/patch-1
+    
+    Fix typo in README
+
+commit 6dfbde27ca9dbf91e71eb42b0f0bbf7038950023
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:47:48 2018 -0400
+
+    fix
+
+commit c6c0197d861b0771a44be1555a1b041f4876b423
+Merge: 0bed48e 6dfbde2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:47:47 2018 -0400
+
+    Merge branch 'master' into patch-1
+
+commit 678596ace4ec006d1ef87b59bc9c777e80bc6ca2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:41:22 2018 -0400
+
+    readme
+
+commit 9295525b92e9cec937d9b13487f29ff7dcef8ed3
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:39:25 2018 -0400
+
+    practice what you preach
+
+commit fde2d5415f7814e2c98e98df0ab760fcff475dfb
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:38:26 2018 -0400
+
+    more usage
+
+commit fac80383d9ce861617c99dda13eeb04e09bea140
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:37:05 2018 -0400
+
+    grip
+
+commit f4cfe5639acb0051715b26843f24269409fc3097
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:36:07 2018 -0400
+
+    blend
+
+commit 87749e42881d302d33939634bb2a15da1e373309
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:35:21 2018 -0400
+
+    sentence
+
+commit 787e056b7f4e051d4ad7e50fa9b82cae9e9ea7f4
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:33:40 2018 -0400
+
+    python highlighting
+
+commit 62bd3d905b7a457ab6b81fa808d5a39ab924dc41
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:31:57 2018 -0400
+
+    days ago
+
+commit 2122f1ef1c55265aedbc2945a5d201851f56ecb2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:31:17 2018 -0400
+
+    code example
+
+commit 0bed48e75601e2aab94fc1ba99fec35447c1bb71
+Author: Bruno Oliveira <nicoddemus@gmail.com>
+Date:   Thu Oct 11 12:24:58 2018 -0300
+
+    Fix typo in README
+
+commit f2b2128675614dd7d00875eb40b44e6f50924471
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 11:12:22 2018 -0400
+
+    fix server
+
+commit c0c5770a89d6000297e154af253851d0fe0eda48
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 10:52:13 2018 -0400
+
+    tests
+
+commit e7dc55edf592ec3be5e174ae536f24f7f90ac69d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 10:30:46 2018 -0400
+
+    more tests
+
+commit 83fa6d6897bf48b5340cd00fa09807075a2edf1d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 10:29:15 2018 -0400
+
+    parameterized routes working
+
+commit 5d636ee9c48d07d61744b7554ad3df696b0039ff
+Author: serhii73 <aserhii@protonmail.com>
+Date:   Thu Oct 11 17:01:35 2018 +0300
+
+    Update test_responder.py
+    
+    Fix order import
+
+commit 1fdda366ddbfe3b7164f6b74b850ad58e9098eb4
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Oct 11 06:37:02 2018 -0400
+
+    tests
+
+commit 671499bb43a2ab3fdf780cc5d392c7025bbcfc9f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 10 11:07:11 2018 -0400
+
+    working order
+
+commit 749a7efdef1770177b211a05aa2451e752638de1
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 10 07:48:00 2018 -0400
+
+    templates working
+
+commit 90eecdaa848b166ebcacedf0c8b49b0a2d65c36b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 10 07:14:29 2018 -0400
+
+    mount other wsgi apps
+
+commit 39f9cbfdbb6a16455f55a1bdc993d29d8ec22a5d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 10 06:42:57 2018 -0400
+
+    note
+
+commit 5794ba890c7166a2532ca919896af8490f706788
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 9 08:06:42 2018 -0400
+
+    README
+
+commit 4a3bf3a1aa0c45ff7963b0ce6be1c894f996058a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 9 08:06:22 2018 -0400
+
+    fixes
+
+commit 1427ca0a35e9b5d951c0b62250500e2bd40aa37b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 9 07:39:05 2018 -0400
+
+    pipfile cleanup
+
+commit 5b7b0fcb8ef61f58344ca4dbc3e9ceb2dd2f207e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 9 07:33:38 2018 -0400
+
+    cleanups
+
+commit 6ac48de44c4a3f9b916157f22be39105f088fe0d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 9 07:30:35 2018 -0400
+
+    I
+
+commit 674efa30522c2565dd51d8c14359e0dc45f9dc31
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 9 07:30:19 2018 -0400
+
+    readme
+
+commit 152a7153d08e46b823407d84b3987f12b80cfa12
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 9 07:28:36 2018 -0400
+
+    cargo culting
+
+commit 9d1f7f80861a0787305c7d3e9a18ef6e43737d34
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 9 07:19:33 2018 -0400
+
+    test client
+
+commit f4c252e2d9b500ffdce9d45f46367ac3df35f600
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 9 07:15:17 2018 -0400
+
+    readme
+
+commit abb8153b64a4e9b996dd6e8b1d50abda490828bd
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Oct 9 06:45:02 2018 -0400
+
+    files
+
+commit e84f8510c8d5686ae0a76d76102b6898adc26621
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Oct 8 07:31:56 2018 -0400
+
+    responses

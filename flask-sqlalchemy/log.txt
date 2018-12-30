@@ -1,0 +1,5848 @@
+commit 500e732dd1b975a56ab06a46bd1a20a21e682262
+Merge: 50944e7 68c72b8
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Oct 30 06:19:44 2018 -0700
+
+    Merge pull request #651 from minisotm/master
+    
+    fix BindMetaMixin with polymorphic
+
+commit 68c72b833c33e2f0ad335ba519dffaaf56213b32
+Author: Aleksei Maslennikov <minisotm@gmail.com>
+Date:   Mon Oct 29 21:05:00 2018 +0300
+
+    add changelog by 651
+
+commit 5a3422e01fa63062dad7bc0f98943c5934a05bb6
+Author: Aleksei Maslennikov <minisotm@gmail.com>
+Date:   Mon Oct 29 17:34:42 2018 +0300
+
+    fix BindMetaMixin with polymorphic
+
+commit 50944e77522d4aa005fc3c833b5a2042280686d3
+Merge: b5fce4b fb6ee57
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Jun 5 18:41:57 2018 -0700
+
+    Merge pull request #606 from hugovk/rm-3.3
+    
+    Drop support for EOL Python 2.6 and 3.3
+
+commit b5fce4ba018054b6354356cfbc9c59f872e95eb5
+Merge: 3816534 3aaca4e
+Author: David Lord <davidism@gmail.com>
+Date:   Thu May 3 09:04:32 2018 -0700
+
+    Merge pull request #619 from kivS/patch-1
+    
+    added missing argument in code example in the docs
+
+commit 3aaca4ecee1e31aebf8632b07f58279ed8f374e2
+Author: Vik <v1k@protonmail.com>
+Date:   Thu May 3 16:26:25 2018 +0100
+
+    fix typo in example
+    
+    added missing self argument to the __init__ def
+
+commit 381653489af8ee8aa26340a7c3fe0a0dced64258
+Merge: 2f7063e 3f25130
+Author: David Lord <davidism@gmail.com>
+Date:   Fri Mar 30 08:02:38 2018 -0700
+
+    Merge pull request #613 from trollefson/opt_page_len_count
+    
+    Optional count of total number of pages
+
+commit 3f25130b77bc9861bd1c50e14266bc4c195b8440
+Author: trollefson <trollefson@gmail.com>
+Date:   Fri Mar 30 09:46:38 2018 -0500
+
+    docs for disabling page count
+
+commit 9a3a2df346ac97ae56403e78cf35b4edbf39409a
+Author: trollefson <trollefson@gmail.com>
+Date:   Fri Mar 30 08:19:06 2018 -0500
+
+    make measurement of pagination page length optional
+
+commit fb6ee57512cc0d812f9f4f7b5c9e77f1708bad42
+Author: Hugo <hugovk@users.noreply.github.com>
+Date:   Mon Mar 12 12:50:10 2018 +0200
+
+    Drop support for EOL Python 3.3
+
+commit 2f7063ef3649624eeb94fd07a32dd03aae18ed54
+Merge: ae3eb67 84ad4c2
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Feb 22 17:36:05 2018 -0800
+
+    Merge pull request #574 from greyli/patch-2
+    
+    Docs: Fixed SQL syntax
+
+commit ae3eb6729746d50ed49fe6a130306e02c4780209
+Merge: e3f60a8 ef03ca1
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Feb 22 17:34:22 2018 -0800
+
+    Merge pull request #596 from janxyz/docs
+    
+    Fix model instantiation in documentation
+
+commit e3f60a8d37badabdc1f63b9144f640ce278e0da5
+Merge: ccdb696 4620931
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Feb 22 17:34:07 2018 -0800
+
+    Merge pull request #591 from prophile/python3-in-docs
+    
+    Python 3 tweaks in docs
+
+commit ef03ca1f1f6278a9792c6575b63820426c791724
+Author: Jan Runge <janrunx@gmail.com>
+Date:   Wed Feb 21 17:40:15 2018 +0100
+
+    Fix model instantiation in documentation
+
+commit 4620931027ad7c36a34beb313def0c7d7395b98e
+Author: Alistair Lynn <arplynn@gmail.com>
+Date:   Fri Feb 2 20:45:32 2018 +0000
+
+    Python3-ify quickstart.rst
+
+commit 29883621a022bc4878d931ed737c50000b0f769e
+Author: Alistair Lynn <arplynn@gmail.com>
+Date:   Fri Feb 2 20:40:30 2018 +0000
+
+    Remove u'' prefixes
+
+commit 9889f77f2f9b5e750682901e48d14baa73a332fb
+Author: Hugo <hugovk@users.noreply.github.com>
+Date:   Mon Jan 22 10:08:45 2018 +0200
+
+    Remove unused imports
+
+commit 11f5cee3ca21d16ec2bcd2599d598dd8ab05abc5
+Author: Hugo <hugovk@users.noreply.github.com>
+Date:   Mon Jan 22 10:06:07 2018 +0200
+
+    Remove unused variable
+
+commit 488cf3578e2656e5fc1820504a7326da39e40bff
+Author: Hugo <hugovk@users.noreply.github.com>
+Date:   Sun Jan 21 23:00:02 2018 +0200
+
+    Use automatic formatters
+
+commit 7661e74a726b78fa80bc06a1a94a1efda3a5659c
+Author: Hugo <hugovk@users.noreply.github.com>
+Date:   Sun Jan 21 22:49:29 2018 +0200
+
+    Drop support for EOL Python 2.6
+
+commit ccdb696d7963cf11b4a501f80bec9248d965c681
+Merge: f465142 690bedd
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Jan 11 08:13:15 2018 -0800
+
+    Merge pull request #584 from arugifa/master
+    
+    Fix Alembic broken links in the doc
+
+commit 690bedd06f29ad752ee6d154b8a971a6dba08f01
+Author: Alexandre Figura <a.figura@syseleven.de>
+Date:   Thu Jan 11 17:10:01 2018 +0100
+
+    Fix Alembic broken links in the doc
+
+commit 84ad4c2a05bec1cfdb2c6c546918c8032889d885
+Author: Grey Li <withlihui@gmail.com>
+Date:   Tue Dec 19 08:41:12 2017 +0800
+
+    Docs: Fixed SQL syntax
+
+commit f465142ea1643b4f0fe50540780ef9a6bf2c7e53
+Merge: 5ac5ab4 df7903e
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 11 08:05:13 2017 -0700
+
+    Merge branch '2.3-maintenance'
+
+commit df7903edfcca10493ff191ff322bb5db2b45f4d6
+Merge: be45a9b c52abbd
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 11 07:57:30 2017 -0700
+
+    Merge pull request #561 from davidism/sti-unset-table
+    
+    don't mask parent table on single-table inheritance
+
+commit c52abbdc972d1619847979057ab6263de01485b7
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 11 07:43:46 2017 -0700
+
+    don't mask parent table on single inheritance
+    fixes #560
+
+commit 5ac5ab47db1f0acaaf8e9f94258a6d599a04bb38
+Merge: 43a8c81 be45a9b
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 15:05:05 2017 -0700
+
+    Merge branch '2.3-maintenance'
+
+commit be45a9be03c58abd32d8f3ebfc99764729f6f943
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 15:00:43 2017 -0700
+
+    release 2.3.1
+
+commit 5355b5c62e4f3fe94830fb6371950c1f4056c853
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 14:53:51 2017 -0700
+
+    specify pool_timeout unit (seconds)
+    fixes #513
+
+commit 29581f5cd3fa8e4c27492b32908c20bcdd36b846
+Author: Spencer Young <spencer.young@spyoung.com>
+Date:   Wed Oct 4 17:48:00 2017 -0400
+
+    Add Windows example for sqlite URI configuration. (#495)
+
+commit 49ecc8cb6c333eaf36d8cde84e3174845e38148b
+Merge: d7cc392 c61919d
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 14:44:30 2017 -0700
+
+    Merge pull request #558 from davidism/no_negative_offset
+    
+    set page and per_page defaults when invalid
+
+commit c61919d501e27d772e2d03ef25615fe0895adcb3
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 14:38:09 2017 -0700
+
+    set page and per_page defaults when negative
+    continues # 343
+    fixes #336
+
+commit d426330466f3cf841e9b154506217a9bb10d569d
+Author: Blake Grotewold <hello@grotewold.me>
+Date:   Tue Oct 27 14:46:54 2015 -0400
+
+    Issue #336: OFFSET must not be negative
+    
+    Why:
+    It is not valid to have a negative offset or page. These changes allow
+    `query.paginate` to run with `error_out` on but still default to page 1
+    (or offset 0)
+
+commit d7cc3928756cc95834e54fe4b97ead941c27d138
+Merge: 0ed2250 859216e
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 13:56:51 2017 -0700
+
+    Merge pull request #557 from davidism/app_context_error
+    
+    document app context error message
+
+commit 859216ecefee661abec2eaafb298be1f8db711ad
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 13:50:34 2017 -0700
+
+    add app context error message to docs
+    add link to docs to error message
+    fixes #553
+
+commit 0ed22501a9e6194c9f3092e9b12cd2e382bb34d4
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 13:26:48 2017 -0700
+
+    add changelog for #555
+    mark changes with rst extension for github (#548)
+    [ci skip]
+
+commit 82d458cc04d8fda47c32192aa762feeb25074763
+Merge: 35d2871 5cd3def
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 13:19:07 2017 -0700
+
+    Merge pull request #542 from kalombos/fix_per_page
+    
+    limited per_page param in paginate
+
+commit 5cd3def275533c281fa6111ccbd71bc1ab900b31
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 12:57:21 2017 -0700
+
+    always apply max_per_page
+    add changelog
+    simplify test
+
+commit ee57bbe42dec51fa38bf8321fdfc91c9f89291d4
+Author: kalombo <nogamemorebrain@gmail.com>
+Date:   Thu Sep 21 13:37:51 2017 +0500
+
+    added max_per_page param to pagination
+
+commit 35d2871bb192f93be36bbcea6fe2429e75b8550f
+Author: Jeffrey Slort <j_slort@hotmail.com>
+Date:   Wed Oct 4 21:23:27 2017 +0200
+
+    Fixes #554 representation of new model instances (#555)
+    
+    Fixed representation of new model instances
+    Added "transient" id for unpersisted models
+
+commit e3def6e2f1f9c31fea5c2103df8fec5690e061b1
+Merge: 323f1e0 4aa5a96
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 12:25:47 2017 -0700
+
+    Merge pull request #556 from davidism/pkey_error
+    
+    raise correct error when model has name but no pkey
+
+commit 43a8c813afeddbfc4ff89440290bc38433376931
+Author: Jeffrey Slort <j_slort@hotmail.com>
+Date:   Wed Oct 4 21:23:27 2017 +0200
+
+    Fixes #554 representation of new model instances (#555)
+    
+    Fixed representation of new model instances
+    Added "transient" id for unpersisted models
+
+commit 4aa5a96e3c9368f2b75b6921bda9e744fc91b166
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 12:18:52 2017 -0700
+
+    correct error when model has name but no pkey
+    fixes #552
+
+commit 323f1e0be302db884aadff4cd244506837c6652c
+Merge: 30dba64 5aa329f
+Author: David Lord <davidism@gmail.com>
+Date:   Mon Oct 2 12:37:08 2017 -0700
+
+    Merge pull request #551 from davidism/reflect
+    
+    model uses existing table by name
+
+commit 5aa329f6489ccbb0c4d21781839f3ccd7f4f52e6
+Author: David Lord <davidism@gmail.com>
+Date:   Mon Oct 2 12:04:43 2017 -0700
+
+    model uses existing table by name
+    fixes #550
+
+commit 30dba642aac9c5825c65720289a28c191eec9348
+Merge: 5a8cf41 adec8ff
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Sep 28 07:08:33 2017 -0700
+
+    Merge branch '2.2-maintenance'
+
+commit adec8ff2ec5f6a8e3d6fdf9036aa336f4b787571
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Sep 28 06:45:10 2017 -0700
+
+    release 2.3.0
+
+commit 52e799265d6ec94ec8e3930fc65281f828b000c1
+Merge: fa8f9bf d18f7f7
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Sep 28 06:38:48 2017 -0700
+
+    Merge pull request #547 from davidism/get_app
+    
+    pass real app instead of current_app to connector
+
+commit d18f7f78ae5b26661d1b133a393b4c9eecea6166
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Sep 27 21:21:23 2017 -0700
+
+    pass real app instead of current_app to connector
+    fixes #490
+
+commit fa8f9bf67bb7df3c87b0d7cd739f55a73cc3c47d
+Merge: a04b971 9aa42b2
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Sep 28 06:31:23 2017 -0700
+
+    Merge pull request #546 from davidism/metaclass
+    
+    allow passing declarative_base as model_class
+
+commit 9aa42b2019c3b518c0100fb6ffbde98b71f38e04
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Sep 27 20:02:08 2017 -0700
+
+    allow passing declarative_base as model_class
+    move model and metaclass to new module
+    split metaclass into mixins
+    rename _BoundDeclarativeMeta to DefaultMeta
+    rewrite customizing docs
+    document metaclass to disable tablename
+    add changelog for 2.3.0
+
+commit a04b971af995932ff4f8eec90d467768fd3eb9b4
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Sep 26 13:30:10 2017 -0700
+
+    next release is 2.3.0
+
+commit 5135ba2b2fec541e2f86f8d7da14651cce08c0e9
+Merge: 80a7cce bceb09b
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Sep 26 13:25:24 2017 -0700
+
+    Merge pull request #530 from xliiv/default_repr
+    
+    Add default __repr__ for Model class
+
+commit bceb09b9284aac57f2628fc6272e0d02cc41e068
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Sep 26 13:18:49 2017 -0700
+
+    unicode -> utf8 in repr for py2
+
+commit 6a0fc24611f6c2fda97a5356ddc180b476fa393c
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Sep 26 10:59:30 2017 -0700
+
+    adjust repr format, fix test
+
+commit 3e2c8998ac79bfb6b1b892e68517b601f4a8d30a
+Author: Tymoteusz Jankowski <tymoteusz.jankowski@gmail.com>
+Date:   Sun Aug 20 10:03:33 2017 +0200
+
+    Add default __repr__ for Model class
+
+commit 80a7cce5daf010851d8e2300e4cfb4274b096058
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Sep 26 10:11:27 2017 -0700
+
+    use pytest in readme and make
+    fixes #529
+    [ci skip]
+
+commit c48d8161cd0b361f474f23d97e4721bc0754d309
+Merge: f93c737 e91bb0e
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Sep 26 10:07:23 2017 -0700
+
+    Merge pull request #543 from davidism/tests
+    
+    update testing matrix, add coverage report
+
+commit e91bb0e3d085e62f3ec0d4fd84fab47b22447e0e
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Sep 26 08:52:35 2017 -0700
+
+    update testing matrix, add coverage report
+
+commit f93c737dd9eede7f9ed66fb3ec3cf63545e47af5
+Merge: f1e5852 7134764
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Sep 26 07:32:19 2017 -0700
+
+    Merge pull request #541 from davidism/tablename
+    
+    rewrite tablename generation again
+
+commit 7134764ce7c8bdeeadf09e09f7ca69be58ef09fa
+Author: David Lord <davidism@gmail.com>
+Date:   Mon Sep 18 13:40:19 2017 -0700
+
+    rewrite tablename generation again
+    use __table_cls__ hook for primary key check
+    detect PrimaryKeyConstraint
+
+commit 5a8cf41def6e3ea498f1e0247ce06f00c551c3bf
+Merge: c1e309a f1e5852
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Sep 13 08:43:58 2017 -0700
+
+    Merge branch '2.2-maintenance'
+
+commit f1e585260a54ff7e5bbed877dc5fecbecd24680c
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Sep 13 08:38:46 2017 -0700
+
+    config to ignore warnings in tests
+
+commit 7134a4a04262f914d9ee6f44f8d2776d83b55599
+Author: Jonas Lergell <jonaslergell@gmail.com>
+Date:   Sun May 14 14:14:21 2017 +0200
+
+    Convert tests to pytest
+
+commit c1e309a90822d2b8b1c0ca2d05949bbfb7005778
+Merge: d71afea 4e4a73c
+Author: David Lord <davidism@gmail.com>
+Date:   Fri May 19 09:14:07 2017 -0700
+
+    Merge pull request #500 from thrawny/converting-to-pytest
+    
+    Convert tests to pytest
+
+commit 4e4a73ca68fc2db86b5f3d2bcb368c9495262866
+Author: Jonas Lergell <jonaslergell@gmail.com>
+Date:   Sun May 14 14:14:21 2017 +0200
+
+    Convert tests to pytest
+
+commit ecb131b6f002fa113793f6952559a72148ef1c72
+Merge: ffe562b 593afc0
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Mar 11 13:32:34 2017 -0800
+
+    Merge pull request #472 from krassowski/dont_warn_if_binds
+    
+    Suppress warning about not set DATABASE_URI when SQLALCHEMY_BINDS are set
+
+commit ffe562b7a8c3710da0d97239ee2bcbfdc0cb52eb
+Merge: 86a3deb 30755c6
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Mar 11 12:50:23 2017 -0800
+
+    Merge pull request #477 from ThiefMaster/no-g
+    
+    Move query log back to the app context itself
+
+commit 30755c6ad8aaeacf83de4257c957f70dea5f5008
+Author: Adrian Moennich <adrian@planetcoding.net>
+Date:   Mon Feb 27 23:13:09 2017 +0100
+
+    Run more than one query in query recorder test
+    
+    Otherwise the case where the sqlalchemy_queries list already exists
+    isn't tested.
+
+commit 3ec5322be0a2ccf000c2f6c60adeeeb59ea88642
+Author: Adrian Moennich <adrian@planetcoding.net>
+Date:   Mon Feb 27 23:08:43 2017 +0100
+
+    Move query log back to the app context itself
+    
+    Avoids cluttering the `g` object with extension data.
+    
+    closes #475
+
+commit 86a3deb3461bace8431581acc158fc045a9808a4
+Merge: 76c86c9 531461b
+Author: David Lord <davidism@gmail.com>
+Date:   Mon Feb 27 13:27:31 2017 -0800
+
+    Merge pull request #474 from ThiefMaster/no-flaskext
+    
+    Don't reference `flaskext` in headers
+
+commit 531461bb9ba10ed180e9257f6e3ca21618fe65a2
+Author: Adrian Moennich <adrian@planetcoding.net>
+Date:   Mon Feb 27 22:23:24 2017 +0100
+
+    flaskext is long deprecated
+
+commit 593afc09216d27131581f0ff4c33b310c1236423
+Author: krassowski <krassowski.michal@gmail.com>
+Date:   Mon Feb 27 22:05:35 2017 +0100
+
+    Suppress warning about not set SQLALCHEMY_DATABASE_URI if SQLALCHEMY_BINDS is set
+    
+    Fixes #471 at https://github.com/mitsuhiko/flask-sqlalchemy/issues/471
+
+commit 76c86c9e20b9fa131afb29592aab4c17e80779d2
+Author: David Lord <davidism@gmail.com>
+Date:   Mon Feb 27 08:49:02 2017 -0800
+
+    bump version 2.2.1
+
+commit d71afea650e0186348d81f02cca5181ed7c466e9
+Author: David Lord <davidism@gmail.com>
+Date:   Mon Feb 27 07:29:59 2017 -0800
+
+    release version 2.2
+
+commit 472894c45629721b93af346ab1658a62430de865
+Merge: 9eff8b6 f4662ad
+Author: David Lord <davidism@gmail.com>
+Date:   Mon Feb 27 10:52:39 2017 +0800
+
+    Merge pull request #467 from davidism/tablename
+    
+    Don't access all class properties when generating tablename
+
+commit f4662ad464a73befa47cf74754fdbfe156570e59
+Author: David Lord <davidism@gmail.com>
+Date:   Sun Feb 26 17:53:13 2017 -0800
+
+    only get declared attr properties when looking for tablename
+    move tablename generation to base model to avoid sqlalchemy
+      warning about unmanaged access
+    closes #349
+    closes #323
+    closes #454
+
+commit 9eff8b6597987c9ac4ae86d8672d5abf9f8e4312
+Merge: 6c1f4a2 206e9b9
+Author: David Lord <davidism@gmail.com>
+Date:   Sun Feb 26 01:39:38 2017 +0800
+
+    Merge pull request #443 from scotchka/master
+    
+    warn user when SQLALCHEMY_DATABASE_URI is not set
+
+commit 206e9b932b6b5b6cbc62d8312fc743cb82382067
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Feb 25 09:34:31 2017 -0800
+
+    be explicit about sqlite memory uri
+
+commit ae15876e20dac5beaa52916def547de3cee3984a
+Author: Henry Chen <tahafut@gmail.com>
+Date:   Sat Oct 29 16:36:21 2016 -0700
+
+    warn user when SQLALCHEMY_DATABASE_URI is not set
+
+commit 6c1f4a22366cc7f66927f055742260dcca9006ec
+Merge: 482a5ca 7ff93c1
+Author: David Lord <davidism@gmail.com>
+Date:   Sun Jan 15 08:48:14 2017 -0800
+
+    Merge pull request #461 from davidism/app_context
+    
+    Only use app context
+
+commit 7ff93c1e65521d570331b8d51e6b95bd6ec1179e
+Author: David Lord <davidism@gmail.com>
+Date:   Sun Jan 15 08:18:05 2017 -0800
+
+    only use app context
+
+commit 482a5ca65ee1e28bb304687db28926ee49b650e8
+Author: Noah Goldsmid <Noahgoldsmid@live.nl>
+Date:   Sat Jan 14 18:31:00 2017 +0100
+
+    Fix next_num and prev_num showing non existant page nums (#460)
+
+commit 1ab23e28db7aa4f2a84e4dbffe08b84565249714
+Author: Adrian <adrian@planetcoding.net>
+Date:   Fri Jan 13 23:40:36 2017 +0100
+
+    Stop recommending lazy='dynamic' and other BadThings™ new users tend to keep (#459)
+    
+    * Use higher default email length. People tend to copy & paste code. Emails >50 chars are a thing, unfortunately.
+    * Do not recommend lazy='dynamic'
+    * Do not add custom constructors to models
+    * Make columns NOT NULL
+    * Add reference to SA docs
+    * Use PKs in mapping table
+    * Improve wording
+    * Add example for overriding Model.__init__
+    * Add options(joinedload()) example
+    * Link with_parent to SA docs
+    * Fix rst backtick usage
+
+commit cd9d002fe9860b64525cdf0cc23eea9daca3ba0b
+Author: satoru <satorulogic@gmail.com>
+Date:   Mon Jan 2 08:09:44 2017 +0800
+
+    Avoid circular reference by deleting _SQLAlchemyState.app (#324)
+    
+    Since this attribute is not used anywhere in the implementation, we can
+    just delete it.
+    
+    Otherwise, `app.extensions['sqlalchemy'].app` would be a circular
+    reference and cause memory leak.
+
+commit 1898df5dd9e21a93dd694c3ac57153df9ea24264
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Dec 31 09:39:12 2016 -0800
+
+    use sqlalchemy's engine repr to hide password
+
+commit 2fcbc28ce6194c4a9a7035920d0811902078823b
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Dec 31 08:32:06 2016 -0800
+
+    test on 3.6 with travis
+
+commit a63ddd1d9e43f612ba01bcbbd241b39f3743c78f
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Dec 31 08:22:50 2016 -0800
+
+    test on 3.6, fix wheel metadata
+
+commit 7d65e2dc1f4e798f3234aaef01e615e3db319b05
+Merge: eade982 a61cf1a
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Mon Aug 15 10:16:49 2016 +0100
+
+    Merge pull request #415 from justanr/ISSUE-396-query_class-documentation
+    
+    Provide documentation for use of query_class
+
+commit eade9821f4e7c03470a862108f87b6b37b7cbc3f
+Merge: fa3f550 ecc9498
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Sun Aug 14 20:43:04 2016 +0100
+
+    Merge pull request #416 from nickw444/mariadb-docs
+    
+    Provide additional documentation for SQLALCHEMY_POOL_RECYCLE
+
+commit a61cf1a2a4a5fe48f801e1b61fd4077e31ac6cfb
+Author: Alec Reiter <areiter@kabbage.com>
+Date:   Sat Aug 13 12:23:02 2016 -0400
+
+    Refine documentation
+
+commit ecc9498b03df2eb5f6e1488f69f6781de3b85d99
+Author: Nicholas Whyte <nick@nickwhyte.com>
+Date:   Sat Aug 13 15:33:19 2016 +1000
+
+    Provide additional documentation for SQLALCHEMY_POOL_RECYCLE to reflect lower connection timeouts of some backends.
+
+commit fc168157f7cb83ec6ee8f538e0716d6a1bea9794
+Author: Alec Reiter <areiter@kabbage.com>
+Date:   Fri Aug 12 22:26:51 2016 -0400
+
+    Rough draft on customizations
+
+commit fa3f550cbfb741db4dd9caa34994f16f32743317
+Merge: 63f8196 14f4af8
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Aug 12 16:49:19 2016 +0100
+
+    Merge pull request #400 from ben4ever/amend_source_code_comment
+    
+    Move a source code comment to proper position
+
+commit 63f8196da26efc6548113b6c1b791b1912ca2f1a
+Author: Romain Beuque <rbeuque74@gmail.com>
+Date:   Fri Jul 29 20:43:43 2016 +0200
+
+    feat(echo): allow custom parameters for SQLALCHEMY_ECHO as 'debug' value is allowed (#409)
+    
+    Signed-off-by: Romain Beuque <romain.beuque@corp.ovh.com>
+
+commit fa78d3909ead6d17c1d673e059195a35b98a865b
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Jun 14 07:43:34 2016 -0700
+
+    remove sidebar intro, it's in the index body already
+    side effect: removes "unstable" message
+    always show logo in sidebar
+
+commit b435cae7d26ed271d1f54dbc02271c6ffd32cd27
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Jun 14 07:20:40 2016 -0700
+
+    format quickstart, fix minor example inconsistency
+    clean up intersphinx mapping
+    use current year in docs
+    use setup.cfg to tag dev builds
+
+commit 14f4af897f25446bceb29945db56d70279f8ffab
+Author: Benjamin Dopplinger <b.dopplinger@gmail.com>
+Date:   Mon May 30 15:03:20 2016 +1000
+
+    Move a source code comment to proper position
+    
+    Comment became unclear with commit
+    9b5bd9427fb3562926b3f9d9f9401ea6159a1fb2.
+
+commit bbf03891634c92fdd2f68244da861757189a5238
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Apr 9 17:46:23 2016 -0700
+
+    make get_app prefer current app over default app
+    subclass DeprecationWarning and always show it
+    mark setup.py executable
+
+commit a7eae3cc81ff8c2b248933699a52030e1ab00cb2
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Apr 9 16:40:34 2016 -0700
+
+    clean up tests (#388)
+    
+    * SQLALCHEMY_ENGINE isn't a config key
+    * SQLALCHEMY_DATABASE_URI defaults to sqlite://
+    * not all TestCases registered, some fail
+    * flask_sqlalchemy is aliased to sqlalchemy, confusing
+    * tox with min and current versions
+
+commit 88892a839fb778388eead287548351118dbdda01
+Author: David Baumgold <david@davidbaumgold.com>
+Date:   Sat Apr 9 12:23:20 2016 -0400
+
+    Support binds on abstract models (#373)
+
+commit 095f19a177744f2077092d13affe90acd56faff4
+Merge: 1eca52f 8a026c2
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Feb 25 16:41:12 2016 -0800
+
+    Merge pull request #378 from StephenOrJames/patch-1
+    
+    peter.id should be 2 per the table
+
+commit 8a026c20c3daa78668727e692325e4cf704ad0c1
+Author: Stephen James <StephenOrJames@users.noreply.github.com>
+Date:   Thu Feb 25 17:59:58 2016 -0500
+
+    peter.id should be 2 per the table
+
+commit 1eca52fc3d1164167af31ada05f41bf5a85d4497
+Merge: 1ef899f e9f9ef6
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Jan 28 06:32:53 2016 -0800
+
+    Merge pull request #372 from yangl1996/patch-1
+    
+    Fix wrong query usage in documentation
+
+commit e9f9ef65a2467274995ca080f91ff255f39293a9
+Author: Lei Yang <yltt1234512@gmail.com>
+Date:   Thu Jan 28 15:29:40 2016 +0800
+
+    Fix wrong query usage in documentation
+    
+    missing `.all()`
+
+commit 1ef899fc376b13f541f574ca33b9a295e7774377
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Dec 16 14:12:42 2015 -0800
+
+    say warning is disable by setting to either value
+
+commit 8f92427a0ff8dfbaa135a6296524feab9cd0922f
+Merge: c1a952f 3fec753
+Author: David Lord <davidism@gmail.com>
+Date:   Sun Dec 13 22:33:35 2015 -0800
+
+    Merge pull request #364 from mitsuhiko/session_factory
+    
+    Fix db.session so that events work
+
+commit 3fec7535922e687e0518bdbfcd24b6389ab5c3af
+Author: David Lord <davidism@gmail.com>
+Date:   Sun Dec 13 22:18:23 2015 -0800
+
+    use sessionmaker instead of partial as the factory to scoped_session
+
+commit c1a952f2af3e496bbd39674acaf7cbba07619761
+Author: David Lord <davidism@gmail.com>
+Date:   Fri Dec 11 11:08:08 2015 -0800
+
+    assertIs isn't available in py26
+
+commit bd13c5421ec5d8a233f9b3dc9229262af65be1c2
+Author: David Lord <davidism@gmail.com>
+Date:   Fri Dec 11 10:35:13 2015 -0800
+
+    don't require passing app to get_engine
+
+commit d651a700ea1cc6fa22be03ef71f9a437560cdadd
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Dec 9 06:20:30 2015 -0800
+
+    link to sqlalchemy documentation
+    
+    Direct link to SQLAlchemy docs on front page.
+    Description of what Flask-SQLAlchemy docs are.
+    Bump minimum SQLAlchemy version.
+
+commit 8c89a761b52151c154d16e8f73903f3b6cd6d28a
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Dec 4 17:42:37 2015 +0000
+
+    Refactor MetaData test case to remove use of naming_conventions
+    Push minimum SQLAlchemy version back down to 0.8.0
+    Reflect in CHANGES
+
+commit 0181217c32955c2d700bf8781aeaf60c8252d4ac
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Dec 4 15:47:55 2015 +0000
+
+    fixes #345, which prevents an empty dict being specified for the binds option
+
+commit cea9679963a323203e02722dc88e363bfdd8f01d
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Dec 4 15:43:31 2015 +0000
+
+    Changes and attribution for model_class and query_class changes
+
+commit 050527c0b9059d5460c50e0b86516a34a4d6a9ef
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Dec 4 14:52:23 2015 +0000
+
+    Fix min SQLAlchemy ver
+
+commit 31dd5c1d48df74f67b06808d8ba3e71fbcfe42cc
+Merge: 64eaccf 2284586
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Dec 3 14:19:50 2015 -0800
+
+    Merge pull request #314 from martijnvermaat/submodule-https
+    
+    Change docs/_themes submodule protocol from git:// to https://
+
+commit 64eaccf79d9137afd4d0b72908976b6b33f62c0b
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Dec 3 14:14:59 2015 -0800
+
+    add pdf link to sidebar
+    pdf is generated from latex by pocoo/flask-docs
+    closes #209
+
+commit 8ebb2a639317debd17201e34ce6d02069544a042
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Dec 3 12:36:08 2015 -0800
+
+    clean up documentation about BaseQuery
+    clarify use of Model class
+    remove ancient SessionExtension example, it was deprecated in SQLAlchemy 0.7
+
+commit a6a8c9f4ee11dc58f005cc170f30f7d1c504f87e
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Dec 3 09:46:08 2015 -0800
+
+    use tox from travis, taken from Flask repo
+    enable python 3.5 in tox
+    include blinker tests
+    ignore intellij config and tox cache
+
+commit f5d367e24f3f30cabd5f9b6caf78fe7088848a84
+Merge: 9343ac5 b2eac43
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Dec 3 05:02:37 2015 -0800
+
+    Merge pull request #321 from ThiefMaster/no-flask-ext
+    
+    Replace flask.ext.sqlalchemy with flask_sqlalchemy
+
+commit 9343ac5dade2b52df23eca15a11ff3f40c797b27
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Nov 25 15:01:14 2015 +0000
+
+    Python 3.5 supported
+
+commit 3e97b6aaa5285adf98e72f8fbfac32a54f43844d
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Nov 25 14:30:04 2015 +0000
+
+    Test with Python 3.5
+
+commit 7f1bcae64f79feee80860a39f30df6187d124b1e
+Merge: cfe529a 6343739
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue Nov 24 12:48:38 2015 +0000
+
+    Merge pull request #353 from jcomo/master
+    
+    Clarify table name override attribute
+
+commit 634373941bc489627641f819eaf3d3ce38451910
+Author: Jonathan Como <jonathan.como@gmail.com>
+Date:   Mon Nov 23 18:11:54 2015 -0500
+
+    Clarify table name override attribute
+
+commit cfe529a5997edcfd65fbcc4b4928be180bfa7e7b
+Merge: 92ecdb2 3c0b580
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Nov 16 10:09:46 2015 +0100
+
+    Merge pull request #348 from macrotim/fix-contexts-rst
+    
+    Fix docs/contexts.rst
+
+commit 3c0b5803a336186f09b81a7d3360821793dea773
+Author: Tim Chan <macrotim@gmail.com>
+Date:   Sun Nov 15 19:11:58 2015 -0800
+
+    Fix docs/contexts.rst
+
+commit 92ecdb27de8fec129cdfa13dc5f98a5d2ffc8b29
+Merge: df7f4e0 c30edb6
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Oct 28 10:57:16 2015 +0000
+
+    Merge pull request #344 from grotewold/patch-1
+    
+    Use Travis' container-based infrastructure
+
+commit c30edb6de64596be3aab9b5a10d008f9224b0e77
+Author: Blake Grotewold <grotewold@users.noreply.github.com>
+Date:   Tue Oct 27 14:56:53 2015 -0400
+
+    Use Travis' container-based infrastructure
+    
+    This adds the `sudo: false` config to speed up CI testing on TravisCI's new infrastructure.
+
+commit df7f4e0e6786ec4d30e8db0bed938ae4ace514f4
+Merge: 357ec7b 3ff4c64
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Oct 23 11:03:29 2015 +0100
+
+    Merge pull request #328 from justanr/custom_query_class_feature
+    
+    Implement custom query and model class options
+
+commit 357ec7b69756345c0ebeb86b797e3efa6535627c
+Merge: cb3578a d80286b
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Oct 23 11:02:16 2015 +0100
+
+    Merge pull request #326 from heejongahn/master
+    
+    docs: fixed a misc typo in models.rst
+
+commit cb3578a03a9c69f09fb9cab15764ec81203e9ea3
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Oct 23 10:56:12 2015 +0100
+
+    Reflect 3.0-dev in version vars
+
+commit 6e280dbb8e358982dc5e5c9910474cb5d901a21c
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Oct 23 10:54:15 2015 +0100
+
+    Update README
+
+commit 7e665aad0aa851af6d8fdac51752b27ede6112f0
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Oct 23 10:49:49 2015 +0100
+
+    Bump version number to 2.1
+
+commit 400536c52e04f7853dde3b5750ca8b6813ca8a2b
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Oct 23 10:49:29 2015 +0100
+
+    Codename version 3.0
+
+commit 3ff4c6456eeb1fdaa13c3e7bfdb38b99d1786a6d
+Author: justanr <alecreiter@gmail.com>
+Date:   Tue Aug 11 09:30:59 2015 -0400
+
+    Respect existing query class on models
+
+commit f1de1e29512bebfd1c1c59d91e81552cd356e718
+Author: justanr <alecreiter@gmail.com>
+Date:   Mon Aug 10 08:14:10 2015 -0400
+
+    Add custom query class to session options.
+
+commit 155656a9a5db0b8628ba9f9a975ef183e49a78d7
+Author: justanr <alecreiter@gmail.com>
+Date:   Thu May 7 20:53:09 2015 -0400
+
+    Implement custom query and model class options
+
+commit ac135c674fb2d4ae49395e15283be155e826b3ea
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue Jul 28 20:49:29 2015 +0100
+
+    Be consistent about dealing with session options
+
+commit ad6bbce57739ef34a56ece4fcaec1d41a7e16440
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue Jul 28 20:49:05 2015 +0100
+
+    Record changes for improved sessions
+
+commit 2a353793be141c256a556d17523e8d19993b876a
+Merge: fe67c63 19c8ce0
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue Jul 28 20:26:56 2015 +0100
+
+    Merge branch '249'
+
+commit 19c8ce02db895755feb885de42b2497d6f35059d
+Author: Matt Wright <matt@nobien.net>
+Date:   Fri Jan 2 14:51:51 2015 -0500
+
+    Make session management a little more flexible
+
+commit d80286b387a440e7ef8be884f07f3d73709550b9
+Author: Heejong Ahn <heejongahn@gmail.com>
+Date:   Tue Jul 28 18:07:19 2015 +0900
+
+    docs: fixed a misc typo in models.rst
+
+commit b2eac43ab2a13acdc037d16812c92649bcdf4680
+Author: ThiefMaster <adrian@planetcoding.net>
+Date:   Wed Jun 24 23:16:56 2015 +0200
+
+    Replace flask.ext.sqlalchemy with flask_sqlalchemy
+
+commit 2284586978e0e3b5ea6375e7a4679801d3c9d647
+Author: Martijn Vermaat <martijn@vermaat.name>
+Date:   Wed May 27 14:28:08 2015 +0200
+
+    Change docs/_themes submodule protocol from git:// to https://
+    
+    Allows pip install from the git repository when the git:// protocol
+    is blocked.
+
+commit fe67c633f2e6d66a01a1670e5fc6649506358d20
+Merge: 50b5894 fa18b77
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Mar 26 17:19:17 2015 +0000
+
+    Merge pull request #255 from svenstaro/add-metadata-parameter
+
+commit fa18b77bb0213a2c532465c112c3378518973330
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Mar 26 17:18:54 2015 +0000
+
+    Change non-py26 supported methods in tests
+
+commit 1d8e9873bed9e8b75a9e7b0903870fe832b92628
+Merge: f9c3036 50b5894
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Mar 26 17:15:36 2015 +0000
+
+    Merge master
+
+commit 50b58949ebc4852d9c64d2364441c665cdd2fd4a
+Merge: 0745688 0e00f44
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue Mar 17 17:33:28 2015 +0000
+
+    Merge pull request #257 from davidism/pagination
+    
+    Get paginate args from request args
+
+commit 0745688a9b1ed27b6a3548491ff75c380fa429ae
+Merge: acb768b 839f50c
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Mar 11 12:03:48 2015 +0000
+
+    Merge pull request #270 from keyanp/fix_ext_imports
+    
+    Change import to reflect deprecated ext format
+
+commit 839f50ca24bdac66b750554117e55af6f336d742
+Author: Keyan Pishdadian <kpishdadian@gmail.com>
+Date:   Wed Mar 11 00:08:45 2015 -0400
+
+    Change import to reflect deprecated ext format
+
+commit acb768b64cc52abedfc98c4901983d312c7b9d06
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Feb 26 18:02:32 2015 +0000
+
+    Let's give this a codename
+
+commit 3d3c72faeef2f0195397cf84e788924395d280e9
+Merge: c0bdf2d f02c6af
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Mon Feb 9 21:40:49 2015 +0000
+
+    Merge pull request #256 from davidism/events
+    
+    Fix and deprecate change tracking
+
+commit c0bdf2d580113b32b73e1a9f30c8819439df4e05
+Merge: ae86459 7b82f02
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Mon Feb 9 21:39:58 2015 +0000
+
+    Merge pull request #254 from svenstaro/patch-3
+    
+    Add additional note about tox
+
+commit ae8645932bb4a7a6f1a52e39fa84860748e72237
+Merge: e05ffe1 a879db4
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Mon Feb 9 20:08:59 2015 +0000
+
+    Merge pull request #253 from svenstaro/patch-2
+    
+    Add python 3.4 to tox.ini
+
+commit 0e00f4483563123f0b33ccacdaa08a7eb1b74a8f
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Jan 10 22:03:06 2015 -0800
+
+    get paginate args from request args
+
+commit f02c6af7df098cce2fc85bb8522811d8c2e3734f
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Jan 10 22:47:41 2015 -0800
+
+    clean up signal docs
+    fix py3 print in doc config
+
+commit 10cf167d1dcb7a356f0d781c72234282eff50038
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Jan 10 19:05:02 2015 -0800
+
+    use session properties to track changes
+    removes now unneeded mapper events
+    fixes before_models_committed signal
+    fix signal test
+
+commit e79316638122f7a224d2e55d81b978e0b4c93005
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Jan 10 11:13:29 2015 -0800
+
+    don't register tracking events if config disables them
+    warn that tracking will be disabled by default in the future
+
+commit e05ffe15c0f2feac19bb02f417b473fd83c88d71
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Sun Jan 11 15:56:45 2015 +0000
+
+    Update README
+
+commit 1e236c0141b5170c70eb0f4ecf68db1155fc0194
+Merge: 41ff25f dfce046
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Sun Jan 11 15:54:56 2015 +0000
+
+    Merge pull request #259 from mitsuhiko/revert-236-No_before_models_committed_signal
+    
+    Revert "Test case for before_models_committed"
+
+commit dfce046f744a482f399e8ffadeeffe3721a9b28c
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Sun Jan 11 15:52:28 2015 +0000
+
+    Revert "Test case for before_models_committed"
+
+commit 41ff25fb1b7bad5cc9dd43a123ed78830115351c
+Merge: fcbbc17 6d2f867
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Sun Jan 11 14:17:18 2015 +0000
+
+    Merge pull request #258 from davidism/tablename_docs
+    
+    document automatic tablename
+
+commit 6d2f86701e7df252f0861e1e9fd96818c5c3eb07
+Author: David Lord <davidism@gmail.com>
+Date:   Sun Jan 11 00:16:41 2015 -0800
+
+    document automatic tablename
+
+commit f9c3036c81305ce9a46a301f860931361e2d13dd
+Author: Sven-Hendrik Haase <sh@lutzhaase.com>
+Date:   Sat Jan 10 02:16:26 2015 +0100
+
+    Add custom meta data parameter
+
+commit 7b82f02873a08bd3fcb8a130ddce4f53b6fd3100
+Author: Sven-Hendrik Haase <sh@lutzhaase.com>
+Date:   Sat Jan 10 00:20:52 2015 +0100
+
+    Add additional note about tox
+    
+    Because currently it's available but not documented.
+
+commit a879db4c0ca2a62f4177b9aa7950a78a75428f82
+Author: Sven-Hendrik Haase <sh@lutzhaase.com>
+Date:   Sat Jan 10 00:13:26 2015 +0100
+
+    Add python 3.4 to tox.ini
+    
+    Seems appropriate for the time.
+
+commit fcbbc1715552322202f98c24640a387902d7e8be
+Merge: b004639 ba21723
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue Jan 6 14:06:44 2015 +0000
+
+    Merge pull request #236 from zhangcheng/No_before_models_committed_signal
+    
+    Test case for before_models_committed
+
+commit b004639320f6b0c7c6d8d7b3db73f0c9dbb87478
+Merge: 2143048 9dfafb1
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Dec 17 14:59:47 2014 +0000
+
+    Merge pull request #248 from davidism/tablename
+    
+    Support generating tablenames in more cases.
+
+commit 9dfafb1e1d17f8e0c3ba09f17cf8735743778f74
+Author: David Lord <davidism@gmail.com>
+Date:   Mon Dec 15 21:17:38 2014 -0800
+
+    Support generating tablenames in more cases.
+    Extends naming rules to apply to base classes of models.
+
+commit 21430487e1953b18fc1b4d8bce4c7c457f90a504
+Merge: d8d143e a1a6fc1
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Mon Dec 15 19:54:05 2014 +0000
+
+    Merge pull request #247 from kevmo/grammar
+    
+    Grammar fix for documentation re creation modes.
+
+commit a1a6fc11958075d72a66edf153d8c64fd8c8df61
+Author: Kevin Moore <kevin@spendship.com>
+Date:   Mon Dec 15 13:26:28 2014 -0600
+
+    Grammar fix for documentation re creation modes.
+
+commit d8d143e45c287d80a5fdb791c166502e9e516d7a
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Dec 12 21:55:57 2014 +0000
+
+    Specify minimum SQLAlchemy req
+
+commit 6562409586e25958dac584c3a1dfeb5e241c5362
+Merge: 0c2d308 de68bc0
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Dec 12 20:57:54 2014 +0000
+
+    Merge pull request #242 from da4089/patch-1
+    
+    Fix typo: 'where' -> 'were'.
+
+commit 0c2d3089b58cd5315ab950d350c57118a4e7f63b
+Merge: 6fd538e 04adc07
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Dec 12 20:50:31 2014 +0000
+
+    Merge pull request #244 from yuvallanger/patch-1
+    
+    Removing unneeded `out`.
+
+commit 04adc07e67dd50fe684ee31e897ee356ee9bb995
+Author: Yuval Langer <yuval.langer@gmail.com>
+Date:   Tue Dec 9 07:59:31 2014 +0200
+
+    Changing `checkout out` to `check out`.
+
+commit de68bc04c486cdf8bbc2f63d3d843a6a39da1b4a
+Author: David Arnold <da4089@users.noreply.github.com>
+Date:   Mon Dec 1 23:10:17 2014 +1000
+
+    Fix typo: 'where' -> 'were'.
+
+commit ba21723f60ecdbeae1805bd13b2e9e2d6c4c2ce9
+Author: zhangcheng <czhang.oss@gmail.com>
+Date:   Thu Oct 30 18:32:00 2014 +0800
+
+    Test case for before_models_committed
+
+commit 6fd538e27a9eb65cfb06d36632833cc6297d7810
+Merge: 97967be 9b5bd94
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Oct 23 10:47:45 2014 +0100
+
+    Merge pull request #227 from chason/master
+    
+    Use StaticPool when SQLite database is :memory:
+
+commit 97967be6723a50ac2e6fc0cc7202a82c9558d0a2
+Merge: f269e21 f22ec2f
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Oct 23 10:40:07 2014 +0100
+
+    Merge pull request #233 from dalinaum/master
+    
+    Fix quickstart.rst
+
+commit f22ec2f8a82b2df92561052aac93a304a2af3b43
+Author: Leonardo YongUk Kim <dalinaum@gmail.com>
+Date:   Thu Oct 23 18:36:09 2014 +0900
+
+    Fix quickstart.rst
+
+commit 9b5bd9427fb3562926b3f9d9f9401ea6159a1fb2
+Author: chason <chason@gmail.com>
+Date:   Thu Oct 16 19:35:10 2014 -0700
+
+    Use StaticPool when SQLite databse is :memory:
+    
+    When SQLite database is memory, any changes will be lost after db is committed unless pool is set to StaticPool.
+    Reference: http://docs.sqlalchemy.org/en/rel_0_8/dialects/sqlite.html#using-a-memory-database-in-multiple-threads
+
+commit f269e21f118584c7cd0ccce1473ec875ec06a915
+Merge: aafbec9 e642fe0
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Mon Oct 13 11:15:35 2014 +0100
+
+    Merge pull request #226 from pierrerochard/patch-1
+    
+    Minor typo
+
+commit e642fe01d32327f9533c90c9720a1a1535e53155
+Author: Pierre Rochard <pierrerochard@users.noreply.github.com>
+Date:   Sat Oct 11 22:45:23 2014 -0400
+
+    Minor typo
+    
+    inproper -> improper
+
+commit aafbec92e26b5dcb7f0c84a7f356c35970d74902
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue Sep 9 18:29:20 2014 +0100
+
+    Outdated version info in README
+
+commit c7eccba63314f3ea77e2c6217d3d3c8b0d2552fd
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Aug 29 06:15:38 2014 +0100
+
+    Bump version number to 2.0
+
+commit 1e786053397becb147c3a0e9fabb5aeff03d880c
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Aug 29 06:15:09 2014 +0100
+
+    Fix malformed trove classifiers
+
+commit 3e1c59376d8aec345a985c386d5aa5532cb0b802
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Aug 29 05:59:44 2014 +0100
+
+    Add setting param removal in CHANGES
+
+commit 18ce001258266f138111e5eec61c45d4cd3a256d
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Aug 29 05:59:05 2014 +0100
+
+    Set 2.0 release date
+
+commit 22631819a81090e319a6761cbed560a127d49428
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Aug 28 13:28:11 2014 +0100
+
+    Fix formatting issue in release script
+
+commit b69ceaeb3d1d60ad7a01601e3dffd42a221028b8
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Aug 27 18:14:15 2014 +0100
+
+    Consider SQLALCHEMY_COMMIT_ON_TEARDOWN harmful and remove from docs
+
+commit 40f4d9fa6914630c03083197e7c5479b77434b52
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Aug 27 17:08:44 2014 +0100
+
+    Assigned codenames, Niels Bohr <3
+
+commit 4bbe81331edbbb02c7ac0753d79d335797a2b9f1
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Aug 27 16:46:26 2014 +0100
+
+    Add myself as maintainer, update doc location
+
+commit 684512dca2b5f34dee96eed8f817f6a0167269ab
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Sat Aug 23 17:00:54 2014 +0100
+
+    Flask-style README update
+
+commit f0bb07e08c1cee17b92030dbf9d331887945d5e8
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Sat Aug 23 16:42:03 2014 +0100
+
+    Bump dates
+
+commit 0a1e5a4d5227a91ff3d2769c2eb53581237e0251
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Sat Aug 23 16:41:16 2014 +0100
+
+    Attribute AUTHORS
+
+commit f7fe4414ea780bb75ffbaffd1a75bb7568f834f4
+Merge: e860743 7f95aac
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue Aug 5 13:47:38 2014 +0100
+
+    Merge pull request #214 from pmarti/master
+    
+    Fix typo in docstring
+
+commit 7f95aac596e2057f8a9d406d30f3f25cc730cd00
+Author: Pablo Marti <pmargam@gmail.com>
+Date:   Tue Aug 5 18:59:35 2014 +0700
+
+    Fix typo in docstring
+
+commit e8607437960c0816b3c4a2bb461ca79afb5da1ff
+Merge: c818001 9cffaee
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Jul 3 09:55:59 2014 +0100
+
+    Merge pull request #154 from ThiefMaster/patch-2
+    
+    Update docs (request context -> app context)
+
+commit c818001a9f01eda5dbec138ad6583153a72a54d4
+Merge: f4919f5 f19e37e
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Jul 3 09:18:36 2014 +0100
+
+    Merge branch 'immunda-python3-fix'
+
+commit f19e37e2c6be5742f4e66a870c7c77a00f7ffaaa
+Merge: f4919f5 9df56c5
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Jul 3 09:17:59 2014 +0100
+
+    Python 3 fixes
+
+commit f4919f59e816fb14ce64b3b732d723f4c2a3c9bc
+Merge: b7abeba 3e45905
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Jul 3 08:54:28 2014 +0100
+
+    Merge pull request #164 from stevetjoa/master
+    
+    Minor grammar correction.
+
+commit b7abebae837eb6669794b51e7d9803c01afa2e32
+Merge: 44bf860 5098b32
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Jul 3 08:48:42 2014 +0100
+
+    Merge pull request #171 from marksteve/patch-1
+    
+    Doc typo
+
+commit 44bf860ebb2190e164f891c43e135d52a2359bd7
+Merge: 8f1f3ad 6468b0f
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Jul 3 08:47:22 2014 +0100
+
+    Merge pull request #190 from agronholm/master
+    
+    Fixed leftover use of "basestring"
+
+commit 8f1f3add7996c7a7ca2b6343ec692803e49d7539
+Merge: 24c7b2a 712cdd6
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Jul 2 23:06:02 2014 +0100
+
+    Merge pull request #191 from mattshaffer11/patch-1
+    
+    Changed "them items" to "the items"
+
+commit 24c7b2a417ac1de415e3e6c6ae121efee6911829
+Merge: f86d735 399d0aa
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Jul 2 23:05:29 2014 +0100
+
+    Merge pull request #180 from alex/patch-1
+    
+    Added trove classifiers showing versions supported
+
+commit f86d73513ab6689add2c61335e9e09043a5eaf4b
+Merge: d456001 e364597
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jun 8 17:46:48 2014 +0100
+
+    Merge pull request #202 from sarver311/master
+    
+    Fixed documentation: exactly the you => exactly the way you
+
+commit e36459714c112f1f45a6a372da452bc5ecb4e8af
+Author: josh.sarver <josh.sarver@gmail.com>
+Date:   Sat Jun 7 09:57:47 2014 -0700
+
+    Fixed documentation: exactly the you => exactly the way you
+
+commit 9df56c56c242c9547bb08c98148cbe9028d889f6
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue May 20 17:50:27 2014 +0100
+
+    Update classifiers
+
+commit 8ab657eb92cd2892000adbe10d7af203183ec610
+Author: Alex Gaynor <alex.gaynor@gmail.com>
+Date:   Thu Mar 6 16:24:41 2014 -0800
+
+    Added trove classifiers showing versions supported
+
+commit 3d4fcf9c9b572c251fd03f20494aaaad920925bc
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue May 20 17:49:40 2014 +0100
+
+    Fix tests to run with Python 3
+
+commit 6fc1fde617bfa7ea8da11dcda206c52127eb4904
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue May 20 17:20:34 2014 +0100
+
+    Run tests for Python 3,4
+
+commit 712cdd641b2bac4992962385d1c7a615697fa6eb
+Author: Matt Shaffer <mattshaffer11@gmail.com>
+Date:   Tue Apr 29 13:53:45 2014 -0500
+
+    Changed "them items" to "the items"
+    
+    Made this change in the one-to-many section
+
+commit 6468b0f5088234a6aee9cbd012d37876ff10029e
+Author: Alex Grönholm <alex.gronholm@nextday.fi>
+Date:   Sat Apr 26 04:37:59 2014 +0300
+
+    Fixed leftover use of "basestring"
+
+commit 399d0aa2e90a1ee20184aad75658efb7eb33814e
+Author: Alex Gaynor <alex.gaynor@gmail.com>
+Date:   Thu Mar 6 16:24:41 2014 -0800
+
+    Added trove classifiers showing versions supported
+
+commit 5098b32695e7c89f42fe4c19b265d1e2625f38ed
+Author: Mark Steve Samson <marksteve@users.noreply.github.com>
+Date:   Thu Dec 12 17:52:34 2013 +0800
+
+    Typo
+
+commit 3e45905331d9ba9c7b610be07115ef7cd0dddfdf
+Author: Steve Tjoa <kiemyang@gmail.com>
+Date:   Mon Nov 4 00:46:19 2013 -0800
+
+    Minor grammar correction.
+
+commit 9cffaeebe1e5ccb8bec5afabfe77f2209f21c80c
+Author: ThiefMaster <adrian@planetcoding.net>
+Date:   Sat Sep 28 23:14:34 2013 +0200
+
+    Update docs (request context -> app context)
+
+commit d4560013c1c51ef035381e35dd42a1628bb212ee
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Aug 1 00:23:22 2013 +0200
+
+    Enabled autoflush by default
+
+commit 807cad77b2d3240399f1e2b357d33cca348a38e4
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Aug 1 00:21:53 2013 +0200
+
+    Added blinker to travis tests
+
+commit 8abb1146a46d8f1ab13073caab3491747ad171ab
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Aug 1 00:18:49 2013 +0200
+
+    Added newline
+
+commit c15b9982be973a9a7d8876765a28fe7fd1d2bb74
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Aug 1 00:17:27 2013 +0200
+
+    Removed setuptools requirement.  This fixes #84
+
+commit 1968a92ec79a80f2c53c133d874be7d6f53f64c0
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Aug 1 00:15:30 2013 +0200
+
+    Added working table reflection.
+    
+    This fixes #55
+
+commit 46569cad33ca527bf5aaf3f1ebb05b42ed52a167
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 31 23:45:31 2013 +0200
+
+    Changed docs to mention app contexts.
+    
+    This fixes #86
+
+commit 0df8caec04c6812f6bf427cddc5e55d042a4e94f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 31 23:42:57 2013 +0200
+
+    Added support for ``bind`` parameter to session.
+    
+    This fixes #113
+
+commit 575fa65bc91a396c85dab5b61fe6ab2e93af3ee0
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 31 23:40:15 2013 +0200
+
+    Improved session creation.
+    
+    This fixes #144
+
+commit a2ea524163a34857e14b62bff36740bb2d328336
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 31 23:14:39 2013 +0200
+
+    Changed the default session signals.
+    
+    This fixes #145
+
+commit ffc9210187d4c958b0e0bc2d557dd4b100ed6e7e
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 31 23:13:34 2013 +0200
+
+    This is going to be 2.0
+
+commit 1d73697a59e061b4133b25a3d9a30ff399263033
+Merge: 7f5806d 70e1a31
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 31 23:09:08 2013 +0200
+
+    Merge branch 'master' of github.com:mitsuhiko/flask-sqlalchemy
+
+commit 7f5806d78aa50f316234200284658c41a30e71c3
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 31 23:08:26 2013 +0200
+
+    Updated release and development flow to be automated
+
+commit 70e1a31e002164a8463e3875e2d2be60684472ea
+Merge: a937ada 5a76bcd
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jul 20 13:08:30 2013 -0700
+
+    Merge pull request #58 from jparise/docs-many
+    
+    Typo fix: 'may items' => 'many items'
+
+commit a937ada70d67247e599b25f8d784b531200987d5
+Merge: f66acc3 b54283b
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jul 20 13:08:03 2013 -0700
+
+    Merge pull request #73 from jfinkels/change-image-mode
+    
+    Changed image mode from 755 to 644.
+
+commit f66acc315a0cebc1a228f8424c1d4d298b56755f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jul 20 21:07:08 2013 +0100
+
+    Updated example
+
+commit d84b6903c8c65e66e8bc5ed813ea06ce4ba92280
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jul 20 21:06:26 2013 +0100
+
+    Updated changelog
+
+commit b242d414b671ffa521dbb3e1c3452b53c34366f9
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jul 20 21:04:56 2013 +0100
+
+    Changed version number in setup file
+
+commit c4c00fa85f3709fa9887392886502cf223f19f8e
+Merge: 2edb3f1 b698ff0
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jul 20 20:59:32 2013 +0100
+
+    Merge branch 'pr/135'
+
+commit 2edb3f14931eefde4bf467e88f7373704ce1ecd3
+Merge: 9d15327 1625f53
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 3 12:33:48 2013 +0200
+
+    Merge branch 'pr/137'
+
+commit 9d153271053390eb2bb795aeda67c6e27c097196
+Merge: 752a35d c75d479
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 3 12:23:00 2013 +0200
+
+    Merge branch 'master' of github.com:mitsuhiko/flask-sqlalchemy
+
+commit 752a35dddff5f71538d2326e50e83c1030032c3e
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 3 12:22:28 2013 +0200
+
+    Implemented #132
+
+commit d5b6d0fb5bf8344ee2f329d6b429f2c5527a6007
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 3 12:21:40 2013 +0200
+
+    Removed dead import
+
+commit c75d4796baf01cf1a6a43303a5b7bb6fd5e9ec22
+Merge: 0af7542 94b3579
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 3 03:19:48 2013 -0700
+
+    Merge pull request #134 from DasIch/travis-support
+    
+    Add travis configuration
+
+commit 0af75426b9556beb8bd1309890787c59be471834
+Merge: 43f8c7d 7d6d2c0
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 3 03:19:11 2013 -0700
+
+    Merge pull request #133 from DasIch/python3-port
+    
+    Python3 port
+
+commit 1625f5343f230bf6749ad2701b2f71aa01131a6e
+Author: Bruno Azzinnari <bazzinnari@linkedin.com>
+Date:   Wed Jun 19 16:06:01 2013 -0700
+
+    Timing of SQL queries fixed by switching to the new Event API from SQL Alchemy introduced in version 0.7. Usage of ConnectionProxy is deprecated from that version, and using it resulted in invalid measures.
+
+commit b698ff05f706643ba8e50cfb5c26780ef059aaf8
+Author: Martijn Vermaat <martijn@vermaat.name>
+Date:   Sat Jun 15 18:03:20 2013 +0200
+
+    Record operations only for signalling sessions (reprise)
+    
+    This is a rebase of commit cf40cae (GitHub pull request #109 by @paxan)
+    on current master. The original changes were (I assume accidentally)
+    undone in commit eb208b5 (GitHub pull request #123 by @thrisp). The
+    original commit message is copied below.
+    
+    In some scenarios model classes derived from SQLAlchemy(...).Model
+    may be used with basic SQLAlchemy session instances which aren't
+    extended with signalling functionality.
+    
+    Before this fix, when you try using a vanilla session with
+    such models, you would get exception like this:
+    
+      File ".../flask_sqlalchemy.py", line 163, in after_insert
+        return self._record(mapper, instance, 'insert')
+      File ".../flask_sqlalchemy.py", line 172, in _record
+        s._model_changes[pk] = (model, operation)
+    AttributeError: 'SessionMaker' object has no attribute '_model_changes'
+    
+    With this fix, this problem is resolved.
+
+commit 94b3579b5de1887e35f88b9e56ec1f8746f2797d
+Author: Daniel Neuhäuser <dasdasich@gmail.com>
+Date:   Thu Jun 13 23:49:15 2013 +0200
+
+    Add travis configuration
+
+commit 7d6d2c052bc4969d9e1530111df5412a6d8b9e92
+Author: Daniel Neuhäuser <dasdasich@gmail.com>
+Date:   Thu Jun 13 23:43:12 2013 +0200
+
+    Add Python 3.3 support, dropping 2.5
+
+commit 169a025505eb507d7ac9945c1f8682fe07d74687
+Merge: d0bf74e 13ad9e0
+Author: Daniel Neuhäuser <dasdasich@gmail.com>
+Date:   Thu Jun 13 23:41:39 2013 +0200
+
+    Merge branch 'prepare-next-version' into python3-port
+
+commit 13ad9e03240fad75c58d0d1b256a784e0ac562b1
+Author: Daniel Neuhäuser <dasdasich@gmail.com>
+Date:   Thu Jun 13 23:41:00 2013 +0200
+
+    Add changelog section for upcoming version
+
+commit d0bf74e8e03993da3e19d6e9335d4f2a949cd864
+Author: Daniel Neuhäuser <dasdasich@gmail.com>
+Date:   Thu Jun 13 22:59:40 2013 +0200
+
+    Ignore eggs created by installing deps
+
+commit bfd4b78bd33371e09435b705116dbe9fadddaf33
+Author: Daniel Neuhäuser <dasdasich@gmail.com>
+Date:   Thu Jun 13 22:59:05 2013 +0200
+
+    Add tox configuration
+
+commit 43f8c7dfc2337935d8fbf3776db231da6ed9ad06
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed May 15 17:44:06 2013 +0100
+
+    0.16 -> 0.17
+
+commit e815f99eb9c5836850c38fda08b63d52b796702f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed May 15 17:43:49 2013 +0100
+
+    Added missing documentation for new functionality
+
+commit b1173612e503b07809b0e9040b2bfa128c303fec
+Merge: a5b0510 f6851a5
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed May 15 09:27:46 2013 -0700
+
+    Merge pull request #119 from scragg0x/patch-1
+    
+    max overflow
+
+commit a5b051031d908cf1a755d56ee1d767ca2c6b8be7
+Merge: 21b4add eb208b5
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed May 15 17:27:14 2013 +0100
+
+    Merge remote-tracking branch 'thrisp/sqlalchemy_events_revision'
+
+commit 21b4add519938c8d0a4c5a1a7fe88c890ae1b5af
+Merge: 519f2f0 e262f97
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed May 15 17:26:39 2013 +0100
+
+    Merge branch 'master' of github.com:mitsuhiko/flask-sqlalchemy
+
+commit 519f2f01ed3a2e73a27706c85fb50af47a0d333e
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed May 15 17:26:36 2013 +0100
+
+    Export sqlalchemy event module on the extension
+
+commit e262f9751e11f9d0c061be4e8b8e883bf314bfe0
+Merge: 1e536d9 bc38614
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed May 15 09:25:34 2013 -0700
+
+    Merge pull request #122 from ignacysokolowski/master
+    
+    Fix ZeroDivisionError when counting Pagination object pages
+
+commit eb208b5c9861d89807c5e4b6c08f945ed86f9f91
+Author: blueblank <blueblank@gmail.com>
+Date:   Thu Apr 4 15:03:56 2013 -0400
+
+    sqlalchemy events integration to remove deprecated extensions
+
+commit bc38614eca0d06df83cc8a32d8b7f2a14d031a6e
+Author: Ignacy Sokołowski <ignacy.sokolowski@gmail.com>
+Date:   Fri Mar 29 15:47:36 2013 +0100
+
+    Fix ZeroDivisionError when counting Pagination object pages
+    
+    When ``per_page`` was set to ``0``, there was ZeroDivisionError
+    raised in ``Pagination.pages`` property.
+
+commit f6851a56a5bbeb7a07fc9d7da9fbe01310905910
+Author: scragg0x <scragg@gmail.com>
+Date:   Mon Mar 11 12:42:56 2013 -0500
+
+    max overflow
+    
+    Enabled the passing of max_overflow to create_engine
+
+commit 1e536d91e0908e7dca7c080def1d0c7649414346
+Merge: df98437 7ee6aaa
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jan 26 17:29:20 2013 -0800
+
+    Merge pull request #59 from jparise/docs-context-link
+    
+    Link to the shell's "Request Context" section.
+
+commit df9843702c99a61cae8eaee2cb9ea6a549af06ff
+Merge: 84dea97 cf659f3
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jan 26 17:28:40 2013 -0800
+
+    Merge pull request #96 from e-dard/master
+    
+    Fix apply_driver_hacks for various mysql drivers, rather than just the default driver.
+
+commit 84dea97dcdf7f4dd03e5480e293c8d00ed0ab9e8
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jan 27 01:28:10 2013 +0000
+
+    Fixed #105
+
+commit deb5a7a91d48f812d897d9f75b98770ec9269b4e
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jan 27 01:26:58 2013 +0000
+
+    Micro-optimize paginations
+
+commit 4bcd2337f505580b8e62bce91ff17b981e7938a4
+Merge: 0d2965c 08f3d4c
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jan 26 17:25:29 2013 -0800
+
+    Merge pull request #101 from snotling/master
+    
+    Pagination count() query should remove ORDER BY clause(s)
+
+commit 0d2965c04deebb7c406a155f4ee02840f322ace6
+Merge: 2e029ac cf40cae
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jan 26 17:24:33 2013 -0800
+
+    Merge pull request #109 from paxan/bugfix/record-ops-only-for-signalling-sessions
+    
+    Record operations only for signalling sessions
+
+commit 2e029ac54dcef8dc5301e4d9ecf7a81bf6d161f0
+Merge: 458420c fa84706
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jan 26 16:57:10 2013 -0800
+
+    Merge pull request #115 from mgax/commit-on-teardown
+    
+    Commit on teardown
+
+commit fa84706d14c708d7889030e8317f04d5b3642330
+Author: Alex Morega <alex@grep.ro>
+Date:   Wed Jan 2 12:36:51 2013 +0200
+
+    document the SQLALCHEMY_COMMIT_ON_TEARDOWN flag
+
+commit cb765a273c0b74146d505e8b68d3cfead78dcc21
+Author: Alex Morega <alex@grep.ro>
+Date:   Wed Jan 2 12:35:34 2013 +0200
+
+    increase indentation
+
+commit 19df1865bec979179d09f304dc31842f03440a6a
+Author: Alex Morega <alex@grep.ro>
+Date:   Wed Jan 2 12:33:56 2013 +0200
+
+    commit on app/request context teardown
+
+commit cf40caec1c48fc2188597ca4e6ddfb21b770d9d7
+Author: Pavel Repin <prepin@gmail.com>
+Date:   Tue Nov 27 12:55:12 2012 -0800
+
+    Record operations only for signalling sessions.
+    
+    In some scenarios model classes derived from SQLAlchemy(...).Model
+    may be used with basic SQLAlchemy session instances which aren't
+    extended with signalling functionality.
+    
+    Before this fix, when you try using a vanilla session with
+    such models, you would get exception like this:
+    
+      File ".../flask_sqlalchemy.py", line 163, in after_insert
+        return self._record(mapper, instance, 'insert')
+      File ".../flask_sqlalchemy.py", line 172, in _record
+        s._model_changes[pk] = (model, operation)
+    AttributeError: 'SessionMaker' object has no attribute '_model_changes'
+    
+    With this fix, this problem is resolved.
+
+commit 08f3d4cc5529c060ade3fbc67221e291fdffb49e
+Author: Damiano Albani <damiano.albani@gmail.com>
+Date:   Wed Oct 3 14:16:09 2012 +0200
+
+    When counting the total number of results, remove the "ORDER BY" clause if present.
+
+commit cf659f346e005d34257d256fa4c42889741fc31f
+Author: Edward Robinson <me@eddrobinson.net>
+Date:   Wed Aug 8 12:09:44 2012 +0100
+
+    apply_driver_hacks will now consider all types of mysql drivers, e.g., oursql, not just the default driver, when deciding whether to apply mysql hacks. Fixes #48 and improves upon original issue #2.
+
+commit 458420c28454df1407591b4ef17de4405c33fc52
+Merge: 087c3c0 a9e7807
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Jul 5 01:54:03 2012 -0700
+
+    Merge pull request #87 from coryalder/patch-1
+    
+    fixed typo in docs/quickstart.rst
+
+commit a9e7807f9a91256bfb47804dcc26b0d66b85ce0a
+Author: Cory Alder <coryalder@gmail.com>
+Date:   Thu Jul 5 01:46:18 2012 -0700
+
+    fixed typo in docs/quickstart.rst
+
+commit 087c3c04a406e35a01aca8280d919eeedeec6daf
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Apr 9 17:54:25 2012 +0100
+
+    Updated docs
+
+commit bf6806e22efb9c54a801bf27a6431aa2c3405ea7
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Apr 9 17:52:00 2012 +0100
+
+    Updated changelog
+
+commit 0a1fa5a2d1c32c875f313eef3e7a465ed8e85c45
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Apr 9 17:51:13 2012 +0100
+
+    New config.cfg
+
+commit 0b2cc52075b12f60a976d3f6c805e1cb56439494
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Apr 9 17:50:18 2012 +0100
+
+    Switched to new naming scheme and added support for Flask 0.9 specifics.
+
+commit b1a5392864e91c66921957fb9dd90f91d57b4c18
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Mar 28 18:28:02 2012 +0200
+
+    Update docs/queries.rst
+
+commit b54283b7d6c38ae22745554cfb24e544f191e9c5
+Author: Jeffrey Finkelstein <jeffrey.finkelstein@gmail.com>
+Date:   Fri Mar 2 11:20:55 2012 -0500
+
+    Changed image mode from 755 to 644.
+
+commit f8d632008b37abb0ed5f90a47b65e9e74f3fe929
+Merge: b98d746 a9339e7
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jan 11 11:20:56 2012 -0800
+
+    Merge pull request #56 from ThiefMaster/patch-1
+    
+    Preserve info['bind_key'] when creating table
+
+commit 7ee6aaafd088fd5a8dc4a29e91dd6bf3d12c85c1
+Author: Jon Parise <jon@indelible.org>
+Date:   Mon Nov 7 09:45:54 2011 -0800
+
+    Link to the shell's "Request Context" section.
+    
+    The "Diving into context locals" section has moved elsewhere in the
+    Flask documentation (to the 'reqcontext' chapter), so link to the most
+    appropriate section of the 'shell' chapter instead.
+
+commit 5a76bcd84948f9f9ea91d88fd1ff96552519eaf4
+Author: Jon Parise <jon@indelible.org>
+Date:   Mon Nov 7 09:43:13 2011 -0800
+
+    Typo fix: 'may items' => 'many items'
+
+commit b98d7468a9cd74c77133f7fcc34ec2d73762f16a
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Nov 2 16:48:26 2011 +0100
+
+    Fixed some broken logic.  This fixes #57
+
+commit a9339e7d894f0e654ed63ce89d2b1edc696ad1f7
+Author: Adrian <adrian@planetcoding.net>
+Date:   Sat Oct 8 18:40:20 2011 +0300
+
+    Preserve info['bind_key'] when creating table
+    
+    - When creating a table on in the non-declarative way, info/bind_key was lost
+
+commit e8450c488a4287fabcf06cf9028dcc0a2cf54289
+Merge: a05d15a 829950d
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Oct 6 12:29:09 2011 -0700
+
+    Merge pull request #54 from rdunklau/patch-1
+    
+    Truth testing on a table causes TypeError
+
+commit 829950d9ce6f40377a8ae99afcccc7b5a2f60243
+Author: Ronan Dunklau <rdunklau@gmail.com>
+Date:   Mon Oct 3 12:32:24 2011 +0300
+
+    Edited flaskext/sqlalchemy.py via GitHub
+
+commit a05d15a57ca6bcfb6574d2305570d4debbbeb02a
+Merge: 08689c7 8799b01
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Sep 7 17:33:53 2011 +0200
+
+    Merge remote-tracking branch 's0undt3ch/master'
+
+commit 8799b0120c70d3faef1f9d11be58334b5da5ac60
+Author: Pedro Algarvio <pedro@algarvio.me>
+Date:   Mon Sep 5 18:34:13 2011 +0100
+
+    Needed to re-import `os` when running tests through `python setup.py test`
+
+commit f65ef9107dc60d53953e44a8a787873e71c515fc
+Author: Pedro Algarvio <pedro@algarvio.me>
+Date:   Sun Sep 4 20:28:07 2011 +0100
+
+    Fix `setdefault` on `None` object and add session scope tests.
+
+commit 6ec9d82d99a274a129d05c39669b414c801d79d6
+Author: Pedro Algarvio <pedro@algarvio.me>
+Date:   Sun Sep 4 17:19:05 2011 +0100
+
+    Setup `scopefunc` when initialising Flask-SQLAlchemy. Does not need to add another argument to `create_scoped_session`.
+
+commit ef2e2bf62c9298d46ccbd68decd7bc6d81a7275c
+Merge: 903038f 868bd16
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Sep 1 07:21:17 2011 -0700
+
+    Merge pull request #49 from s0undt3ch/master
+    
+    Allow specifying a scope function
+
+commit 868bd169f02b6266df68561ef4b6c80354f7ba13
+Author: Pedro Algarvio <pedro@algarvio.me>
+Date:   Thu Sep 1 15:09:32 2011 +0100
+
+    Provide flask's `_request_ctx_stack.__ident_func__` as default `scopefunc`.
+
+commit eb3c572581db278d165ee709af391ae4a036fa1e
+Author: Pedro Algarvio <pedro@algarvio.me>
+Date:   Thu Sep 1 15:05:54 2011 +0100
+
+    Wrong `versionadded`.
+
+commit 2949c4ead86a5b0e91df565f8ddc85cf2ac18d7a
+Author: Pedro Algarvio <pedro@algarvio.me>
+Date:   Thu Sep 1 15:04:15 2011 +0100
+
+    Document the new parameter.
+
+commit 200beed414ed5d5697fc083232cd4f55493d73bb
+Author: Pedro Algarvio <ufs@ufsoft.org>
+Date:   Thu Sep 1 15:57:16 2011 +0200
+
+    Allow specifying the session's scope function
+
+commit 08689c7301cbb57f1a0d2a5d80fe80e9f1c0fe4b
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Aug 4 17:03:13 2011 +0200
+
+    This is 0.15
+
+commit df6228f36e6e69a57503a4c5a56321ddc7539c5a
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Aug 4 17:02:43 2011 +0200
+
+    Prepare for 0.15
+
+commit 903038fac14665d4c0467507bbd0f0de3fb87f74
+Merge: f23fdb9 325a5ad
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Aug 4 07:50:00 2011 -0700
+
+    Merge pull request #41 from EnTeQuAk/multidb-sessions
+    
+    Added changelog entry and some note in the docs
+
+commit 325a5addbb8f008032c05b33e0c40a956e5d0f10
+Author: Christopher Grebs <cg@webshox.org>
+Date:   Mon Aug 1 18:02:28 2011 +0200
+
+    Added changelog entry and some note in the docs
+
+commit f23fdb9e24fb6912b9011496f68a78b45a342e62
+Merge: b0e8d6a 828dbf3
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Aug 1 03:38:59 2011 -0700
+
+    Merge pull request #40 from EnTeQuAk/multidb-sessions
+    
+    Added support for multiple databases for the session.
+
+commit 828dbf38eeb1ac39a39d7e58ebe6c22121d79fce
+Author: Christopher Grebs <cg@webshox.org>
+Date:   Mon Aug 1 10:53:05 2011 +0200
+
+    Added support for multiple databases for the session.
+    
+    This now allows models to be bind dynamically to a database so that
+    MyModel.query.count() refers to the correct database.
+    
+    Refs #26
+
+commit b0e8d6a36ac50e0072206c4b6f20357c711c1be6
+Merge: f70ac0b 7d2ce7f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jul 17 15:53:28 2011 +0200
+
+    Merge branch 'master' of github.com:mitsuhiko/flask-sqlalchemy
+
+commit f70ac0bfbe44b5c80ed2050c47237e10c8c4d747
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jul 17 15:52:31 2011 +0200
+
+    This is 0.14
+
+commit db3f7682dee5cf8c972be65a64f703144bf23e85
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jul 17 15:52:10 2011 +0200
+
+    Make relative paths for sqlite relative to the application root
+
+commit 946384cc94c122b31f5b68e3d39710c6801f0f32
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Jul 15 18:14:02 2011 +0200
+
+    Bump to 0.13
+
+commit a4419b05ed9528ec55db9674406c86df2165e06e
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Jul 15 18:13:27 2011 +0200
+
+    It selects the correct binds now
+
+commit 7d2ce7f64a18003e37108864b32ae87ef5dc1ad2
+Merge: 7c3d3d8 369f373
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jul 9 07:53:25 2011 -0700
+
+    Merge pull request #39 from sharms/master
+    
+    Spelling fix for quickstart.rst
+
+commit 369f3739ef11b408cee250610abc1518d93282fb
+Author: Steven Harms <sjharms@gmail.com>
+Date:   Sat Jul 9 08:50:20 2011 -0500
+
+    s/applciation/application/
+
+commit 7c3d3d8e298917064126aa54c1de6d3fb43d5891
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Jun 27 09:32:54 2011 +0200
+
+    Added notice for why we release 0.12 :)
+
+commit 8d28185040360cf5d00f6782720c8e74c821c3c5
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Jun 24 12:54:30 2011 +0200
+
+    teardown_request support for flask-sqlalchemy
+
+commit 421a1c25f72306d52d7bc6892becc5a624c3b097
+Author: indigo <xindigo@gmail.com>
+Date:   Thu Apr 7 18:32:37 2011 -0700
+
+    Fix to the example code.
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit 90560526bcc455edcea6810f0e92f40069cc15f8
+Author: Michael Trier <mtrier@gmail.com>
+Date:   Sat Mar 19 22:57:48 2011 -0400
+
+    Corrected example.
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit ac00bda8da67878e187bfba55281ebbebbcf2d53
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Mar 22 09:08:40 2011 +0100
+
+    Fixed test runner
+
+commit ea79cdb72c7a30c1f70611c1128819b6a02ebe28
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Mar 22 08:55:10 2011 +0100
+
+    Skip blinker tests if missing
+
+commit c98936d06b17890317f6ffa536f8d0bec018b98f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Mar 19 00:14:40 2011 +0100
+
+    Fixed typo
+
+commit 4fe8e41eb0a187e94d4353455791643b139267e8
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 23:44:12 2011 +0100
+
+    Fixed a typo
+
+commit 8c385a0dcd5c7d02f80b2b1472363a6d5ffe230b
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 23:43:05 2011 +0100
+
+    Fixed a bind related connection bug
+
+commit 4f8e2b1fed69e7a6ed260ada9eb5c57300eda713
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 23:24:16 2011 +0100
+
+    Slightly changed bind logic
+
+commit 5fe01a405336ca7f495316a6e9c3d0658647ea2e
+Merge: b07f29d 97239c1
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 23:21:55 2011 +0100
+
+    Merge remote branch 'ailabs/master'
+
+commit 97239c1309e14b9f3d15db00553ed778d9178024
+Author: mvantellingen <michaelvantellingen@gmail.com>
+Date:   Fri Mar 18 23:09:53 2011 +0100
+
+    Add unittest for the bind_key exception handling in the SignallingSession
+
+commit b07f29dcd11515f043ccc67658205c5cf9355fe1
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 23:02:42 2011 +0100
+
+    Properly select binds, docstring updates, per-bind creating
+
+commit a43d4b68519ca1f3983ae9f91e696b9bdb2a0ba7
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 23:02:18 2011 +0100
+
+    Committed new artwork
+
+commit 228baac51f79ae8c2c7b9a067fba0fde3741b0b4
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 23:02:03 2011 +0100
+
+    Huge update to the documentation
+
+commit 9415f5b284757b7ab1b5fdce7bc62c8190f358a4
+Author: mvantellingen <michaelvantellingen@gmail.com>
+Date:   Fri Mar 18 21:26:39 2011 +0100
+
+    Wrap the retrieval of the bind_key in a exception since the mapper.mapped_table is not always an table, but might be a Join instance.
+
+commit 3195d0fc5a313038cf0c811396781a41de44a7bf
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 20:16:16 2011 +0100
+
+    Updated themes
+
+commit 064b5f0137ea95f8d0910b655ce5dfe7648d533c
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 20:12:33 2011 +0100
+
+    Large theme logo support
+
+commit 77f1a2b8c378f37f19283f960f0ac3f8dc5fdcaf
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 18:46:34 2011 +0100
+
+    Better table name generation logic
+
+commit 1be46e07c7923b32b037e4f112292287573089b4
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 17:27:26 2011 +0100
+
+    Fixed a table name bug.  __tablename__ is now a feature of the metaclass
+
+commit 143881062f5ae33c2b2a1c7ffb3f885f804e0b9c
+Merge: d4e6c09 4fb1a5d
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Mar 15 11:22:55 2011 -0400
+
+    Merge remote branch 'rduplain/master'
+
+commit d4e6c0971341ebffe911804f789df9353619a73e
+Author: jqxl0205 <jqxl0205@gmail.com>
+Date:   Tue Mar 15 17:26:11 2011 +0800
+
+    In the get_bind method of_SignallingSession, mapper parameter may be None e.g query.values(*column). We should handle it otherwise AttributeError will be raised
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit 4fb1a5dbc001e103ca2b7a3881c260823e7f0686
+Author: Ron DuPlain <ron.duplain@willowtreeapps.com>
+Date:   Mon Mar 14 20:02:16 2011 -0400
+
+    Touch up doc full logo, until a new one is ready.
+
+commit a42af4251078401d7d7bbcf535d6f98a6c9622e0
+Author: Ron DuPlain <ron.duplain@willowtreeapps.com>
+Date:   Mon Mar 14 19:56:44 2011 -0400
+
+    Add "Fork me" ribbon to doc index via sidebar.
+
+commit d3d14db37527543bbdfaa196acbd33e6c1ead53f
+Author: Ron DuPlain <ron.duplain@willowtreeapps.com>
+Date:   Mon Mar 14 19:21:17 2011 -0400
+
+    Lift LaTex style & logo PDF from Flask docs.
+    
+    These might be better placed in a repository submodule.
+
+commit 30b3ded115750ad923a985836fb480d4f8dc0f71
+Author: Ron DuPlain <ron.duplain@willowtreeapps.com>
+Date:   Mon Mar 14 19:20:58 2011 -0400
+
+    Split docs into multiple pages for sphinx.
+
+commit 6c06d0777cf166d0be99b2376692b9ed11c533a3
+Author: Ron DuPlain <ron.duplain@willowtreeapps.com>
+Date:   Mon Mar 14 19:19:02 2011 -0400
+
+    Adapt Flask's sphinx conf.py for this project.
+
+commit 4d2e866f8f0fee8893dadfe03c7949e7a2146a15
+Merge: 454f6eb 9fa2eb0
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Mar 14 15:46:50 2011 -0400
+
+    Merge remote branch 'rduplain/master'
+
+commit 454f6ebc55c0e6a3636871615f9813e9ea727bc9
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Mar 14 15:34:38 2011 -0400
+
+    Added makefile
+
+commit dcb9604006ac7030760df212341e621b25b3defc
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Mar 14 15:34:31 2011 -0400
+
+    Moved a helper into a method so it can be overwriten.
+
+commit 9fa2eb09934ba84a7be432ba5fa5e5e7516819c3
+Author: Ron DuPlain <ron.duplain@willowtreeapps.com>
+Date:   Mon Mar 14 14:44:43 2011 -0400
+
+    Expand documentation on query classes and Table.
+
+commit c052145d5b85ae56dd56c53d4d6c4b822b62ff89
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Mar 14 15:15:15 2011 -0400
+
+    Removed the signalling mapper subclass in favor of a factory. This fixes #29
+
+commit 8865bfc85e25c43d53f53ac0777a999111ddbaa6
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Mar 14 13:46:43 2011 -0400
+
+    Missing dot
+
+commit 36fba1b8d537cbb628d52867ba9575ea46cc4792
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Mar 14 11:53:03 2011 -0400
+
+    Basic support for multi db
+
+commit 77075298cb5490e10f506dbc86d42106dca438ed
+Author: Michael Elsdoerfer <michael@elsdoerfer.com>
+Date:   Sat Oct 30 19:12:40 2010 +0200
+
+    Expose BaseQuery as db.Query (fixes ticket #13).
+
+commit 9cbe5bc1e59c5bb5bf406a5ae33b429cc2ec17dc
+Author: Daniel Lepage <dplepage@gmail.com>
+Date:   Mon Mar 14 01:04:43 2011 -0400
+
+    Set default relation query_class to BaseQuery.
+    
+    Set default query_class for `db.relation`, `db.relationship`, and
+      `db.dynamic_loader` to Flask-SQLAlchemy's BaseQuery.
+
+commit f81a42865cf9a7265cf0d507292adee4473fda2d
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Mar 13 22:06:02 2011 -0400
+
+    Added a docstring for apply_driver_hacks
+
+commit 4293716533af419107666eec3fe8259a565b776e
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Feb 17 12:24:31 2011 +0100
+
+    Submodules restore
+
+commit ce897fe39b6252eb2437bef87da800a70d3cc42c
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Feb 17 12:24:24 2011 +0100
+
+    HEAD is 0.12-dev
+
+commit c80705c1dde65586507bff338b8ef1aa5a577c23
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Feb 17 12:07:04 2011 +0100
+
+    Fixed a bug with Table() constructors
+
+commit 1185297ea9759180a2311e78908e7b8ca6fd90bd
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Feb 12 00:21:51 2011 +0100
+
+    master is 0.11-dev
+
+commit 61b6702abf5a85c64054f12e0787cd5d2ce963c7
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Jan 25 12:48:42 2011 +0100
+
+    Magic table!
+
+commit 7e0e936a6c85a33c165474e88535e3cecf59ad99
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jan 23 14:00:05 2011 +0100
+
+    Added changelog entry
+
+commit bceaa94c0d041a49ca91a961bde1575cb49753ef
+Author: jqxl0205 <jqxl0205@gmail.com>
+Date:   Sun Jan 23 15:17:14 2011 +0800
+
+    db __repr__ raise AttributeError when using db = SQLAlchemy() for self.app is None
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit 9fcd405f2ea111702b851fb97caef0108405a648
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Dec 20 21:32:53 2010 +0100
+
+    Changed the sqlalchemy link.  This fixes #20
+
+commit 0c2e89c34065d482d001b2df4ec13d1aeef48f4f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Dec 6 03:13:07 2010 +0100
+
+    Don't assign app to self, that is not supported
+
+commit f8343b28a5635c3632376200e15a834efc01300a
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Dec 6 03:08:30 2010 +0100
+
+    Added session_options.  Fixes #19
+
+commit 96ca45cbac8ffbdc2299e17c86692f763e531607
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Dec 6 03:04:21 2010 +0100
+
+    Cleanup
+
+commit cd8255f95a633e43776659d89e284d61c40d6331
+Author: Priit Laes <plaes@plaes.org>
+Date:   Wed Nov 24 00:31:47 2010 +0200
+
+    Docs: Add a step to define the request context before querying database
+    
+    Thanks for Jim Hunziker for reporting it.
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit c06e881e47a8dc18b6481b484fd48f316e720c39
+Author: Priit Laes <plaes@plaes.org>
+Date:   Fri Nov 19 14:46:05 2010 +0200
+
+    Fixed few typos in documentation
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit 20f60d95c39937686ba36e2487ee358e7a463fb6
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Nov 19 13:58:11 2010 +0100
+
+    Backout last change because it breaks dynamic engine resetting
+
+commit f2ef848252ee2a0db0c59fd1be3478d576b8ef3c
+Author: jqxl0205 <jqxl0205@gmail.com>
+Date:   Mon Nov 8 03:00:50 2010 +0800
+
+    Let self.Model.metadata.bind ot be self.engine, so that custom sqlalchemy column (eg. geoalchemy) can get correct dialect, otherwise the dialect will be default and str(query) will fail
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit 08d7be7859c3e385301c8744473b83a598846ed1
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Oct 22 22:31:51 2010 +0300
+
+    Added changenote
+
+commit 73a01982c4de4d42c19cc664ac8a5d56932379d3
+Author: Michael Elsdoerfer <michael@elsdoerfer.com>
+Date:   Fri Oct 22 20:05:30 2010 +0200
+
+    Added a test case for the Model.query behavior.
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit 2e80abc7532c9418435e97da053bfb5897f1cad7
+Author: Michael Elsdoerfer <michael@elsdoerfer.com>
+Date:   Fri Oct 22 20:00:45 2010 +0200
+
+    Do not require a request when accessing a model's query property. This
+    only works if the SQLAlchemy instance has been bound to an application.
+    Otherwise, a RuntimeError is raised (as opposed to before, where None
+    was returned).
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit 903964275974112184335c977ebcf8cfad8f5d55
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Oct 22 22:28:09 2010 +0300
+
+    Reverted exporting of exceptions because it does not work
+
+commit b119fa7da3ba2d9c802ce9a3f9c00226a3a08c85
+Author: Ollie Rutherfurd <orutherfurd@gmail.com>
+Date:   Wed Oct 20 09:12:54 2010 -0400
+
+    export ORM exceptions, e.g.: db.NoResultFound
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit 9a5e7ae9270e05884d998faab4341f533abcdd69
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Oct 1 10:31:19 2010 +0200
+
+    do -> due -.-"
+
+commit 4d1a61e37dab85d15b1fc6a9a0b58f6041dfd942
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Sep 30 20:52:11 2010 +0200
+
+    Disable the pool for sqlite by default if not in memory
+
+commit 334b296c5f1e66a9a443b55742b7f4b171cd51d2
+Author: Thadeus Nathanial Burgess <thadeusb@thadeusb-desktop.(none)>
+Date:   Tue Aug 24 07:54:15 2010 +0800
+
+    Added documentation for session extensions
+
+commit aa7800d4663d181026e63601adb36fb5e5090d62
+Author: Thadeus Burgess <tburgess@mediascience-dev.(none)>
+Date:   Tue Aug 24 04:15:04 2010 +0800
+
+    Cleanup on session_extensions
+
+commit bd6ce9ec28ea0d4d7ec0efbeba58271402581dbd
+Author: Thadeus Burgess <tburgess@mediascience-dev.(none)>
+Date:   Tue Aug 24 04:10:15 2010 +0800
+
+    Refactored session_extensions. Now declared in SQLAlchemy __init__
+
+commit eb82f71b2ae1445a6b9df0d3b3ca9d4f2213da36
+Author: Thadeus Burgess <tburgess@mediascience-dev.(none)>
+Date:   Tue Aug 24 03:49:27 2010 +0800
+
+    Added patch to support custom SessionExtension class instances
+
+commit 0a3774e41d57f6a94e222f312bdf50b68b8c7589
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Aug 3 22:47:05 2010 +0200
+
+    Fixed an example
+
+commit fea753b49a6fbad99c6da55838b6aa0d9b8eb197
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Aug 3 14:24:13 2010 +0200
+
+    Updated documentation
+
+commit 7c632e90282c437a8c1c4ce868028e5926d1b255
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Aug 3 14:13:21 2010 +0200
+
+    HEAD is 0.10
+
+commit 4855356cf58e44c961046021ad7e676f8abda4fc
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Aug 3 14:12:42 2010 +0200
+
+    Added signal support and automatic table name setting
+
+commit 4cee6f5856317be1c982161d721c66b0c68e293f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Jul 26 00:19:49 2010 +0200
+
+    Fixed ==dev reference
+
+commit fe710b74c44bc5752e8aaf56a1bcce2133dc8a05
+Merge: ded2343 c2aa52b
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jul 25 19:41:06 2010 +0200
+
+    Merge branch 'master' of github.com:mitsuhiko/flask-sqlalchemy
+
+commit ded23435c075db7954b08116904f41b5fd669244
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jul 25 19:40:48 2010 +0200
+
+    Fixed testsuite for 2.5
+
+commit 1bf851c0ddffc9ea581f3847be551993d847b5dd
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jul 25 19:40:38 2010 +0200
+
+    HEAD is 0.9.1
+
+commit d6e6e3156daa98743d660b66264bcaf877e24ade
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jul 25 17:58:10 2010 +0200
+
+    Added MANIFEST.in and unittests
+
+commit c2aa52bfede85b6b28eeaf7e2fac35c141b52599
+Author: Justin Lilly <justin@justinlilly.com>
+Date:   Tue Jul 20 19:54:00 2010 +0800
+
+    Fixing a spelling error. section -> second
+
+commit 7ce181aa20c505da7a7a950af6f040b399471651
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Jul 19 10:46:34 2010 +0200
+
+    Fixed tutorial
+
+commit a867a5beeb0f3e559806da8ef69f8b258f0642e8
+Author: Priit Laes <plaes@plaes.org>
+Date:   Sun Jul 11 16:26:46 2010 +0800
+
+    Fix use of wrong property name in Jinja2 pagination example
+
+commit 3594a19325ce6ee90befd2f2f7bb468a92584505
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Jul 2 10:26:29 2010 +0200
+
+    Fixed repr and added SQLAlchemy.metadata
+
+commit 84a4f5b76e134e8c0257b9903e7c1cbf31bcc3e1
+Author: Peter Ward <peteraward@gmail.com>
+Date:   Mon Jun 21 20:06:56 2010 +0800
+
+    Fixed a few grammar problems in the docs.
+
+commit 2a82af579c4c7e9060a6b3cc555286dbea4556c1
+Author: Simon Sapin <simon.sapin@exyr.org>
+Date:   Thu Jun 24 05:48:06 2010 +0800
+
+    Small rephrasing.
+
+commit 706bde2b1b48a94551a2532db9a2b626c453e8d0
+Author: Simon Sapin <simon.sapin@exyr.org>
+Date:   Thu Jun 24 05:38:29 2010 +0800
+
+    Don't document BaseQuery.get twice.
+
+commit 22201d7cf90e61e1fe1c9a180a8f1e58e3d7e0e9
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jun 23 23:32:38 2010 +0200
+
+    Require SQLAlchemy
+
+commit e407f4bf22f67ddfe0914386049fdce15df99e8d
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Jun 21 13:43:35 2010 +0200
+
+    Fixed typo
+
+commit d0f13e21739e2bbd6feec13c6f600f10f2c6fc63
+Merge: 05c5193 3547c45
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Jun 21 13:39:22 2010 +0200
+
+    Merge branch 'master' of github.com:mitsuhiko/flask-sqlalchemy
+
+commit 05c51933c4972b47c1420fdc29429da9b67b75d8
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Jun 21 13:38:10 2010 +0200
+
+    Pushed to 0.8.  Added support for MySQL connection recycling.  This fixes #2
+
+commit 3547c45469ecd149d5c0bcb1b508937b8eeaca85
+Author: jeremy avnet <brainsik@saucelabs.com>
+Date:   Fri Jun 11 13:48:37 2010 +0800
+
+    Fix typo in example
+
+commit 89cda8e0a6e0dfc6d40264db2631c709ca58f01a
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Jun 11 03:48:43 2010 +0200
+
+    HEAD is 0.7
+
+commit 25d7afc8ede663f18e37014d516efb3c2ff46eeb
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Jun 11 03:46:57 2010 +0200
+
+    Documented more
+
+commit 63aee1603d5ed56dc849128a25008ed26026dbae
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Jun 11 03:00:45 2010 +0200
+
+    Added improved pagination object. This fixes #1
+
+commit 5b0453d31a7d3e3f05c1076a1d1411b5443692de
+Author: Florent Xicluna <florent.xicluna@gmail.com>
+Date:   Sun Jun 6 01:55:55 2010 +0800
+
+    Helper to reflect() tables from the database.
+
+commit dbb7163bfafc73ca020487c73f17b646a710227e
+Author: Florent Xicluna <florent.xicluna@gmail.com>
+Date:   Sun Jun 6 01:51:06 2010 +0800
+
+    Silence a warning when using zc.buildout: "uses namespace packages but the distribution does not require setuptools"
+
+commit 3a87f57029970fa131ae7803ad24b4727f6d4d93
+Author: Zhao Xiaohong <mrluanma@gmail.com>
+Date:   Thu Jun 3 16:29:18 2010 +0800
+
+    Fixed a typo.
+
+commit 88f2190f5aa8a4e070fc7d90eeb222bb69c3fd5f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jun 2 08:29:07 2010 +0200
+
+    Fixed a bug
+
+commit 6b78bdbf49ac276ccb3eb659f01b8b0656c41696
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jun 2 08:16:25 2010 +0200
+
+    Added first_or_404 like discussed on the ML
+
+commit eb9933281b84d10ecd39c7d1288c6f430e14891f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jun 2 02:22:15 2010 +0200
+
+    HEAD is 0.6 dev
+
+commit 15dfb4854ed3f11056da75aa7a8816943e42780b
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jun 2 02:21:34 2010 +0200
+
+    Added improved documentation
+
+commit ab6cd6593aaf04030aba4941e948b81c5de9928e
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jun 2 00:18:25 2010 +0200
+
+    Added support for SQLALCHEMY_ECHO and fixed a bug with the engine cache
+
+commit ac8c1b6aebed42e683f1b96b910203162d7daf6b
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Jun 1 18:57:42 2010 +0200
+
+    Added simple pagination support. Untested
+
+commit f53bbc3079a8f03f563ee0a37b93bdca4e4d4cb2
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Jun 1 18:44:05 2010 +0200
+
+    Added missing lock
+
+commit 2caa36b1209de526e7c881ae67eabd703a480862
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Jun 1 18:39:51 2010 +0200
+
+    Added support for reall, really deferred setups
+
+commit 57c81ae5ae7b6d47d68bf3125b6c52c09ad27aec
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Jun 1 17:02:15 2010 +0200
+
+    Checked in initial version
+commit 500e732dd1b975a56ab06a46bd1a20a21e682262
+Merge: 50944e7 68c72b8
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Oct 30 06:19:44 2018 -0700
+
+    Merge pull request #651 from minisotm/master
+    
+    fix BindMetaMixin with polymorphic
+
+commit 68c72b833c33e2f0ad335ba519dffaaf56213b32
+Author: Aleksei Maslennikov <minisotm@gmail.com>
+Date:   Mon Oct 29 21:05:00 2018 +0300
+
+    add changelog by 651
+
+commit 5a3422e01fa63062dad7bc0f98943c5934a05bb6
+Author: Aleksei Maslennikov <minisotm@gmail.com>
+Date:   Mon Oct 29 17:34:42 2018 +0300
+
+    fix BindMetaMixin with polymorphic
+
+commit 50944e77522d4aa005fc3c833b5a2042280686d3
+Merge: b5fce4b fb6ee57
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Jun 5 18:41:57 2018 -0700
+
+    Merge pull request #606 from hugovk/rm-3.3
+    
+    Drop support for EOL Python 2.6 and 3.3
+
+commit b5fce4ba018054b6354356cfbc9c59f872e95eb5
+Merge: 3816534 3aaca4e
+Author: David Lord <davidism@gmail.com>
+Date:   Thu May 3 09:04:32 2018 -0700
+
+    Merge pull request #619 from kivS/patch-1
+    
+    added missing argument in code example in the docs
+
+commit 3aaca4ecee1e31aebf8632b07f58279ed8f374e2
+Author: Vik <v1k@protonmail.com>
+Date:   Thu May 3 16:26:25 2018 +0100
+
+    fix typo in example
+    
+    added missing self argument to the __init__ def
+
+commit 381653489af8ee8aa26340a7c3fe0a0dced64258
+Merge: 2f7063e 3f25130
+Author: David Lord <davidism@gmail.com>
+Date:   Fri Mar 30 08:02:38 2018 -0700
+
+    Merge pull request #613 from trollefson/opt_page_len_count
+    
+    Optional count of total number of pages
+
+commit 3f25130b77bc9861bd1c50e14266bc4c195b8440
+Author: trollefson <trollefson@gmail.com>
+Date:   Fri Mar 30 09:46:38 2018 -0500
+
+    docs for disabling page count
+
+commit 9a3a2df346ac97ae56403e78cf35b4edbf39409a
+Author: trollefson <trollefson@gmail.com>
+Date:   Fri Mar 30 08:19:06 2018 -0500
+
+    make measurement of pagination page length optional
+
+commit fb6ee57512cc0d812f9f4f7b5c9e77f1708bad42
+Author: Hugo <hugovk@users.noreply.github.com>
+Date:   Mon Mar 12 12:50:10 2018 +0200
+
+    Drop support for EOL Python 3.3
+
+commit 2f7063ef3649624eeb94fd07a32dd03aae18ed54
+Merge: ae3eb67 84ad4c2
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Feb 22 17:36:05 2018 -0800
+
+    Merge pull request #574 from greyli/patch-2
+    
+    Docs: Fixed SQL syntax
+
+commit ae3eb6729746d50ed49fe6a130306e02c4780209
+Merge: e3f60a8 ef03ca1
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Feb 22 17:34:22 2018 -0800
+
+    Merge pull request #596 from janxyz/docs
+    
+    Fix model instantiation in documentation
+
+commit e3f60a8d37badabdc1f63b9144f640ce278e0da5
+Merge: ccdb696 4620931
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Feb 22 17:34:07 2018 -0800
+
+    Merge pull request #591 from prophile/python3-in-docs
+    
+    Python 3 tweaks in docs
+
+commit ef03ca1f1f6278a9792c6575b63820426c791724
+Author: Jan Runge <janrunx@gmail.com>
+Date:   Wed Feb 21 17:40:15 2018 +0100
+
+    Fix model instantiation in documentation
+
+commit 4620931027ad7c36a34beb313def0c7d7395b98e
+Author: Alistair Lynn <arplynn@gmail.com>
+Date:   Fri Feb 2 20:45:32 2018 +0000
+
+    Python3-ify quickstart.rst
+
+commit 29883621a022bc4878d931ed737c50000b0f769e
+Author: Alistair Lynn <arplynn@gmail.com>
+Date:   Fri Feb 2 20:40:30 2018 +0000
+
+    Remove u'' prefixes
+
+commit 9889f77f2f9b5e750682901e48d14baa73a332fb
+Author: Hugo <hugovk@users.noreply.github.com>
+Date:   Mon Jan 22 10:08:45 2018 +0200
+
+    Remove unused imports
+
+commit 11f5cee3ca21d16ec2bcd2599d598dd8ab05abc5
+Author: Hugo <hugovk@users.noreply.github.com>
+Date:   Mon Jan 22 10:06:07 2018 +0200
+
+    Remove unused variable
+
+commit 488cf3578e2656e5fc1820504a7326da39e40bff
+Author: Hugo <hugovk@users.noreply.github.com>
+Date:   Sun Jan 21 23:00:02 2018 +0200
+
+    Use automatic formatters
+
+commit 7661e74a726b78fa80bc06a1a94a1efda3a5659c
+Author: Hugo <hugovk@users.noreply.github.com>
+Date:   Sun Jan 21 22:49:29 2018 +0200
+
+    Drop support for EOL Python 2.6
+
+commit ccdb696d7963cf11b4a501f80bec9248d965c681
+Merge: f465142 690bedd
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Jan 11 08:13:15 2018 -0800
+
+    Merge pull request #584 from arugifa/master
+    
+    Fix Alembic broken links in the doc
+
+commit 690bedd06f29ad752ee6d154b8a971a6dba08f01
+Author: Alexandre Figura <a.figura@syseleven.de>
+Date:   Thu Jan 11 17:10:01 2018 +0100
+
+    Fix Alembic broken links in the doc
+
+commit 84ad4c2a05bec1cfdb2c6c546918c8032889d885
+Author: Grey Li <withlihui@gmail.com>
+Date:   Tue Dec 19 08:41:12 2017 +0800
+
+    Docs: Fixed SQL syntax
+
+commit f465142ea1643b4f0fe50540780ef9a6bf2c7e53
+Merge: 5ac5ab4 df7903e
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 11 08:05:13 2017 -0700
+
+    Merge branch '2.3-maintenance'
+
+commit df7903edfcca10493ff191ff322bb5db2b45f4d6
+Merge: be45a9b c52abbd
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 11 07:57:30 2017 -0700
+
+    Merge pull request #561 from davidism/sti-unset-table
+    
+    don't mask parent table on single-table inheritance
+
+commit c52abbdc972d1619847979057ab6263de01485b7
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 11 07:43:46 2017 -0700
+
+    don't mask parent table on single inheritance
+    fixes #560
+
+commit 5ac5ab47db1f0acaaf8e9f94258a6d599a04bb38
+Merge: 43a8c81 be45a9b
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 15:05:05 2017 -0700
+
+    Merge branch '2.3-maintenance'
+
+commit be45a9be03c58abd32d8f3ebfc99764729f6f943
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 15:00:43 2017 -0700
+
+    release 2.3.1
+
+commit 5355b5c62e4f3fe94830fb6371950c1f4056c853
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 14:53:51 2017 -0700
+
+    specify pool_timeout unit (seconds)
+    fixes #513
+
+commit 29581f5cd3fa8e4c27492b32908c20bcdd36b846
+Author: Spencer Young <spencer.young@spyoung.com>
+Date:   Wed Oct 4 17:48:00 2017 -0400
+
+    Add Windows example for sqlite URI configuration. (#495)
+
+commit 49ecc8cb6c333eaf36d8cde84e3174845e38148b
+Merge: d7cc392 c61919d
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 14:44:30 2017 -0700
+
+    Merge pull request #558 from davidism/no_negative_offset
+    
+    set page and per_page defaults when invalid
+
+commit c61919d501e27d772e2d03ef25615fe0895adcb3
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 14:38:09 2017 -0700
+
+    set page and per_page defaults when negative
+    continues # 343
+    fixes #336
+
+commit d426330466f3cf841e9b154506217a9bb10d569d
+Author: Blake Grotewold <hello@grotewold.me>
+Date:   Tue Oct 27 14:46:54 2015 -0400
+
+    Issue #336: OFFSET must not be negative
+    
+    Why:
+    It is not valid to have a negative offset or page. These changes allow
+    `query.paginate` to run with `error_out` on but still default to page 1
+    (or offset 0)
+
+commit d7cc3928756cc95834e54fe4b97ead941c27d138
+Merge: 0ed2250 859216e
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 13:56:51 2017 -0700
+
+    Merge pull request #557 from davidism/app_context_error
+    
+    document app context error message
+
+commit 859216ecefee661abec2eaafb298be1f8db711ad
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 13:50:34 2017 -0700
+
+    add app context error message to docs
+    add link to docs to error message
+    fixes #553
+
+commit 0ed22501a9e6194c9f3092e9b12cd2e382bb34d4
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 13:26:48 2017 -0700
+
+    add changelog for #555
+    mark changes with rst extension for github (#548)
+    [ci skip]
+
+commit 82d458cc04d8fda47c32192aa762feeb25074763
+Merge: 35d2871 5cd3def
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 13:19:07 2017 -0700
+
+    Merge pull request #542 from kalombos/fix_per_page
+    
+    limited per_page param in paginate
+
+commit 5cd3def275533c281fa6111ccbd71bc1ab900b31
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 12:57:21 2017 -0700
+
+    always apply max_per_page
+    add changelog
+    simplify test
+
+commit ee57bbe42dec51fa38bf8321fdfc91c9f89291d4
+Author: kalombo <nogamemorebrain@gmail.com>
+Date:   Thu Sep 21 13:37:51 2017 +0500
+
+    added max_per_page param to pagination
+
+commit 35d2871bb192f93be36bbcea6fe2429e75b8550f
+Author: Jeffrey Slort <j_slort@hotmail.com>
+Date:   Wed Oct 4 21:23:27 2017 +0200
+
+    Fixes #554 representation of new model instances (#555)
+    
+    Fixed representation of new model instances
+    Added "transient" id for unpersisted models
+
+commit e3def6e2f1f9c31fea5c2103df8fec5690e061b1
+Merge: 323f1e0 4aa5a96
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 12:25:47 2017 -0700
+
+    Merge pull request #556 from davidism/pkey_error
+    
+    raise correct error when model has name but no pkey
+
+commit 43a8c813afeddbfc4ff89440290bc38433376931
+Author: Jeffrey Slort <j_slort@hotmail.com>
+Date:   Wed Oct 4 21:23:27 2017 +0200
+
+    Fixes #554 representation of new model instances (#555)
+    
+    Fixed representation of new model instances
+    Added "transient" id for unpersisted models
+
+commit 4aa5a96e3c9368f2b75b6921bda9e744fc91b166
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Oct 4 12:18:52 2017 -0700
+
+    correct error when model has name but no pkey
+    fixes #552
+
+commit 323f1e0be302db884aadff4cd244506837c6652c
+Merge: 30dba64 5aa329f
+Author: David Lord <davidism@gmail.com>
+Date:   Mon Oct 2 12:37:08 2017 -0700
+
+    Merge pull request #551 from davidism/reflect
+    
+    model uses existing table by name
+
+commit 5aa329f6489ccbb0c4d21781839f3ccd7f4f52e6
+Author: David Lord <davidism@gmail.com>
+Date:   Mon Oct 2 12:04:43 2017 -0700
+
+    model uses existing table by name
+    fixes #550
+
+commit 30dba642aac9c5825c65720289a28c191eec9348
+Merge: 5a8cf41 adec8ff
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Sep 28 07:08:33 2017 -0700
+
+    Merge branch '2.2-maintenance'
+
+commit adec8ff2ec5f6a8e3d6fdf9036aa336f4b787571
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Sep 28 06:45:10 2017 -0700
+
+    release 2.3.0
+
+commit 52e799265d6ec94ec8e3930fc65281f828b000c1
+Merge: fa8f9bf d18f7f7
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Sep 28 06:38:48 2017 -0700
+
+    Merge pull request #547 from davidism/get_app
+    
+    pass real app instead of current_app to connector
+
+commit d18f7f78ae5b26661d1b133a393b4c9eecea6166
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Sep 27 21:21:23 2017 -0700
+
+    pass real app instead of current_app to connector
+    fixes #490
+
+commit fa8f9bf67bb7df3c87b0d7cd739f55a73cc3c47d
+Merge: a04b971 9aa42b2
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Sep 28 06:31:23 2017 -0700
+
+    Merge pull request #546 from davidism/metaclass
+    
+    allow passing declarative_base as model_class
+
+commit 9aa42b2019c3b518c0100fb6ffbde98b71f38e04
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Sep 27 20:02:08 2017 -0700
+
+    allow passing declarative_base as model_class
+    move model and metaclass to new module
+    split metaclass into mixins
+    rename _BoundDeclarativeMeta to DefaultMeta
+    rewrite customizing docs
+    document metaclass to disable tablename
+    add changelog for 2.3.0
+
+commit a04b971af995932ff4f8eec90d467768fd3eb9b4
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Sep 26 13:30:10 2017 -0700
+
+    next release is 2.3.0
+
+commit 5135ba2b2fec541e2f86f8d7da14651cce08c0e9
+Merge: 80a7cce bceb09b
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Sep 26 13:25:24 2017 -0700
+
+    Merge pull request #530 from xliiv/default_repr
+    
+    Add default __repr__ for Model class
+
+commit bceb09b9284aac57f2628fc6272e0d02cc41e068
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Sep 26 13:18:49 2017 -0700
+
+    unicode -> utf8 in repr for py2
+
+commit 6a0fc24611f6c2fda97a5356ddc180b476fa393c
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Sep 26 10:59:30 2017 -0700
+
+    adjust repr format, fix test
+
+commit 3e2c8998ac79bfb6b1b892e68517b601f4a8d30a
+Author: Tymoteusz Jankowski <tymoteusz.jankowski@gmail.com>
+Date:   Sun Aug 20 10:03:33 2017 +0200
+
+    Add default __repr__ for Model class
+
+commit 80a7cce5daf010851d8e2300e4cfb4274b096058
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Sep 26 10:11:27 2017 -0700
+
+    use pytest in readme and make
+    fixes #529
+    [ci skip]
+
+commit c48d8161cd0b361f474f23d97e4721bc0754d309
+Merge: f93c737 e91bb0e
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Sep 26 10:07:23 2017 -0700
+
+    Merge pull request #543 from davidism/tests
+    
+    update testing matrix, add coverage report
+
+commit e91bb0e3d085e62f3ec0d4fd84fab47b22447e0e
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Sep 26 08:52:35 2017 -0700
+
+    update testing matrix, add coverage report
+
+commit f93c737dd9eede7f9ed66fb3ec3cf63545e47af5
+Merge: f1e5852 7134764
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Sep 26 07:32:19 2017 -0700
+
+    Merge pull request #541 from davidism/tablename
+    
+    rewrite tablename generation again
+
+commit 7134764ce7c8bdeeadf09e09f7ca69be58ef09fa
+Author: David Lord <davidism@gmail.com>
+Date:   Mon Sep 18 13:40:19 2017 -0700
+
+    rewrite tablename generation again
+    use __table_cls__ hook for primary key check
+    detect PrimaryKeyConstraint
+
+commit 5a8cf41def6e3ea498f1e0247ce06f00c551c3bf
+Merge: c1e309a f1e5852
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Sep 13 08:43:58 2017 -0700
+
+    Merge branch '2.2-maintenance'
+
+commit f1e585260a54ff7e5bbed877dc5fecbecd24680c
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Sep 13 08:38:46 2017 -0700
+
+    config to ignore warnings in tests
+
+commit 7134a4a04262f914d9ee6f44f8d2776d83b55599
+Author: Jonas Lergell <jonaslergell@gmail.com>
+Date:   Sun May 14 14:14:21 2017 +0200
+
+    Convert tests to pytest
+
+commit c1e309a90822d2b8b1c0ca2d05949bbfb7005778
+Merge: d71afea 4e4a73c
+Author: David Lord <davidism@gmail.com>
+Date:   Fri May 19 09:14:07 2017 -0700
+
+    Merge pull request #500 from thrawny/converting-to-pytest
+    
+    Convert tests to pytest
+
+commit 4e4a73ca68fc2db86b5f3d2bcb368c9495262866
+Author: Jonas Lergell <jonaslergell@gmail.com>
+Date:   Sun May 14 14:14:21 2017 +0200
+
+    Convert tests to pytest
+
+commit ecb131b6f002fa113793f6952559a72148ef1c72
+Merge: ffe562b 593afc0
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Mar 11 13:32:34 2017 -0800
+
+    Merge pull request #472 from krassowski/dont_warn_if_binds
+    
+    Suppress warning about not set DATABASE_URI when SQLALCHEMY_BINDS are set
+
+commit ffe562b7a8c3710da0d97239ee2bcbfdc0cb52eb
+Merge: 86a3deb 30755c6
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Mar 11 12:50:23 2017 -0800
+
+    Merge pull request #477 from ThiefMaster/no-g
+    
+    Move query log back to the app context itself
+
+commit 30755c6ad8aaeacf83de4257c957f70dea5f5008
+Author: Adrian Moennich <adrian@planetcoding.net>
+Date:   Mon Feb 27 23:13:09 2017 +0100
+
+    Run more than one query in query recorder test
+    
+    Otherwise the case where the sqlalchemy_queries list already exists
+    isn't tested.
+
+commit 3ec5322be0a2ccf000c2f6c60adeeeb59ea88642
+Author: Adrian Moennich <adrian@planetcoding.net>
+Date:   Mon Feb 27 23:08:43 2017 +0100
+
+    Move query log back to the app context itself
+    
+    Avoids cluttering the `g` object with extension data.
+    
+    closes #475
+
+commit 86a3deb3461bace8431581acc158fc045a9808a4
+Merge: 76c86c9 531461b
+Author: David Lord <davidism@gmail.com>
+Date:   Mon Feb 27 13:27:31 2017 -0800
+
+    Merge pull request #474 from ThiefMaster/no-flaskext
+    
+    Don't reference `flaskext` in headers
+
+commit 531461bb9ba10ed180e9257f6e3ca21618fe65a2
+Author: Adrian Moennich <adrian@planetcoding.net>
+Date:   Mon Feb 27 22:23:24 2017 +0100
+
+    flaskext is long deprecated
+
+commit 593afc09216d27131581f0ff4c33b310c1236423
+Author: krassowski <krassowski.michal@gmail.com>
+Date:   Mon Feb 27 22:05:35 2017 +0100
+
+    Suppress warning about not set SQLALCHEMY_DATABASE_URI if SQLALCHEMY_BINDS is set
+    
+    Fixes #471 at https://github.com/mitsuhiko/flask-sqlalchemy/issues/471
+
+commit 76c86c9e20b9fa131afb29592aab4c17e80779d2
+Author: David Lord <davidism@gmail.com>
+Date:   Mon Feb 27 08:49:02 2017 -0800
+
+    bump version 2.2.1
+
+commit d71afea650e0186348d81f02cca5181ed7c466e9
+Author: David Lord <davidism@gmail.com>
+Date:   Mon Feb 27 07:29:59 2017 -0800
+
+    release version 2.2
+
+commit 472894c45629721b93af346ab1658a62430de865
+Merge: 9eff8b6 f4662ad
+Author: David Lord <davidism@gmail.com>
+Date:   Mon Feb 27 10:52:39 2017 +0800
+
+    Merge pull request #467 from davidism/tablename
+    
+    Don't access all class properties when generating tablename
+
+commit f4662ad464a73befa47cf74754fdbfe156570e59
+Author: David Lord <davidism@gmail.com>
+Date:   Sun Feb 26 17:53:13 2017 -0800
+
+    only get declared attr properties when looking for tablename
+    move tablename generation to base model to avoid sqlalchemy
+      warning about unmanaged access
+    closes #349
+    closes #323
+    closes #454
+
+commit 9eff8b6597987c9ac4ae86d8672d5abf9f8e4312
+Merge: 6c1f4a2 206e9b9
+Author: David Lord <davidism@gmail.com>
+Date:   Sun Feb 26 01:39:38 2017 +0800
+
+    Merge pull request #443 from scotchka/master
+    
+    warn user when SQLALCHEMY_DATABASE_URI is not set
+
+commit 206e9b932b6b5b6cbc62d8312fc743cb82382067
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Feb 25 09:34:31 2017 -0800
+
+    be explicit about sqlite memory uri
+
+commit ae15876e20dac5beaa52916def547de3cee3984a
+Author: Henry Chen <tahafut@gmail.com>
+Date:   Sat Oct 29 16:36:21 2016 -0700
+
+    warn user when SQLALCHEMY_DATABASE_URI is not set
+
+commit 6c1f4a22366cc7f66927f055742260dcca9006ec
+Merge: 482a5ca 7ff93c1
+Author: David Lord <davidism@gmail.com>
+Date:   Sun Jan 15 08:48:14 2017 -0800
+
+    Merge pull request #461 from davidism/app_context
+    
+    Only use app context
+
+commit 7ff93c1e65521d570331b8d51e6b95bd6ec1179e
+Author: David Lord <davidism@gmail.com>
+Date:   Sun Jan 15 08:18:05 2017 -0800
+
+    only use app context
+
+commit 482a5ca65ee1e28bb304687db28926ee49b650e8
+Author: Noah Goldsmid <Noahgoldsmid@live.nl>
+Date:   Sat Jan 14 18:31:00 2017 +0100
+
+    Fix next_num and prev_num showing non existant page nums (#460)
+
+commit 1ab23e28db7aa4f2a84e4dbffe08b84565249714
+Author: Adrian <adrian@planetcoding.net>
+Date:   Fri Jan 13 23:40:36 2017 +0100
+
+    Stop recommending lazy='dynamic' and other BadThings™ new users tend to keep (#459)
+    
+    * Use higher default email length. People tend to copy & paste code. Emails >50 chars are a thing, unfortunately.
+    * Do not recommend lazy='dynamic'
+    * Do not add custom constructors to models
+    * Make columns NOT NULL
+    * Add reference to SA docs
+    * Use PKs in mapping table
+    * Improve wording
+    * Add example for overriding Model.__init__
+    * Add options(joinedload()) example
+    * Link with_parent to SA docs
+    * Fix rst backtick usage
+
+commit cd9d002fe9860b64525cdf0cc23eea9daca3ba0b
+Author: satoru <satorulogic@gmail.com>
+Date:   Mon Jan 2 08:09:44 2017 +0800
+
+    Avoid circular reference by deleting _SQLAlchemyState.app (#324)
+    
+    Since this attribute is not used anywhere in the implementation, we can
+    just delete it.
+    
+    Otherwise, `app.extensions['sqlalchemy'].app` would be a circular
+    reference and cause memory leak.
+
+commit 1898df5dd9e21a93dd694c3ac57153df9ea24264
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Dec 31 09:39:12 2016 -0800
+
+    use sqlalchemy's engine repr to hide password
+
+commit 2fcbc28ce6194c4a9a7035920d0811902078823b
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Dec 31 08:32:06 2016 -0800
+
+    test on 3.6 with travis
+
+commit a63ddd1d9e43f612ba01bcbbd241b39f3743c78f
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Dec 31 08:22:50 2016 -0800
+
+    test on 3.6, fix wheel metadata
+
+commit 7d65e2dc1f4e798f3234aaef01e615e3db319b05
+Merge: eade982 a61cf1a
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Mon Aug 15 10:16:49 2016 +0100
+
+    Merge pull request #415 from justanr/ISSUE-396-query_class-documentation
+    
+    Provide documentation for use of query_class
+
+commit eade9821f4e7c03470a862108f87b6b37b7cbc3f
+Merge: fa3f550 ecc9498
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Sun Aug 14 20:43:04 2016 +0100
+
+    Merge pull request #416 from nickw444/mariadb-docs
+    
+    Provide additional documentation for SQLALCHEMY_POOL_RECYCLE
+
+commit a61cf1a2a4a5fe48f801e1b61fd4077e31ac6cfb
+Author: Alec Reiter <areiter@kabbage.com>
+Date:   Sat Aug 13 12:23:02 2016 -0400
+
+    Refine documentation
+
+commit ecc9498b03df2eb5f6e1488f69f6781de3b85d99
+Author: Nicholas Whyte <nick@nickwhyte.com>
+Date:   Sat Aug 13 15:33:19 2016 +1000
+
+    Provide additional documentation for SQLALCHEMY_POOL_RECYCLE to reflect lower connection timeouts of some backends.
+
+commit fc168157f7cb83ec6ee8f538e0716d6a1bea9794
+Author: Alec Reiter <areiter@kabbage.com>
+Date:   Fri Aug 12 22:26:51 2016 -0400
+
+    Rough draft on customizations
+
+commit fa3f550cbfb741db4dd9caa34994f16f32743317
+Merge: 63f8196 14f4af8
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Aug 12 16:49:19 2016 +0100
+
+    Merge pull request #400 from ben4ever/amend_source_code_comment
+    
+    Move a source code comment to proper position
+
+commit 63f8196da26efc6548113b6c1b791b1912ca2f1a
+Author: Romain Beuque <rbeuque74@gmail.com>
+Date:   Fri Jul 29 20:43:43 2016 +0200
+
+    feat(echo): allow custom parameters for SQLALCHEMY_ECHO as 'debug' value is allowed (#409)
+    
+    Signed-off-by: Romain Beuque <romain.beuque@corp.ovh.com>
+
+commit fa78d3909ead6d17c1d673e059195a35b98a865b
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Jun 14 07:43:34 2016 -0700
+
+    remove sidebar intro, it's in the index body already
+    side effect: removes "unstable" message
+    always show logo in sidebar
+
+commit b435cae7d26ed271d1f54dbc02271c6ffd32cd27
+Author: David Lord <davidism@gmail.com>
+Date:   Tue Jun 14 07:20:40 2016 -0700
+
+    format quickstart, fix minor example inconsistency
+    clean up intersphinx mapping
+    use current year in docs
+    use setup.cfg to tag dev builds
+
+commit 14f4af897f25446bceb29945db56d70279f8ffab
+Author: Benjamin Dopplinger <b.dopplinger@gmail.com>
+Date:   Mon May 30 15:03:20 2016 +1000
+
+    Move a source code comment to proper position
+    
+    Comment became unclear with commit
+    9b5bd9427fb3562926b3f9d9f9401ea6159a1fb2.
+
+commit bbf03891634c92fdd2f68244da861757189a5238
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Apr 9 17:46:23 2016 -0700
+
+    make get_app prefer current app over default app
+    subclass DeprecationWarning and always show it
+    mark setup.py executable
+
+commit a7eae3cc81ff8c2b248933699a52030e1ab00cb2
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Apr 9 16:40:34 2016 -0700
+
+    clean up tests (#388)
+    
+    * SQLALCHEMY_ENGINE isn't a config key
+    * SQLALCHEMY_DATABASE_URI defaults to sqlite://
+    * not all TestCases registered, some fail
+    * flask_sqlalchemy is aliased to sqlalchemy, confusing
+    * tox with min and current versions
+
+commit 88892a839fb778388eead287548351118dbdda01
+Author: David Baumgold <david@davidbaumgold.com>
+Date:   Sat Apr 9 12:23:20 2016 -0400
+
+    Support binds on abstract models (#373)
+
+commit 095f19a177744f2077092d13affe90acd56faff4
+Merge: 1eca52f 8a026c2
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Feb 25 16:41:12 2016 -0800
+
+    Merge pull request #378 from StephenOrJames/patch-1
+    
+    peter.id should be 2 per the table
+
+commit 8a026c20c3daa78668727e692325e4cf704ad0c1
+Author: Stephen James <StephenOrJames@users.noreply.github.com>
+Date:   Thu Feb 25 17:59:58 2016 -0500
+
+    peter.id should be 2 per the table
+
+commit 1eca52fc3d1164167af31ada05f41bf5a85d4497
+Merge: 1ef899f e9f9ef6
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Jan 28 06:32:53 2016 -0800
+
+    Merge pull request #372 from yangl1996/patch-1
+    
+    Fix wrong query usage in documentation
+
+commit e9f9ef65a2467274995ca080f91ff255f39293a9
+Author: Lei Yang <yltt1234512@gmail.com>
+Date:   Thu Jan 28 15:29:40 2016 +0800
+
+    Fix wrong query usage in documentation
+    
+    missing `.all()`
+
+commit 1ef899fc376b13f541f574ca33b9a295e7774377
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Dec 16 14:12:42 2015 -0800
+
+    say warning is disable by setting to either value
+
+commit 8f92427a0ff8dfbaa135a6296524feab9cd0922f
+Merge: c1a952f 3fec753
+Author: David Lord <davidism@gmail.com>
+Date:   Sun Dec 13 22:33:35 2015 -0800
+
+    Merge pull request #364 from mitsuhiko/session_factory
+    
+    Fix db.session so that events work
+
+commit 3fec7535922e687e0518bdbfcd24b6389ab5c3af
+Author: David Lord <davidism@gmail.com>
+Date:   Sun Dec 13 22:18:23 2015 -0800
+
+    use sessionmaker instead of partial as the factory to scoped_session
+
+commit c1a952f2af3e496bbd39674acaf7cbba07619761
+Author: David Lord <davidism@gmail.com>
+Date:   Fri Dec 11 11:08:08 2015 -0800
+
+    assertIs isn't available in py26
+
+commit bd13c5421ec5d8a233f9b3dc9229262af65be1c2
+Author: David Lord <davidism@gmail.com>
+Date:   Fri Dec 11 10:35:13 2015 -0800
+
+    don't require passing app to get_engine
+
+commit d651a700ea1cc6fa22be03ef71f9a437560cdadd
+Author: David Lord <davidism@gmail.com>
+Date:   Wed Dec 9 06:20:30 2015 -0800
+
+    link to sqlalchemy documentation
+    
+    Direct link to SQLAlchemy docs on front page.
+    Description of what Flask-SQLAlchemy docs are.
+    Bump minimum SQLAlchemy version.
+
+commit 8c89a761b52151c154d16e8f73903f3b6cd6d28a
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Dec 4 17:42:37 2015 +0000
+
+    Refactor MetaData test case to remove use of naming_conventions
+    Push minimum SQLAlchemy version back down to 0.8.0
+    Reflect in CHANGES
+
+commit 0181217c32955c2d700bf8781aeaf60c8252d4ac
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Dec 4 15:47:55 2015 +0000
+
+    fixes #345, which prevents an empty dict being specified for the binds option
+
+commit cea9679963a323203e02722dc88e363bfdd8f01d
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Dec 4 15:43:31 2015 +0000
+
+    Changes and attribution for model_class and query_class changes
+
+commit 050527c0b9059d5460c50e0b86516a34a4d6a9ef
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Dec 4 14:52:23 2015 +0000
+
+    Fix min SQLAlchemy ver
+
+commit 31dd5c1d48df74f67b06808d8ba3e71fbcfe42cc
+Merge: 64eaccf 2284586
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Dec 3 14:19:50 2015 -0800
+
+    Merge pull request #314 from martijnvermaat/submodule-https
+    
+    Change docs/_themes submodule protocol from git:// to https://
+
+commit 64eaccf79d9137afd4d0b72908976b6b33f62c0b
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Dec 3 14:14:59 2015 -0800
+
+    add pdf link to sidebar
+    pdf is generated from latex by pocoo/flask-docs
+    closes #209
+
+commit 8ebb2a639317debd17201e34ce6d02069544a042
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Dec 3 12:36:08 2015 -0800
+
+    clean up documentation about BaseQuery
+    clarify use of Model class
+    remove ancient SessionExtension example, it was deprecated in SQLAlchemy 0.7
+
+commit a6a8c9f4ee11dc58f005cc170f30f7d1c504f87e
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Dec 3 09:46:08 2015 -0800
+
+    use tox from travis, taken from Flask repo
+    enable python 3.5 in tox
+    include blinker tests
+    ignore intellij config and tox cache
+
+commit f5d367e24f3f30cabd5f9b6caf78fe7088848a84
+Merge: 9343ac5 b2eac43
+Author: David Lord <davidism@gmail.com>
+Date:   Thu Dec 3 05:02:37 2015 -0800
+
+    Merge pull request #321 from ThiefMaster/no-flask-ext
+    
+    Replace flask.ext.sqlalchemy with flask_sqlalchemy
+
+commit 9343ac5dade2b52df23eca15a11ff3f40c797b27
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Nov 25 15:01:14 2015 +0000
+
+    Python 3.5 supported
+
+commit 3e97b6aaa5285adf98e72f8fbfac32a54f43844d
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Nov 25 14:30:04 2015 +0000
+
+    Test with Python 3.5
+
+commit 7f1bcae64f79feee80860a39f30df6187d124b1e
+Merge: cfe529a 6343739
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue Nov 24 12:48:38 2015 +0000
+
+    Merge pull request #353 from jcomo/master
+    
+    Clarify table name override attribute
+
+commit 634373941bc489627641f819eaf3d3ce38451910
+Author: Jonathan Como <jonathan.como@gmail.com>
+Date:   Mon Nov 23 18:11:54 2015 -0500
+
+    Clarify table name override attribute
+
+commit cfe529a5997edcfd65fbcc4b4928be180bfa7e7b
+Merge: 92ecdb2 3c0b580
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Nov 16 10:09:46 2015 +0100
+
+    Merge pull request #348 from macrotim/fix-contexts-rst
+    
+    Fix docs/contexts.rst
+
+commit 3c0b5803a336186f09b81a7d3360821793dea773
+Author: Tim Chan <macrotim@gmail.com>
+Date:   Sun Nov 15 19:11:58 2015 -0800
+
+    Fix docs/contexts.rst
+
+commit 92ecdb27de8fec129cdfa13dc5f98a5d2ffc8b29
+Merge: df7f4e0 c30edb6
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Oct 28 10:57:16 2015 +0000
+
+    Merge pull request #344 from grotewold/patch-1
+    
+    Use Travis' container-based infrastructure
+
+commit c30edb6de64596be3aab9b5a10d008f9224b0e77
+Author: Blake Grotewold <grotewold@users.noreply.github.com>
+Date:   Tue Oct 27 14:56:53 2015 -0400
+
+    Use Travis' container-based infrastructure
+    
+    This adds the `sudo: false` config to speed up CI testing on TravisCI's new infrastructure.
+
+commit df7f4e0e6786ec4d30e8db0bed938ae4ace514f4
+Merge: 357ec7b 3ff4c64
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Oct 23 11:03:29 2015 +0100
+
+    Merge pull request #328 from justanr/custom_query_class_feature
+    
+    Implement custom query and model class options
+
+commit 357ec7b69756345c0ebeb86b797e3efa6535627c
+Merge: cb3578a d80286b
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Oct 23 11:02:16 2015 +0100
+
+    Merge pull request #326 from heejongahn/master
+    
+    docs: fixed a misc typo in models.rst
+
+commit cb3578a03a9c69f09fb9cab15764ec81203e9ea3
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Oct 23 10:56:12 2015 +0100
+
+    Reflect 3.0-dev in version vars
+
+commit 6e280dbb8e358982dc5e5c9910474cb5d901a21c
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Oct 23 10:54:15 2015 +0100
+
+    Update README
+
+commit 7e665aad0aa851af6d8fdac51752b27ede6112f0
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Oct 23 10:49:49 2015 +0100
+
+    Bump version number to 2.1
+
+commit 400536c52e04f7853dde3b5750ca8b6813ca8a2b
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Oct 23 10:49:29 2015 +0100
+
+    Codename version 3.0
+
+commit 3ff4c6456eeb1fdaa13c3e7bfdb38b99d1786a6d
+Author: justanr <alecreiter@gmail.com>
+Date:   Tue Aug 11 09:30:59 2015 -0400
+
+    Respect existing query class on models
+
+commit f1de1e29512bebfd1c1c59d91e81552cd356e718
+Author: justanr <alecreiter@gmail.com>
+Date:   Mon Aug 10 08:14:10 2015 -0400
+
+    Add custom query class to session options.
+
+commit 155656a9a5db0b8628ba9f9a975ef183e49a78d7
+Author: justanr <alecreiter@gmail.com>
+Date:   Thu May 7 20:53:09 2015 -0400
+
+    Implement custom query and model class options
+
+commit ac135c674fb2d4ae49395e15283be155e826b3ea
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue Jul 28 20:49:29 2015 +0100
+
+    Be consistent about dealing with session options
+
+commit ad6bbce57739ef34a56ece4fcaec1d41a7e16440
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue Jul 28 20:49:05 2015 +0100
+
+    Record changes for improved sessions
+
+commit 2a353793be141c256a556d17523e8d19993b876a
+Merge: fe67c63 19c8ce0
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue Jul 28 20:26:56 2015 +0100
+
+    Merge branch '249'
+
+commit 19c8ce02db895755feb885de42b2497d6f35059d
+Author: Matt Wright <matt@nobien.net>
+Date:   Fri Jan 2 14:51:51 2015 -0500
+
+    Make session management a little more flexible
+
+commit d80286b387a440e7ef8be884f07f3d73709550b9
+Author: Heejong Ahn <heejongahn@gmail.com>
+Date:   Tue Jul 28 18:07:19 2015 +0900
+
+    docs: fixed a misc typo in models.rst
+
+commit b2eac43ab2a13acdc037d16812c92649bcdf4680
+Author: ThiefMaster <adrian@planetcoding.net>
+Date:   Wed Jun 24 23:16:56 2015 +0200
+
+    Replace flask.ext.sqlalchemy with flask_sqlalchemy
+
+commit 2284586978e0e3b5ea6375e7a4679801d3c9d647
+Author: Martijn Vermaat <martijn@vermaat.name>
+Date:   Wed May 27 14:28:08 2015 +0200
+
+    Change docs/_themes submodule protocol from git:// to https://
+    
+    Allows pip install from the git repository when the git:// protocol
+    is blocked.
+
+commit fe67c633f2e6d66a01a1670e5fc6649506358d20
+Merge: 50b5894 fa18b77
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Mar 26 17:19:17 2015 +0000
+
+    Merge pull request #255 from svenstaro/add-metadata-parameter
+
+commit fa18b77bb0213a2c532465c112c3378518973330
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Mar 26 17:18:54 2015 +0000
+
+    Change non-py26 supported methods in tests
+
+commit 1d8e9873bed9e8b75a9e7b0903870fe832b92628
+Merge: f9c3036 50b5894
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Mar 26 17:15:36 2015 +0000
+
+    Merge master
+
+commit 50b58949ebc4852d9c64d2364441c665cdd2fd4a
+Merge: 0745688 0e00f44
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue Mar 17 17:33:28 2015 +0000
+
+    Merge pull request #257 from davidism/pagination
+    
+    Get paginate args from request args
+
+commit 0745688a9b1ed27b6a3548491ff75c380fa429ae
+Merge: acb768b 839f50c
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Mar 11 12:03:48 2015 +0000
+
+    Merge pull request #270 from keyanp/fix_ext_imports
+    
+    Change import to reflect deprecated ext format
+
+commit 839f50ca24bdac66b750554117e55af6f336d742
+Author: Keyan Pishdadian <kpishdadian@gmail.com>
+Date:   Wed Mar 11 00:08:45 2015 -0400
+
+    Change import to reflect deprecated ext format
+
+commit acb768b64cc52abedfc98c4901983d312c7b9d06
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Feb 26 18:02:32 2015 +0000
+
+    Let's give this a codename
+
+commit 3d3c72faeef2f0195397cf84e788924395d280e9
+Merge: c0bdf2d f02c6af
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Mon Feb 9 21:40:49 2015 +0000
+
+    Merge pull request #256 from davidism/events
+    
+    Fix and deprecate change tracking
+
+commit c0bdf2d580113b32b73e1a9f30c8819439df4e05
+Merge: ae86459 7b82f02
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Mon Feb 9 21:39:58 2015 +0000
+
+    Merge pull request #254 from svenstaro/patch-3
+    
+    Add additional note about tox
+
+commit ae8645932bb4a7a6f1a52e39fa84860748e72237
+Merge: e05ffe1 a879db4
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Mon Feb 9 20:08:59 2015 +0000
+
+    Merge pull request #253 from svenstaro/patch-2
+    
+    Add python 3.4 to tox.ini
+
+commit 0e00f4483563123f0b33ccacdaa08a7eb1b74a8f
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Jan 10 22:03:06 2015 -0800
+
+    get paginate args from request args
+
+commit f02c6af7df098cce2fc85bb8522811d8c2e3734f
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Jan 10 22:47:41 2015 -0800
+
+    clean up signal docs
+    fix py3 print in doc config
+
+commit 10cf167d1dcb7a356f0d781c72234282eff50038
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Jan 10 19:05:02 2015 -0800
+
+    use session properties to track changes
+    removes now unneeded mapper events
+    fixes before_models_committed signal
+    fix signal test
+
+commit e79316638122f7a224d2e55d81b978e0b4c93005
+Author: David Lord <davidism@gmail.com>
+Date:   Sat Jan 10 11:13:29 2015 -0800
+
+    don't register tracking events if config disables them
+    warn that tracking will be disabled by default in the future
+
+commit e05ffe15c0f2feac19bb02f417b473fd83c88d71
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Sun Jan 11 15:56:45 2015 +0000
+
+    Update README
+
+commit 1e236c0141b5170c70eb0f4ecf68db1155fc0194
+Merge: 41ff25f dfce046
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Sun Jan 11 15:54:56 2015 +0000
+
+    Merge pull request #259 from mitsuhiko/revert-236-No_before_models_committed_signal
+    
+    Revert "Test case for before_models_committed"
+
+commit dfce046f744a482f399e8ffadeeffe3721a9b28c
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Sun Jan 11 15:52:28 2015 +0000
+
+    Revert "Test case for before_models_committed"
+
+commit 41ff25fb1b7bad5cc9dd43a123ed78830115351c
+Merge: fcbbc17 6d2f867
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Sun Jan 11 14:17:18 2015 +0000
+
+    Merge pull request #258 from davidism/tablename_docs
+    
+    document automatic tablename
+
+commit 6d2f86701e7df252f0861e1e9fd96818c5c3eb07
+Author: David Lord <davidism@gmail.com>
+Date:   Sun Jan 11 00:16:41 2015 -0800
+
+    document automatic tablename
+
+commit f9c3036c81305ce9a46a301f860931361e2d13dd
+Author: Sven-Hendrik Haase <sh@lutzhaase.com>
+Date:   Sat Jan 10 02:16:26 2015 +0100
+
+    Add custom meta data parameter
+
+commit 7b82f02873a08bd3fcb8a130ddce4f53b6fd3100
+Author: Sven-Hendrik Haase <sh@lutzhaase.com>
+Date:   Sat Jan 10 00:20:52 2015 +0100
+
+    Add additional note about tox
+    
+    Because currently it's available but not documented.
+
+commit a879db4c0ca2a62f4177b9aa7950a78a75428f82
+Author: Sven-Hendrik Haase <sh@lutzhaase.com>
+Date:   Sat Jan 10 00:13:26 2015 +0100
+
+    Add python 3.4 to tox.ini
+    
+    Seems appropriate for the time.
+
+commit fcbbc1715552322202f98c24640a387902d7e8be
+Merge: b004639 ba21723
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue Jan 6 14:06:44 2015 +0000
+
+    Merge pull request #236 from zhangcheng/No_before_models_committed_signal
+    
+    Test case for before_models_committed
+
+commit b004639320f6b0c7c6d8d7b3db73f0c9dbb87478
+Merge: 2143048 9dfafb1
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Dec 17 14:59:47 2014 +0000
+
+    Merge pull request #248 from davidism/tablename
+    
+    Support generating tablenames in more cases.
+
+commit 9dfafb1e1d17f8e0c3ba09f17cf8735743778f74
+Author: David Lord <davidism@gmail.com>
+Date:   Mon Dec 15 21:17:38 2014 -0800
+
+    Support generating tablenames in more cases.
+    Extends naming rules to apply to base classes of models.
+
+commit 21430487e1953b18fc1b4d8bce4c7c457f90a504
+Merge: d8d143e a1a6fc1
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Mon Dec 15 19:54:05 2014 +0000
+
+    Merge pull request #247 from kevmo/grammar
+    
+    Grammar fix for documentation re creation modes.
+
+commit a1a6fc11958075d72a66edf153d8c64fd8c8df61
+Author: Kevin Moore <kevin@spendship.com>
+Date:   Mon Dec 15 13:26:28 2014 -0600
+
+    Grammar fix for documentation re creation modes.
+
+commit d8d143e45c287d80a5fdb791c166502e9e516d7a
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Dec 12 21:55:57 2014 +0000
+
+    Specify minimum SQLAlchemy req
+
+commit 6562409586e25958dac584c3a1dfeb5e241c5362
+Merge: 0c2d308 de68bc0
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Dec 12 20:57:54 2014 +0000
+
+    Merge pull request #242 from da4089/patch-1
+    
+    Fix typo: 'where' -> 'were'.
+
+commit 0c2d3089b58cd5315ab950d350c57118a4e7f63b
+Merge: 6fd538e 04adc07
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Dec 12 20:50:31 2014 +0000
+
+    Merge pull request #244 from yuvallanger/patch-1
+    
+    Removing unneeded `out`.
+
+commit 04adc07e67dd50fe684ee31e897ee356ee9bb995
+Author: Yuval Langer <yuval.langer@gmail.com>
+Date:   Tue Dec 9 07:59:31 2014 +0200
+
+    Changing `checkout out` to `check out`.
+
+commit de68bc04c486cdf8bbc2f63d3d843a6a39da1b4a
+Author: David Arnold <da4089@users.noreply.github.com>
+Date:   Mon Dec 1 23:10:17 2014 +1000
+
+    Fix typo: 'where' -> 'were'.
+
+commit ba21723f60ecdbeae1805bd13b2e9e2d6c4c2ce9
+Author: zhangcheng <czhang.oss@gmail.com>
+Date:   Thu Oct 30 18:32:00 2014 +0800
+
+    Test case for before_models_committed
+
+commit 6fd538e27a9eb65cfb06d36632833cc6297d7810
+Merge: 97967be 9b5bd94
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Oct 23 10:47:45 2014 +0100
+
+    Merge pull request #227 from chason/master
+    
+    Use StaticPool when SQLite database is :memory:
+
+commit 97967be6723a50ac2e6fc0cc7202a82c9558d0a2
+Merge: f269e21 f22ec2f
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Oct 23 10:40:07 2014 +0100
+
+    Merge pull request #233 from dalinaum/master
+    
+    Fix quickstart.rst
+
+commit f22ec2f8a82b2df92561052aac93a304a2af3b43
+Author: Leonardo YongUk Kim <dalinaum@gmail.com>
+Date:   Thu Oct 23 18:36:09 2014 +0900
+
+    Fix quickstart.rst
+
+commit 9b5bd9427fb3562926b3f9d9f9401ea6159a1fb2
+Author: chason <chason@gmail.com>
+Date:   Thu Oct 16 19:35:10 2014 -0700
+
+    Use StaticPool when SQLite databse is :memory:
+    
+    When SQLite database is memory, any changes will be lost after db is committed unless pool is set to StaticPool.
+    Reference: http://docs.sqlalchemy.org/en/rel_0_8/dialects/sqlite.html#using-a-memory-database-in-multiple-threads
+
+commit f269e21f118584c7cd0ccce1473ec875ec06a915
+Merge: aafbec9 e642fe0
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Mon Oct 13 11:15:35 2014 +0100
+
+    Merge pull request #226 from pierrerochard/patch-1
+    
+    Minor typo
+
+commit e642fe01d32327f9533c90c9720a1a1535e53155
+Author: Pierre Rochard <pierrerochard@users.noreply.github.com>
+Date:   Sat Oct 11 22:45:23 2014 -0400
+
+    Minor typo
+    
+    inproper -> improper
+
+commit aafbec92e26b5dcb7f0c84a7f356c35970d74902
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue Sep 9 18:29:20 2014 +0100
+
+    Outdated version info in README
+
+commit c7eccba63314f3ea77e2c6217d3d3c8b0d2552fd
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Aug 29 06:15:38 2014 +0100
+
+    Bump version number to 2.0
+
+commit 1e786053397becb147c3a0e9fabb5aeff03d880c
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Aug 29 06:15:09 2014 +0100
+
+    Fix malformed trove classifiers
+
+commit 3e1c59376d8aec345a985c386d5aa5532cb0b802
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Aug 29 05:59:44 2014 +0100
+
+    Add setting param removal in CHANGES
+
+commit 18ce001258266f138111e5eec61c45d4cd3a256d
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Fri Aug 29 05:59:05 2014 +0100
+
+    Set 2.0 release date
+
+commit 22631819a81090e319a6761cbed560a127d49428
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Aug 28 13:28:11 2014 +0100
+
+    Fix formatting issue in release script
+
+commit b69ceaeb3d1d60ad7a01601e3dffd42a221028b8
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Aug 27 18:14:15 2014 +0100
+
+    Consider SQLALCHEMY_COMMIT_ON_TEARDOWN harmful and remove from docs
+
+commit 40f4d9fa6914630c03083197e7c5479b77434b52
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Aug 27 17:08:44 2014 +0100
+
+    Assigned codenames, Niels Bohr <3
+
+commit 4bbe81331edbbb02c7ac0753d79d335797a2b9f1
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Aug 27 16:46:26 2014 +0100
+
+    Add myself as maintainer, update doc location
+
+commit 684512dca2b5f34dee96eed8f817f6a0167269ab
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Sat Aug 23 17:00:54 2014 +0100
+
+    Flask-style README update
+
+commit f0bb07e08c1cee17b92030dbf9d331887945d5e8
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Sat Aug 23 16:42:03 2014 +0100
+
+    Bump dates
+
+commit 0a1e5a4d5227a91ff3d2769c2eb53581237e0251
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Sat Aug 23 16:41:16 2014 +0100
+
+    Attribute AUTHORS
+
+commit f7fe4414ea780bb75ffbaffd1a75bb7568f834f4
+Merge: e860743 7f95aac
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue Aug 5 13:47:38 2014 +0100
+
+    Merge pull request #214 from pmarti/master
+    
+    Fix typo in docstring
+
+commit 7f95aac596e2057f8a9d406d30f3f25cc730cd00
+Author: Pablo Marti <pmargam@gmail.com>
+Date:   Tue Aug 5 18:59:35 2014 +0700
+
+    Fix typo in docstring
+
+commit e8607437960c0816b3c4a2bb461ca79afb5da1ff
+Merge: c818001 9cffaee
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Jul 3 09:55:59 2014 +0100
+
+    Merge pull request #154 from ThiefMaster/patch-2
+    
+    Update docs (request context -> app context)
+
+commit c818001a9f01eda5dbec138ad6583153a72a54d4
+Merge: f4919f5 f19e37e
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Jul 3 09:18:36 2014 +0100
+
+    Merge branch 'immunda-python3-fix'
+
+commit f19e37e2c6be5742f4e66a870c7c77a00f7ffaaa
+Merge: f4919f5 9df56c5
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Jul 3 09:17:59 2014 +0100
+
+    Python 3 fixes
+
+commit f4919f59e816fb14ce64b3b732d723f4c2a3c9bc
+Merge: b7abeba 3e45905
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Jul 3 08:54:28 2014 +0100
+
+    Merge pull request #164 from stevetjoa/master
+    
+    Minor grammar correction.
+
+commit b7abebae837eb6669794b51e7d9803c01afa2e32
+Merge: 44bf860 5098b32
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Jul 3 08:48:42 2014 +0100
+
+    Merge pull request #171 from marksteve/patch-1
+    
+    Doc typo
+
+commit 44bf860ebb2190e164f891c43e135d52a2359bd7
+Merge: 8f1f3ad 6468b0f
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Thu Jul 3 08:47:22 2014 +0100
+
+    Merge pull request #190 from agronholm/master
+    
+    Fixed leftover use of "basestring"
+
+commit 8f1f3add7996c7a7ca2b6343ec692803e49d7539
+Merge: 24c7b2a 712cdd6
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Jul 2 23:06:02 2014 +0100
+
+    Merge pull request #191 from mattshaffer11/patch-1
+    
+    Changed "them items" to "the items"
+
+commit 24c7b2a417ac1de415e3e6c6ae121efee6911829
+Merge: f86d735 399d0aa
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Wed Jul 2 23:05:29 2014 +0100
+
+    Merge pull request #180 from alex/patch-1
+    
+    Added trove classifiers showing versions supported
+
+commit f86d73513ab6689add2c61335e9e09043a5eaf4b
+Merge: d456001 e364597
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jun 8 17:46:48 2014 +0100
+
+    Merge pull request #202 from sarver311/master
+    
+    Fixed documentation: exactly the you => exactly the way you
+
+commit e36459714c112f1f45a6a372da452bc5ecb4e8af
+Author: josh.sarver <josh.sarver@gmail.com>
+Date:   Sat Jun 7 09:57:47 2014 -0700
+
+    Fixed documentation: exactly the you => exactly the way you
+
+commit 9df56c56c242c9547bb08c98148cbe9028d889f6
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue May 20 17:50:27 2014 +0100
+
+    Update classifiers
+
+commit 8ab657eb92cd2892000adbe10d7af203183ec610
+Author: Alex Gaynor <alex.gaynor@gmail.com>
+Date:   Thu Mar 6 16:24:41 2014 -0800
+
+    Added trove classifiers showing versions supported
+
+commit 3d4fcf9c9b572c251fd03f20494aaaad920925bc
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue May 20 17:49:40 2014 +0100
+
+    Fix tests to run with Python 3
+
+commit 6fc1fde617bfa7ea8da11dcda206c52127eb4904
+Author: Phil Howell <phil@quae.co.uk>
+Date:   Tue May 20 17:20:34 2014 +0100
+
+    Run tests for Python 3,4
+
+commit 712cdd641b2bac4992962385d1c7a615697fa6eb
+Author: Matt Shaffer <mattshaffer11@gmail.com>
+Date:   Tue Apr 29 13:53:45 2014 -0500
+
+    Changed "them items" to "the items"
+    
+    Made this change in the one-to-many section
+
+commit 6468b0f5088234a6aee9cbd012d37876ff10029e
+Author: Alex Grönholm <alex.gronholm@nextday.fi>
+Date:   Sat Apr 26 04:37:59 2014 +0300
+
+    Fixed leftover use of "basestring"
+
+commit 399d0aa2e90a1ee20184aad75658efb7eb33814e
+Author: Alex Gaynor <alex.gaynor@gmail.com>
+Date:   Thu Mar 6 16:24:41 2014 -0800
+
+    Added trove classifiers showing versions supported
+
+commit 5098b32695e7c89f42fe4c19b265d1e2625f38ed
+Author: Mark Steve Samson <marksteve@users.noreply.github.com>
+Date:   Thu Dec 12 17:52:34 2013 +0800
+
+    Typo
+
+commit 3e45905331d9ba9c7b610be07115ef7cd0dddfdf
+Author: Steve Tjoa <kiemyang@gmail.com>
+Date:   Mon Nov 4 00:46:19 2013 -0800
+
+    Minor grammar correction.
+
+commit 9cffaeebe1e5ccb8bec5afabfe77f2209f21c80c
+Author: ThiefMaster <adrian@planetcoding.net>
+Date:   Sat Sep 28 23:14:34 2013 +0200
+
+    Update docs (request context -> app context)
+
+commit d4560013c1c51ef035381e35dd42a1628bb212ee
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Aug 1 00:23:22 2013 +0200
+
+    Enabled autoflush by default
+
+commit 807cad77b2d3240399f1e2b357d33cca348a38e4
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Aug 1 00:21:53 2013 +0200
+
+    Added blinker to travis tests
+
+commit 8abb1146a46d8f1ab13073caab3491747ad171ab
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Aug 1 00:18:49 2013 +0200
+
+    Added newline
+
+commit c15b9982be973a9a7d8876765a28fe7fd1d2bb74
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Aug 1 00:17:27 2013 +0200
+
+    Removed setuptools requirement.  This fixes #84
+
+commit 1968a92ec79a80f2c53c133d874be7d6f53f64c0
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Aug 1 00:15:30 2013 +0200
+
+    Added working table reflection.
+    
+    This fixes #55
+
+commit 46569cad33ca527bf5aaf3f1ebb05b42ed52a167
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 31 23:45:31 2013 +0200
+
+    Changed docs to mention app contexts.
+    
+    This fixes #86
+
+commit 0df8caec04c6812f6bf427cddc5e55d042a4e94f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 31 23:42:57 2013 +0200
+
+    Added support for ``bind`` parameter to session.
+    
+    This fixes #113
+
+commit 575fa65bc91a396c85dab5b61fe6ab2e93af3ee0
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 31 23:40:15 2013 +0200
+
+    Improved session creation.
+    
+    This fixes #144
+
+commit a2ea524163a34857e14b62bff36740bb2d328336
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 31 23:14:39 2013 +0200
+
+    Changed the default session signals.
+    
+    This fixes #145
+
+commit ffc9210187d4c958b0e0bc2d557dd4b100ed6e7e
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 31 23:13:34 2013 +0200
+
+    This is going to be 2.0
+
+commit 1d73697a59e061b4133b25a3d9a30ff399263033
+Merge: 7f5806d 70e1a31
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 31 23:09:08 2013 +0200
+
+    Merge branch 'master' of github.com:mitsuhiko/flask-sqlalchemy
+
+commit 7f5806d78aa50f316234200284658c41a30e71c3
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 31 23:08:26 2013 +0200
+
+    Updated release and development flow to be automated
+
+commit 70e1a31e002164a8463e3875e2d2be60684472ea
+Merge: a937ada 5a76bcd
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jul 20 13:08:30 2013 -0700
+
+    Merge pull request #58 from jparise/docs-many
+    
+    Typo fix: 'may items' => 'many items'
+
+commit a937ada70d67247e599b25f8d784b531200987d5
+Merge: f66acc3 b54283b
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jul 20 13:08:03 2013 -0700
+
+    Merge pull request #73 from jfinkels/change-image-mode
+    
+    Changed image mode from 755 to 644.
+
+commit f66acc315a0cebc1a228f8424c1d4d298b56755f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jul 20 21:07:08 2013 +0100
+
+    Updated example
+
+commit d84b6903c8c65e66e8bc5ed813ea06ce4ba92280
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jul 20 21:06:26 2013 +0100
+
+    Updated changelog
+
+commit b242d414b671ffa521dbb3e1c3452b53c34366f9
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jul 20 21:04:56 2013 +0100
+
+    Changed version number in setup file
+
+commit c4c00fa85f3709fa9887392886502cf223f19f8e
+Merge: 2edb3f1 b698ff0
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jul 20 20:59:32 2013 +0100
+
+    Merge branch 'pr/135'
+
+commit 2edb3f14931eefde4bf467e88f7373704ce1ecd3
+Merge: 9d15327 1625f53
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 3 12:33:48 2013 +0200
+
+    Merge branch 'pr/137'
+
+commit 9d153271053390eb2bb795aeda67c6e27c097196
+Merge: 752a35d c75d479
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 3 12:23:00 2013 +0200
+
+    Merge branch 'master' of github.com:mitsuhiko/flask-sqlalchemy
+
+commit 752a35dddff5f71538d2326e50e83c1030032c3e
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 3 12:22:28 2013 +0200
+
+    Implemented #132
+
+commit d5b6d0fb5bf8344ee2f329d6b429f2c5527a6007
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 3 12:21:40 2013 +0200
+
+    Removed dead import
+
+commit c75d4796baf01cf1a6a43303a5b7bb6fd5e9ec22
+Merge: 0af7542 94b3579
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 3 03:19:48 2013 -0700
+
+    Merge pull request #134 from DasIch/travis-support
+    
+    Add travis configuration
+
+commit 0af75426b9556beb8bd1309890787c59be471834
+Merge: 43f8c7d 7d6d2c0
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jul 3 03:19:11 2013 -0700
+
+    Merge pull request #133 from DasIch/python3-port
+    
+    Python3 port
+
+commit 1625f5343f230bf6749ad2701b2f71aa01131a6e
+Author: Bruno Azzinnari <bazzinnari@linkedin.com>
+Date:   Wed Jun 19 16:06:01 2013 -0700
+
+    Timing of SQL queries fixed by switching to the new Event API from SQL Alchemy introduced in version 0.7. Usage of ConnectionProxy is deprecated from that version, and using it resulted in invalid measures.
+
+commit b698ff05f706643ba8e50cfb5c26780ef059aaf8
+Author: Martijn Vermaat <martijn@vermaat.name>
+Date:   Sat Jun 15 18:03:20 2013 +0200
+
+    Record operations only for signalling sessions (reprise)
+    
+    This is a rebase of commit cf40cae (GitHub pull request #109 by @paxan)
+    on current master. The original changes were (I assume accidentally)
+    undone in commit eb208b5 (GitHub pull request #123 by @thrisp). The
+    original commit message is copied below.
+    
+    In some scenarios model classes derived from SQLAlchemy(...).Model
+    may be used with basic SQLAlchemy session instances which aren't
+    extended with signalling functionality.
+    
+    Before this fix, when you try using a vanilla session with
+    such models, you would get exception like this:
+    
+      File ".../flask_sqlalchemy.py", line 163, in after_insert
+        return self._record(mapper, instance, 'insert')
+      File ".../flask_sqlalchemy.py", line 172, in _record
+        s._model_changes[pk] = (model, operation)
+    AttributeError: 'SessionMaker' object has no attribute '_model_changes'
+    
+    With this fix, this problem is resolved.
+
+commit 94b3579b5de1887e35f88b9e56ec1f8746f2797d
+Author: Daniel Neuhäuser <dasdasich@gmail.com>
+Date:   Thu Jun 13 23:49:15 2013 +0200
+
+    Add travis configuration
+
+commit 7d6d2c052bc4969d9e1530111df5412a6d8b9e92
+Author: Daniel Neuhäuser <dasdasich@gmail.com>
+Date:   Thu Jun 13 23:43:12 2013 +0200
+
+    Add Python 3.3 support, dropping 2.5
+
+commit 169a025505eb507d7ac9945c1f8682fe07d74687
+Merge: d0bf74e 13ad9e0
+Author: Daniel Neuhäuser <dasdasich@gmail.com>
+Date:   Thu Jun 13 23:41:39 2013 +0200
+
+    Merge branch 'prepare-next-version' into python3-port
+
+commit 13ad9e03240fad75c58d0d1b256a784e0ac562b1
+Author: Daniel Neuhäuser <dasdasich@gmail.com>
+Date:   Thu Jun 13 23:41:00 2013 +0200
+
+    Add changelog section for upcoming version
+
+commit d0bf74e8e03993da3e19d6e9335d4f2a949cd864
+Author: Daniel Neuhäuser <dasdasich@gmail.com>
+Date:   Thu Jun 13 22:59:40 2013 +0200
+
+    Ignore eggs created by installing deps
+
+commit bfd4b78bd33371e09435b705116dbe9fadddaf33
+Author: Daniel Neuhäuser <dasdasich@gmail.com>
+Date:   Thu Jun 13 22:59:05 2013 +0200
+
+    Add tox configuration
+
+commit 43f8c7dfc2337935d8fbf3776db231da6ed9ad06
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed May 15 17:44:06 2013 +0100
+
+    0.16 -> 0.17
+
+commit e815f99eb9c5836850c38fda08b63d52b796702f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed May 15 17:43:49 2013 +0100
+
+    Added missing documentation for new functionality
+
+commit b1173612e503b07809b0e9040b2bfa128c303fec
+Merge: a5b0510 f6851a5
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed May 15 09:27:46 2013 -0700
+
+    Merge pull request #119 from scragg0x/patch-1
+    
+    max overflow
+
+commit a5b051031d908cf1a755d56ee1d767ca2c6b8be7
+Merge: 21b4add eb208b5
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed May 15 17:27:14 2013 +0100
+
+    Merge remote-tracking branch 'thrisp/sqlalchemy_events_revision'
+
+commit 21b4add519938c8d0a4c5a1a7fe88c890ae1b5af
+Merge: 519f2f0 e262f97
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed May 15 17:26:39 2013 +0100
+
+    Merge branch 'master' of github.com:mitsuhiko/flask-sqlalchemy
+
+commit 519f2f01ed3a2e73a27706c85fb50af47a0d333e
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed May 15 17:26:36 2013 +0100
+
+    Export sqlalchemy event module on the extension
+
+commit e262f9751e11f9d0c061be4e8b8e883bf314bfe0
+Merge: 1e536d9 bc38614
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed May 15 09:25:34 2013 -0700
+
+    Merge pull request #122 from ignacysokolowski/master
+    
+    Fix ZeroDivisionError when counting Pagination object pages
+
+commit eb208b5c9861d89807c5e4b6c08f945ed86f9f91
+Author: blueblank <blueblank@gmail.com>
+Date:   Thu Apr 4 15:03:56 2013 -0400
+
+    sqlalchemy events integration to remove deprecated extensions
+
+commit bc38614eca0d06df83cc8a32d8b7f2a14d031a6e
+Author: Ignacy Sokołowski <ignacy.sokolowski@gmail.com>
+Date:   Fri Mar 29 15:47:36 2013 +0100
+
+    Fix ZeroDivisionError when counting Pagination object pages
+    
+    When ``per_page`` was set to ``0``, there was ZeroDivisionError
+    raised in ``Pagination.pages`` property.
+
+commit f6851a56a5bbeb7a07fc9d7da9fbe01310905910
+Author: scragg0x <scragg@gmail.com>
+Date:   Mon Mar 11 12:42:56 2013 -0500
+
+    max overflow
+    
+    Enabled the passing of max_overflow to create_engine
+
+commit 1e536d91e0908e7dca7c080def1d0c7649414346
+Merge: df98437 7ee6aaa
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jan 26 17:29:20 2013 -0800
+
+    Merge pull request #59 from jparise/docs-context-link
+    
+    Link to the shell's "Request Context" section.
+
+commit df9843702c99a61cae8eaee2cb9ea6a549af06ff
+Merge: 84dea97 cf659f3
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jan 26 17:28:40 2013 -0800
+
+    Merge pull request #96 from e-dard/master
+    
+    Fix apply_driver_hacks for various mysql drivers, rather than just the default driver.
+
+commit 84dea97dcdf7f4dd03e5480e293c8d00ed0ab9e8
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jan 27 01:28:10 2013 +0000
+
+    Fixed #105
+
+commit deb5a7a91d48f812d897d9f75b98770ec9269b4e
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jan 27 01:26:58 2013 +0000
+
+    Micro-optimize paginations
+
+commit 4bcd2337f505580b8e62bce91ff17b981e7938a4
+Merge: 0d2965c 08f3d4c
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jan 26 17:25:29 2013 -0800
+
+    Merge pull request #101 from snotling/master
+    
+    Pagination count() query should remove ORDER BY clause(s)
+
+commit 0d2965c04deebb7c406a155f4ee02840f322ace6
+Merge: 2e029ac cf40cae
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jan 26 17:24:33 2013 -0800
+
+    Merge pull request #109 from paxan/bugfix/record-ops-only-for-signalling-sessions
+    
+    Record operations only for signalling sessions
+
+commit 2e029ac54dcef8dc5301e4d9ecf7a81bf6d161f0
+Merge: 458420c fa84706
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jan 26 16:57:10 2013 -0800
+
+    Merge pull request #115 from mgax/commit-on-teardown
+    
+    Commit on teardown
+
+commit fa84706d14c708d7889030e8317f04d5b3642330
+Author: Alex Morega <alex@grep.ro>
+Date:   Wed Jan 2 12:36:51 2013 +0200
+
+    document the SQLALCHEMY_COMMIT_ON_TEARDOWN flag
+
+commit cb765a273c0b74146d505e8b68d3cfead78dcc21
+Author: Alex Morega <alex@grep.ro>
+Date:   Wed Jan 2 12:35:34 2013 +0200
+
+    increase indentation
+
+commit 19df1865bec979179d09f304dc31842f03440a6a
+Author: Alex Morega <alex@grep.ro>
+Date:   Wed Jan 2 12:33:56 2013 +0200
+
+    commit on app/request context teardown
+
+commit cf40caec1c48fc2188597ca4e6ddfb21b770d9d7
+Author: Pavel Repin <prepin@gmail.com>
+Date:   Tue Nov 27 12:55:12 2012 -0800
+
+    Record operations only for signalling sessions.
+    
+    In some scenarios model classes derived from SQLAlchemy(...).Model
+    may be used with basic SQLAlchemy session instances which aren't
+    extended with signalling functionality.
+    
+    Before this fix, when you try using a vanilla session with
+    such models, you would get exception like this:
+    
+      File ".../flask_sqlalchemy.py", line 163, in after_insert
+        return self._record(mapper, instance, 'insert')
+      File ".../flask_sqlalchemy.py", line 172, in _record
+        s._model_changes[pk] = (model, operation)
+    AttributeError: 'SessionMaker' object has no attribute '_model_changes'
+    
+    With this fix, this problem is resolved.
+
+commit 08f3d4cc5529c060ade3fbc67221e291fdffb49e
+Author: Damiano Albani <damiano.albani@gmail.com>
+Date:   Wed Oct 3 14:16:09 2012 +0200
+
+    When counting the total number of results, remove the "ORDER BY" clause if present.
+
+commit cf659f346e005d34257d256fa4c42889741fc31f
+Author: Edward Robinson <me@eddrobinson.net>
+Date:   Wed Aug 8 12:09:44 2012 +0100
+
+    apply_driver_hacks will now consider all types of mysql drivers, e.g., oursql, not just the default driver, when deciding whether to apply mysql hacks. Fixes #48 and improves upon original issue #2.
+
+commit 458420c28454df1407591b4ef17de4405c33fc52
+Merge: 087c3c0 a9e7807
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Jul 5 01:54:03 2012 -0700
+
+    Merge pull request #87 from coryalder/patch-1
+    
+    fixed typo in docs/quickstart.rst
+
+commit a9e7807f9a91256bfb47804dcc26b0d66b85ce0a
+Author: Cory Alder <coryalder@gmail.com>
+Date:   Thu Jul 5 01:46:18 2012 -0700
+
+    fixed typo in docs/quickstart.rst
+
+commit 087c3c04a406e35a01aca8280d919eeedeec6daf
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Apr 9 17:54:25 2012 +0100
+
+    Updated docs
+
+commit bf6806e22efb9c54a801bf27a6431aa2c3405ea7
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Apr 9 17:52:00 2012 +0100
+
+    Updated changelog
+
+commit 0a1fa5a2d1c32c875f313eef3e7a465ed8e85c45
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Apr 9 17:51:13 2012 +0100
+
+    New config.cfg
+
+commit 0b2cc52075b12f60a976d3f6c805e1cb56439494
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Apr 9 17:50:18 2012 +0100
+
+    Switched to new naming scheme and added support for Flask 0.9 specifics.
+
+commit b1a5392864e91c66921957fb9dd90f91d57b4c18
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Mar 28 18:28:02 2012 +0200
+
+    Update docs/queries.rst
+
+commit b54283b7d6c38ae22745554cfb24e544f191e9c5
+Author: Jeffrey Finkelstein <jeffrey.finkelstein@gmail.com>
+Date:   Fri Mar 2 11:20:55 2012 -0500
+
+    Changed image mode from 755 to 644.
+
+commit f8d632008b37abb0ed5f90a47b65e9e74f3fe929
+Merge: b98d746 a9339e7
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jan 11 11:20:56 2012 -0800
+
+    Merge pull request #56 from ThiefMaster/patch-1
+    
+    Preserve info['bind_key'] when creating table
+
+commit 7ee6aaafd088fd5a8dc4a29e91dd6bf3d12c85c1
+Author: Jon Parise <jon@indelible.org>
+Date:   Mon Nov 7 09:45:54 2011 -0800
+
+    Link to the shell's "Request Context" section.
+    
+    The "Diving into context locals" section has moved elsewhere in the
+    Flask documentation (to the 'reqcontext' chapter), so link to the most
+    appropriate section of the 'shell' chapter instead.
+
+commit 5a76bcd84948f9f9ea91d88fd1ff96552519eaf4
+Author: Jon Parise <jon@indelible.org>
+Date:   Mon Nov 7 09:43:13 2011 -0800
+
+    Typo fix: 'may items' => 'many items'
+
+commit b98d7468a9cd74c77133f7fcc34ec2d73762f16a
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Nov 2 16:48:26 2011 +0100
+
+    Fixed some broken logic.  This fixes #57
+
+commit a9339e7d894f0e654ed63ce89d2b1edc696ad1f7
+Author: Adrian <adrian@planetcoding.net>
+Date:   Sat Oct 8 18:40:20 2011 +0300
+
+    Preserve info['bind_key'] when creating table
+    
+    - When creating a table on in the non-declarative way, info/bind_key was lost
+
+commit e8450c488a4287fabcf06cf9028dcc0a2cf54289
+Merge: a05d15a 829950d
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Oct 6 12:29:09 2011 -0700
+
+    Merge pull request #54 from rdunklau/patch-1
+    
+    Truth testing on a table causes TypeError
+
+commit 829950d9ce6f40377a8ae99afcccc7b5a2f60243
+Author: Ronan Dunklau <rdunklau@gmail.com>
+Date:   Mon Oct 3 12:32:24 2011 +0300
+
+    Edited flaskext/sqlalchemy.py via GitHub
+
+commit a05d15a57ca6bcfb6574d2305570d4debbbeb02a
+Merge: 08689c7 8799b01
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Sep 7 17:33:53 2011 +0200
+
+    Merge remote-tracking branch 's0undt3ch/master'
+
+commit 8799b0120c70d3faef1f9d11be58334b5da5ac60
+Author: Pedro Algarvio <pedro@algarvio.me>
+Date:   Mon Sep 5 18:34:13 2011 +0100
+
+    Needed to re-import `os` when running tests through `python setup.py test`
+
+commit f65ef9107dc60d53953e44a8a787873e71c515fc
+Author: Pedro Algarvio <pedro@algarvio.me>
+Date:   Sun Sep 4 20:28:07 2011 +0100
+
+    Fix `setdefault` on `None` object and add session scope tests.
+
+commit 6ec9d82d99a274a129d05c39669b414c801d79d6
+Author: Pedro Algarvio <pedro@algarvio.me>
+Date:   Sun Sep 4 17:19:05 2011 +0100
+
+    Setup `scopefunc` when initialising Flask-SQLAlchemy. Does not need to add another argument to `create_scoped_session`.
+
+commit ef2e2bf62c9298d46ccbd68decd7bc6d81a7275c
+Merge: 903038f 868bd16
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Sep 1 07:21:17 2011 -0700
+
+    Merge pull request #49 from s0undt3ch/master
+    
+    Allow specifying a scope function
+
+commit 868bd169f02b6266df68561ef4b6c80354f7ba13
+Author: Pedro Algarvio <pedro@algarvio.me>
+Date:   Thu Sep 1 15:09:32 2011 +0100
+
+    Provide flask's `_request_ctx_stack.__ident_func__` as default `scopefunc`.
+
+commit eb3c572581db278d165ee709af391ae4a036fa1e
+Author: Pedro Algarvio <pedro@algarvio.me>
+Date:   Thu Sep 1 15:05:54 2011 +0100
+
+    Wrong `versionadded`.
+
+commit 2949c4ead86a5b0e91df565f8ddc85cf2ac18d7a
+Author: Pedro Algarvio <pedro@algarvio.me>
+Date:   Thu Sep 1 15:04:15 2011 +0100
+
+    Document the new parameter.
+
+commit 200beed414ed5d5697fc083232cd4f55493d73bb
+Author: Pedro Algarvio <ufs@ufsoft.org>
+Date:   Thu Sep 1 15:57:16 2011 +0200
+
+    Allow specifying the session's scope function
+
+commit 08689c7301cbb57f1a0d2a5d80fe80e9f1c0fe4b
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Aug 4 17:03:13 2011 +0200
+
+    This is 0.15
+
+commit df6228f36e6e69a57503a4c5a56321ddc7539c5a
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Aug 4 17:02:43 2011 +0200
+
+    Prepare for 0.15
+
+commit 903038fac14665d4c0467507bbd0f0de3fb87f74
+Merge: f23fdb9 325a5ad
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Aug 4 07:50:00 2011 -0700
+
+    Merge pull request #41 from EnTeQuAk/multidb-sessions
+    
+    Added changelog entry and some note in the docs
+
+commit 325a5addbb8f008032c05b33e0c40a956e5d0f10
+Author: Christopher Grebs <cg@webshox.org>
+Date:   Mon Aug 1 18:02:28 2011 +0200
+
+    Added changelog entry and some note in the docs
+
+commit f23fdb9e24fb6912b9011496f68a78b45a342e62
+Merge: b0e8d6a 828dbf3
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Aug 1 03:38:59 2011 -0700
+
+    Merge pull request #40 from EnTeQuAk/multidb-sessions
+    
+    Added support for multiple databases for the session.
+
+commit 828dbf38eeb1ac39a39d7e58ebe6c22121d79fce
+Author: Christopher Grebs <cg@webshox.org>
+Date:   Mon Aug 1 10:53:05 2011 +0200
+
+    Added support for multiple databases for the session.
+    
+    This now allows models to be bind dynamically to a database so that
+    MyModel.query.count() refers to the correct database.
+    
+    Refs #26
+
+commit b0e8d6a36ac50e0072206c4b6f20357c711c1be6
+Merge: f70ac0b 7d2ce7f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jul 17 15:53:28 2011 +0200
+
+    Merge branch 'master' of github.com:mitsuhiko/flask-sqlalchemy
+
+commit f70ac0bfbe44b5c80ed2050c47237e10c8c4d747
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jul 17 15:52:31 2011 +0200
+
+    This is 0.14
+
+commit db3f7682dee5cf8c972be65a64f703144bf23e85
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jul 17 15:52:10 2011 +0200
+
+    Make relative paths for sqlite relative to the application root
+
+commit 946384cc94c122b31f5b68e3d39710c6801f0f32
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Jul 15 18:14:02 2011 +0200
+
+    Bump to 0.13
+
+commit a4419b05ed9528ec55db9674406c86df2165e06e
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Jul 15 18:13:27 2011 +0200
+
+    It selects the correct binds now
+
+commit 7d2ce7f64a18003e37108864b32ae87ef5dc1ad2
+Merge: 7c3d3d8 369f373
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Jul 9 07:53:25 2011 -0700
+
+    Merge pull request #39 from sharms/master
+    
+    Spelling fix for quickstart.rst
+
+commit 369f3739ef11b408cee250610abc1518d93282fb
+Author: Steven Harms <sjharms@gmail.com>
+Date:   Sat Jul 9 08:50:20 2011 -0500
+
+    s/applciation/application/
+
+commit 7c3d3d8e298917064126aa54c1de6d3fb43d5891
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Jun 27 09:32:54 2011 +0200
+
+    Added notice for why we release 0.12 :)
+
+commit 8d28185040360cf5d00f6782720c8e74c821c3c5
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Jun 24 12:54:30 2011 +0200
+
+    teardown_request support for flask-sqlalchemy
+
+commit 421a1c25f72306d52d7bc6892becc5a624c3b097
+Author: indigo <xindigo@gmail.com>
+Date:   Thu Apr 7 18:32:37 2011 -0700
+
+    Fix to the example code.
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit 90560526bcc455edcea6810f0e92f40069cc15f8
+Author: Michael Trier <mtrier@gmail.com>
+Date:   Sat Mar 19 22:57:48 2011 -0400
+
+    Corrected example.
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit ac00bda8da67878e187bfba55281ebbebbcf2d53
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Mar 22 09:08:40 2011 +0100
+
+    Fixed test runner
+
+commit ea79cdb72c7a30c1f70611c1128819b6a02ebe28
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Mar 22 08:55:10 2011 +0100
+
+    Skip blinker tests if missing
+
+commit c98936d06b17890317f6ffa536f8d0bec018b98f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Mar 19 00:14:40 2011 +0100
+
+    Fixed typo
+
+commit 4fe8e41eb0a187e94d4353455791643b139267e8
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 23:44:12 2011 +0100
+
+    Fixed a typo
+
+commit 8c385a0dcd5c7d02f80b2b1472363a6d5ffe230b
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 23:43:05 2011 +0100
+
+    Fixed a bind related connection bug
+
+commit 4f8e2b1fed69e7a6ed260ada9eb5c57300eda713
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 23:24:16 2011 +0100
+
+    Slightly changed bind logic
+
+commit 5fe01a405336ca7f495316a6e9c3d0658647ea2e
+Merge: b07f29d 97239c1
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 23:21:55 2011 +0100
+
+    Merge remote branch 'ailabs/master'
+
+commit 97239c1309e14b9f3d15db00553ed778d9178024
+Author: mvantellingen <michaelvantellingen@gmail.com>
+Date:   Fri Mar 18 23:09:53 2011 +0100
+
+    Add unittest for the bind_key exception handling in the SignallingSession
+
+commit b07f29dcd11515f043ccc67658205c5cf9355fe1
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 23:02:42 2011 +0100
+
+    Properly select binds, docstring updates, per-bind creating
+
+commit a43d4b68519ca1f3983ae9f91e696b9bdb2a0ba7
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 23:02:18 2011 +0100
+
+    Committed new artwork
+
+commit 228baac51f79ae8c2c7b9a067fba0fde3741b0b4
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 23:02:03 2011 +0100
+
+    Huge update to the documentation
+
+commit 9415f5b284757b7ab1b5fdce7bc62c8190f358a4
+Author: mvantellingen <michaelvantellingen@gmail.com>
+Date:   Fri Mar 18 21:26:39 2011 +0100
+
+    Wrap the retrieval of the bind_key in a exception since the mapper.mapped_table is not always an table, but might be a Join instance.
+
+commit 3195d0fc5a313038cf0c811396781a41de44a7bf
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 20:16:16 2011 +0100
+
+    Updated themes
+
+commit 064b5f0137ea95f8d0910b655ce5dfe7648d533c
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 20:12:33 2011 +0100
+
+    Large theme logo support
+
+commit 77f1a2b8c378f37f19283f960f0ac3f8dc5fdcaf
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 18:46:34 2011 +0100
+
+    Better table name generation logic
+
+commit 1be46e07c7923b32b037e4f112292287573089b4
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Mar 18 17:27:26 2011 +0100
+
+    Fixed a table name bug.  __tablename__ is now a feature of the metaclass
+
+commit 143881062f5ae33c2b2a1c7ffb3f885f804e0b9c
+Merge: d4e6c09 4fb1a5d
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Mar 15 11:22:55 2011 -0400
+
+    Merge remote branch 'rduplain/master'
+
+commit d4e6c0971341ebffe911804f789df9353619a73e
+Author: jqxl0205 <jqxl0205@gmail.com>
+Date:   Tue Mar 15 17:26:11 2011 +0800
+
+    In the get_bind method of_SignallingSession, mapper parameter may be None e.g query.values(*column). We should handle it otherwise AttributeError will be raised
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit 4fb1a5dbc001e103ca2b7a3881c260823e7f0686
+Author: Ron DuPlain <ron.duplain@willowtreeapps.com>
+Date:   Mon Mar 14 20:02:16 2011 -0400
+
+    Touch up doc full logo, until a new one is ready.
+
+commit a42af4251078401d7d7bbcf535d6f98a6c9622e0
+Author: Ron DuPlain <ron.duplain@willowtreeapps.com>
+Date:   Mon Mar 14 19:56:44 2011 -0400
+
+    Add "Fork me" ribbon to doc index via sidebar.
+
+commit d3d14db37527543bbdfaa196acbd33e6c1ead53f
+Author: Ron DuPlain <ron.duplain@willowtreeapps.com>
+Date:   Mon Mar 14 19:21:17 2011 -0400
+
+    Lift LaTex style & logo PDF from Flask docs.
+    
+    These might be better placed in a repository submodule.
+
+commit 30b3ded115750ad923a985836fb480d4f8dc0f71
+Author: Ron DuPlain <ron.duplain@willowtreeapps.com>
+Date:   Mon Mar 14 19:20:58 2011 -0400
+
+    Split docs into multiple pages for sphinx.
+
+commit 6c06d0777cf166d0be99b2376692b9ed11c533a3
+Author: Ron DuPlain <ron.duplain@willowtreeapps.com>
+Date:   Mon Mar 14 19:19:02 2011 -0400
+
+    Adapt Flask's sphinx conf.py for this project.
+
+commit 4d2e866f8f0fee8893dadfe03c7949e7a2146a15
+Merge: 454f6eb 9fa2eb0
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Mar 14 15:46:50 2011 -0400
+
+    Merge remote branch 'rduplain/master'
+
+commit 454f6ebc55c0e6a3636871615f9813e9ea727bc9
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Mar 14 15:34:38 2011 -0400
+
+    Added makefile
+
+commit dcb9604006ac7030760df212341e621b25b3defc
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Mar 14 15:34:31 2011 -0400
+
+    Moved a helper into a method so it can be overwriten.
+
+commit 9fa2eb09934ba84a7be432ba5fa5e5e7516819c3
+Author: Ron DuPlain <ron.duplain@willowtreeapps.com>
+Date:   Mon Mar 14 14:44:43 2011 -0400
+
+    Expand documentation on query classes and Table.
+
+commit c052145d5b85ae56dd56c53d4d6c4b822b62ff89
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Mar 14 15:15:15 2011 -0400
+
+    Removed the signalling mapper subclass in favor of a factory. This fixes #29
+
+commit 8865bfc85e25c43d53f53ac0777a999111ddbaa6
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Mar 14 13:46:43 2011 -0400
+
+    Missing dot
+
+commit 36fba1b8d537cbb628d52867ba9575ea46cc4792
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Mar 14 11:53:03 2011 -0400
+
+    Basic support for multi db
+
+commit 77075298cb5490e10f506dbc86d42106dca438ed
+Author: Michael Elsdoerfer <michael@elsdoerfer.com>
+Date:   Sat Oct 30 19:12:40 2010 +0200
+
+    Expose BaseQuery as db.Query (fixes ticket #13).
+
+commit 9cbe5bc1e59c5bb5bf406a5ae33b429cc2ec17dc
+Author: Daniel Lepage <dplepage@gmail.com>
+Date:   Mon Mar 14 01:04:43 2011 -0400
+
+    Set default relation query_class to BaseQuery.
+    
+    Set default query_class for `db.relation`, `db.relationship`, and
+      `db.dynamic_loader` to Flask-SQLAlchemy's BaseQuery.
+
+commit f81a42865cf9a7265cf0d507292adee4473fda2d
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Mar 13 22:06:02 2011 -0400
+
+    Added a docstring for apply_driver_hacks
+
+commit 4293716533af419107666eec3fe8259a565b776e
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Feb 17 12:24:31 2011 +0100
+
+    Submodules restore
+
+commit ce897fe39b6252eb2437bef87da800a70d3cc42c
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Feb 17 12:24:24 2011 +0100
+
+    HEAD is 0.12-dev
+
+commit c80705c1dde65586507bff338b8ef1aa5a577c23
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Feb 17 12:07:04 2011 +0100
+
+    Fixed a bug with Table() constructors
+
+commit 1185297ea9759180a2311e78908e7b8ca6fd90bd
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sat Feb 12 00:21:51 2011 +0100
+
+    master is 0.11-dev
+
+commit 61b6702abf5a85c64054f12e0787cd5d2ce963c7
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Jan 25 12:48:42 2011 +0100
+
+    Magic table!
+
+commit 7e0e936a6c85a33c165474e88535e3cecf59ad99
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jan 23 14:00:05 2011 +0100
+
+    Added changelog entry
+
+commit bceaa94c0d041a49ca91a961bde1575cb49753ef
+Author: jqxl0205 <jqxl0205@gmail.com>
+Date:   Sun Jan 23 15:17:14 2011 +0800
+
+    db __repr__ raise AttributeError when using db = SQLAlchemy() for self.app is None
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit 9fcd405f2ea111702b851fb97caef0108405a648
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Dec 20 21:32:53 2010 +0100
+
+    Changed the sqlalchemy link.  This fixes #20
+
+commit 0c2e89c34065d482d001b2df4ec13d1aeef48f4f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Dec 6 03:13:07 2010 +0100
+
+    Don't assign app to self, that is not supported
+
+commit f8343b28a5635c3632376200e15a834efc01300a
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Dec 6 03:08:30 2010 +0100
+
+    Added session_options.  Fixes #19
+
+commit 96ca45cbac8ffbdc2299e17c86692f763e531607
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Dec 6 03:04:21 2010 +0100
+
+    Cleanup
+
+commit cd8255f95a633e43776659d89e284d61c40d6331
+Author: Priit Laes <plaes@plaes.org>
+Date:   Wed Nov 24 00:31:47 2010 +0200
+
+    Docs: Add a step to define the request context before querying database
+    
+    Thanks for Jim Hunziker for reporting it.
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit c06e881e47a8dc18b6481b484fd48f316e720c39
+Author: Priit Laes <plaes@plaes.org>
+Date:   Fri Nov 19 14:46:05 2010 +0200
+
+    Fixed few typos in documentation
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit 20f60d95c39937686ba36e2487ee358e7a463fb6
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Nov 19 13:58:11 2010 +0100
+
+    Backout last change because it breaks dynamic engine resetting
+
+commit f2ef848252ee2a0db0c59fd1be3478d576b8ef3c
+Author: jqxl0205 <jqxl0205@gmail.com>
+Date:   Mon Nov 8 03:00:50 2010 +0800
+
+    Let self.Model.metadata.bind ot be self.engine, so that custom sqlalchemy column (eg. geoalchemy) can get correct dialect, otherwise the dialect will be default and str(query) will fail
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit 08d7be7859c3e385301c8744473b83a598846ed1
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Oct 22 22:31:51 2010 +0300
+
+    Added changenote
+
+commit 73a01982c4de4d42c19cc664ac8a5d56932379d3
+Author: Michael Elsdoerfer <michael@elsdoerfer.com>
+Date:   Fri Oct 22 20:05:30 2010 +0200
+
+    Added a test case for the Model.query behavior.
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit 2e80abc7532c9418435e97da053bfb5897f1cad7
+Author: Michael Elsdoerfer <michael@elsdoerfer.com>
+Date:   Fri Oct 22 20:00:45 2010 +0200
+
+    Do not require a request when accessing a model's query property. This
+    only works if the SQLAlchemy instance has been bound to an application.
+    Otherwise, a RuntimeError is raised (as opposed to before, where None
+    was returned).
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit 903964275974112184335c977ebcf8cfad8f5d55
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Oct 22 22:28:09 2010 +0300
+
+    Reverted exporting of exceptions because it does not work
+
+commit b119fa7da3ba2d9c802ce9a3f9c00226a3a08c85
+Author: Ollie Rutherfurd <orutherfurd@gmail.com>
+Date:   Wed Oct 20 09:12:54 2010 -0400
+
+    export ORM exceptions, e.g.: db.NoResultFound
+    
+    Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>
+
+commit 9a5e7ae9270e05884d998faab4341f533abcdd69
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Oct 1 10:31:19 2010 +0200
+
+    do -> due -.-"
+
+commit 4d1a61e37dab85d15b1fc6a9a0b58f6041dfd942
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Thu Sep 30 20:52:11 2010 +0200
+
+    Disable the pool for sqlite by default if not in memory
+
+commit 334b296c5f1e66a9a443b55742b7f4b171cd51d2
+Author: Thadeus Nathanial Burgess <thadeusb@thadeusb-desktop.(none)>
+Date:   Tue Aug 24 07:54:15 2010 +0800
+
+    Added documentation for session extensions
+
+commit aa7800d4663d181026e63601adb36fb5e5090d62
+Author: Thadeus Burgess <tburgess@mediascience-dev.(none)>
+Date:   Tue Aug 24 04:15:04 2010 +0800
+
+    Cleanup on session_extensions
+
+commit bd6ce9ec28ea0d4d7ec0efbeba58271402581dbd
+Author: Thadeus Burgess <tburgess@mediascience-dev.(none)>
+Date:   Tue Aug 24 04:10:15 2010 +0800
+
+    Refactored session_extensions. Now declared in SQLAlchemy __init__
+
+commit eb82f71b2ae1445a6b9df0d3b3ca9d4f2213da36
+Author: Thadeus Burgess <tburgess@mediascience-dev.(none)>
+Date:   Tue Aug 24 03:49:27 2010 +0800
+
+    Added patch to support custom SessionExtension class instances
+
+commit 0a3774e41d57f6a94e222f312bdf50b68b8c7589
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Aug 3 22:47:05 2010 +0200
+
+    Fixed an example
+
+commit fea753b49a6fbad99c6da55838b6aa0d9b8eb197
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Aug 3 14:24:13 2010 +0200
+
+    Updated documentation
+
+commit 7c632e90282c437a8c1c4ce868028e5926d1b255
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Aug 3 14:13:21 2010 +0200
+
+    HEAD is 0.10
+
+commit 4855356cf58e44c961046021ad7e676f8abda4fc
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Aug 3 14:12:42 2010 +0200
+
+    Added signal support and automatic table name setting
+
+commit 4cee6f5856317be1c982161d721c66b0c68e293f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Jul 26 00:19:49 2010 +0200
+
+    Fixed ==dev reference
+
+commit fe710b74c44bc5752e8aaf56a1bcce2133dc8a05
+Merge: ded2343 c2aa52b
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jul 25 19:41:06 2010 +0200
+
+    Merge branch 'master' of github.com:mitsuhiko/flask-sqlalchemy
+
+commit ded23435c075db7954b08116904f41b5fd669244
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jul 25 19:40:48 2010 +0200
+
+    Fixed testsuite for 2.5
+
+commit 1bf851c0ddffc9ea581f3847be551993d847b5dd
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jul 25 19:40:38 2010 +0200
+
+    HEAD is 0.9.1
+
+commit d6e6e3156daa98743d660b66264bcaf877e24ade
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Sun Jul 25 17:58:10 2010 +0200
+
+    Added MANIFEST.in and unittests
+
+commit c2aa52bfede85b6b28eeaf7e2fac35c141b52599
+Author: Justin Lilly <justin@justinlilly.com>
+Date:   Tue Jul 20 19:54:00 2010 +0800
+
+    Fixing a spelling error. section -> second
+
+commit 7ce181aa20c505da7a7a950af6f040b399471651
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Jul 19 10:46:34 2010 +0200
+
+    Fixed tutorial
+
+commit a867a5beeb0f3e559806da8ef69f8b258f0642e8
+Author: Priit Laes <plaes@plaes.org>
+Date:   Sun Jul 11 16:26:46 2010 +0800
+
+    Fix use of wrong property name in Jinja2 pagination example
+
+commit 3594a19325ce6ee90befd2f2f7bb468a92584505
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Jul 2 10:26:29 2010 +0200
+
+    Fixed repr and added SQLAlchemy.metadata
+
+commit 84a4f5b76e134e8c0257b9903e7c1cbf31bcc3e1
+Author: Peter Ward <peteraward@gmail.com>
+Date:   Mon Jun 21 20:06:56 2010 +0800
+
+    Fixed a few grammar problems in the docs.
+
+commit 2a82af579c4c7e9060a6b3cc555286dbea4556c1
+Author: Simon Sapin <simon.sapin@exyr.org>
+Date:   Thu Jun 24 05:48:06 2010 +0800
+
+    Small rephrasing.
+
+commit 706bde2b1b48a94551a2532db9a2b626c453e8d0
+Author: Simon Sapin <simon.sapin@exyr.org>
+Date:   Thu Jun 24 05:38:29 2010 +0800
+
+    Don't document BaseQuery.get twice.
+
+commit 22201d7cf90e61e1fe1c9a180a8f1e58e3d7e0e9
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jun 23 23:32:38 2010 +0200
+
+    Require SQLAlchemy
+
+commit e407f4bf22f67ddfe0914386049fdce15df99e8d
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Jun 21 13:43:35 2010 +0200
+
+    Fixed typo
+
+commit d0f13e21739e2bbd6feec13c6f600f10f2c6fc63
+Merge: 05c5193 3547c45
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Jun 21 13:39:22 2010 +0200
+
+    Merge branch 'master' of github.com:mitsuhiko/flask-sqlalchemy
+
+commit 05c51933c4972b47c1420fdc29429da9b67b75d8
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Mon Jun 21 13:38:10 2010 +0200
+
+    Pushed to 0.8.  Added support for MySQL connection recycling.  This fixes #2
+
+commit 3547c45469ecd149d5c0bcb1b508937b8eeaca85
+Author: jeremy avnet <brainsik@saucelabs.com>
+Date:   Fri Jun 11 13:48:37 2010 +0800
+
+    Fix typo in example
+
+commit 89cda8e0a6e0dfc6d40264db2631c709ca58f01a
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Jun 11 03:48:43 2010 +0200
+
+    HEAD is 0.7
+
+commit 25d7afc8ede663f18e37014d516efb3c2ff46eeb
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Jun 11 03:46:57 2010 +0200
+
+    Documented more
+
+commit 63aee1603d5ed56dc849128a25008ed26026dbae
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Fri Jun 11 03:00:45 2010 +0200
+
+    Added improved pagination object. This fixes #1
+
+commit 5b0453d31a7d3e3f05c1076a1d1411b5443692de
+Author: Florent Xicluna <florent.xicluna@gmail.com>
+Date:   Sun Jun 6 01:55:55 2010 +0800
+
+    Helper to reflect() tables from the database.
+
+commit dbb7163bfafc73ca020487c73f17b646a710227e
+Author: Florent Xicluna <florent.xicluna@gmail.com>
+Date:   Sun Jun 6 01:51:06 2010 +0800
+
+    Silence a warning when using zc.buildout: "uses namespace packages but the distribution does not require setuptools"
+
+commit 3a87f57029970fa131ae7803ad24b4727f6d4d93
+Author: Zhao Xiaohong <mrluanma@gmail.com>
+Date:   Thu Jun 3 16:29:18 2010 +0800
+
+    Fixed a typo.
+
+commit 88f2190f5aa8a4e070fc7d90eeb222bb69c3fd5f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jun 2 08:29:07 2010 +0200
+
+    Fixed a bug
+
+commit 6b78bdbf49ac276ccb3eb659f01b8b0656c41696
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jun 2 08:16:25 2010 +0200
+
+    Added first_or_404 like discussed on the ML
+
+commit eb9933281b84d10ecd39c7d1288c6f430e14891f
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jun 2 02:22:15 2010 +0200
+
+    HEAD is 0.6 dev
+
+commit 15dfb4854ed3f11056da75aa7a8816943e42780b
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jun 2 02:21:34 2010 +0200
+
+    Added improved documentation
+
+commit ab6cd6593aaf04030aba4941e948b81c5de9928e
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Wed Jun 2 00:18:25 2010 +0200
+
+    Added support for SQLALCHEMY_ECHO and fixed a bug with the engine cache
+
+commit ac8c1b6aebed42e683f1b96b910203162d7daf6b
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Jun 1 18:57:42 2010 +0200
+
+    Added simple pagination support. Untested
+
+commit f53bbc3079a8f03f563ee0a37b93bdca4e4d4cb2
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Jun 1 18:44:05 2010 +0200
+
+    Added missing lock
+
+commit 2caa36b1209de526e7c881ae67eabd703a480862
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Jun 1 18:39:51 2010 +0200
+
+    Added support for reall, really deferred setups
+
+commit 57c81ae5ae7b6d47d68bf3125b6c52c09ad27aec
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Jun 1 17:02:15 2010 +0200
+
+    Checked in initial version
